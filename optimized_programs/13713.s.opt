@@ -1,0 +1,4 @@
+tst r0, 14
+rsb r1, r0, 24
+eorge r1, r0, 6
+add r1, r0, r1

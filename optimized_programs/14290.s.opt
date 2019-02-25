@@ -1,0 +1,5 @@
+tst r0, r1
+moveq r0, r2, lsl 15
+eor r2, r3, 1
+rsb r1, r1, r0, lsl 14
+eor r0, r1, r2

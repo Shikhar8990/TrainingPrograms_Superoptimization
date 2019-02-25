@@ -1,0 +1,5 @@
+bfi r3, r2, 0, 2
+add r1, r1, r2, lsr 14
+and r2, r1, r3, ror 11
+rsb r2, r3, r2, lsr 14
+mvn r0, r2

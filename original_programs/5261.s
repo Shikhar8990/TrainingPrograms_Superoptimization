@@ -1,0 +1,7 @@
+bic r0, r1, r0 
+sub r2, r3, r2, lsl #12 
+tst r2, r0 
+subeq r1, r2, #9 
+rsb r3, r1, #2 
+bfi r0, r3, #2, #1 
+mvn r2, r0 

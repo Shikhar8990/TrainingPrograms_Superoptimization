@@ -1,0 +1,4 @@
+bfi r1, r2, 2, 2
+ror r2, r1, 1
+sub r3, r2, r1, lsl 1
+rsb r0, r1, r3, lsr 5

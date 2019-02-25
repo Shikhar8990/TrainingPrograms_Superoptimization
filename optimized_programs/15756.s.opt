@@ -1,0 +1,6 @@
+tst r0, r1
+addne r0, r0, r0
+addcs r0, r0, 2
+sub r1, r3, r0, lsr 12
+and r2, r1, r3
+orr r0, r1, r2, lsr 2

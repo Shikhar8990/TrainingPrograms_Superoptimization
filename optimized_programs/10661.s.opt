@@ -1,0 +1,2 @@
+orn r2, r1, 9
+orn r3, r3, r2

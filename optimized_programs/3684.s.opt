@@ -1,0 +1,4 @@
+and r0, r1, r2, ror 3
+mov r1, r2, lsr 3
+bfc r1, 2, 2
+lsl r1, r1, r0

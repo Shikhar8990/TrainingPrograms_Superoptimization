@@ -1,0 +1,4 @@
+tst r0, 31
+movne r0, r1, ror 31
+andne r0, r0, r2
+orr r1, r0, r0, lsl 1

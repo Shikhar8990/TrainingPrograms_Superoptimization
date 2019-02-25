@@ -1,0 +1,5 @@
+tst r0, 2
+addeq r1, r0, 12
+tst r2, r1
+andne r1, r1, 6
+andls r1, r0, r1

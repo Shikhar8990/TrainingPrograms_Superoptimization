@@ -1,0 +1,4 @@
+tst r1, r0
+addcs r2, r1, r2
+bfc r2, 1, 1
+add r3, r2, 8

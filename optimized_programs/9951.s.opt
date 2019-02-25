@@ -1,0 +1,3 @@
+cmp r0, r1
+sublt r2, r3, 10
+bfi r0, r2, 2, 1

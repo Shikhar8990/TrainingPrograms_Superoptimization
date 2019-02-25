@@ -1,0 +1,5 @@
+cmp r0, 9
+eorcs r1, r2, 6
+mvn r3, r1
+rsb r2, r3, r3, ror 12
+lsr r1, r2, 12

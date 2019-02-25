@@ -1,0 +1,2 @@
+add r1, r2, r1, lsr 3
+bic r3, r1, 7

@@ -1,0 +1,7 @@
+cmp r0, r1
+rsbne r0, r2, 10
+rsbne r1, r0, r0, lsl 8
+subeq r1, r0, r0
+lsr r2, r1, 12
+rsb r2, r2, 3
+lsr r0, r2, 12

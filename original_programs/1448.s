@@ -1,0 +1,9 @@
+cmp r0, r1 
+orrcc r1, r0, r2, asr #14 
+orrcs r1, r1, r3 
+add r3, r1, r3, lsl #7 
+bfi r3, r3, #8, #2 
+orr r2, r3, r2 
+orr r0, r3, r2 
+bic r3, r0, #12 
+and r2, r3, r2, ror #7 

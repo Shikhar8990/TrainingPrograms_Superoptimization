@@ -1,0 +1,4 @@
+cmp r0, r1
+mvnne r2, r3
+subeq r2, r1, r1
+orn r0, r2, r1

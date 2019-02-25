@@ -1,0 +1,6 @@
+tst r0, 10
+movne r1, r2
+moveq r1, r0
+eor r2, r1, 255
+lsl r0, r2, r2
+bfi r1, r0, 1, 2

@@ -1,0 +1,5 @@
+eor r2, r1, 1
+tst r2, 9
+eorne r2, r2, r1
+and r1, r1, r3, lsl 8
+rsb r0, r1, r2, asr 14

@@ -1,0 +1,4 @@
+cmp r0, r1
+moveq r2, r3
+bfi r2, r2, 2, 1
+bic r2, r2, r1

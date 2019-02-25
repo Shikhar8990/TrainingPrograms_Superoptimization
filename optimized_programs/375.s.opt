@@ -1,0 +1,4 @@
+eor r0, r1, 6
+sub r1, r2, r0
+orr r3, r1, 6
+rsb r2, r3, 1

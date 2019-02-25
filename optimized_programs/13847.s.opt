@@ -1,0 +1,5 @@
+tst r0, r1
+mvneq r2, r3
+cmp r2, r3
+mvncc r0, r1, lsl 1
+mvncs r0, r0, lsl 1

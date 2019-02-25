@@ -1,0 +1,7 @@
+tst r1, r0
+subeq r1, r1, r2, lsl 3
+subne r1, r2, r3, lsr 5
+add r0, r1, r0, lsl 11
+tst r0, r2
+rsbne r0, r2, r1
+bic r2, r0, r2

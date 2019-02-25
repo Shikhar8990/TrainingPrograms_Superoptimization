@@ -1,0 +1,3 @@
+tst r0, r1
+movcs r2, 10
+bfc r2, 0, 2

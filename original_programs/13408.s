@@ -1,0 +1,5 @@
+cmp r0, #10 
+andlt r1, r2, r0 
+andge r1, r3, r1, lsr #9 
+and r0, r1, r2, lsr #1 
+bfi r0, r0, #0, #2 

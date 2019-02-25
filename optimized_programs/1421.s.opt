@@ -1,0 +1,3 @@
+mov r2, r2, lsr 14
+tst r0, 14
+movne r2, r0, lsr 14

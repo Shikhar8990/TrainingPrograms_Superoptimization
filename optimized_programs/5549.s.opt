@@ -1,0 +1,6 @@
+cmp r0, r1
+andhi r1, r2, 9
+tst r3, 5
+andne r2, r1, r2
+rsbne r3, r2, 9
+rsb r1, r0, r3

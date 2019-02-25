@@ -1,0 +1,2 @@
+mov r2, r0, lsl 31
+eor r1, r1, r2, ror 31

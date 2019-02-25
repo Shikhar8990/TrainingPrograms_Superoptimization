@@ -1,0 +1,3 @@
+tst r0, r1
+andne r1, r1, 6
+sub r1, r1, r0

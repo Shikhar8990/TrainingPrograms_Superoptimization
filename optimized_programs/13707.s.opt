@@ -1,0 +1,3 @@
+tst r0, 4
+moveq r1, 9
+sub r1, r2, r1, ror 14

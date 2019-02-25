@@ -1,0 +1,5 @@
+tst r0, 7
+andne r1, r2, r0
+cmp r2, r0
+andcs r3, r1, r2
+bfi r3, r3, 2, 1

@@ -1,0 +1,5 @@
+rsb r0, r1, #31 
+and r0, r0, #1 
+mvn r2, r1 
+and r2, r2, r0, lsl #31 
+mvn r1, r2 

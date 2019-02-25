@@ -1,0 +1,3 @@
+cmp r0, r1
+movls r0, r1, ror 13
+eor r3, r2, r0

@@ -1,0 +1,6 @@
+sub r1, r3, r2, ror 7
+bic r0, r1, 14
+rsb r2, r0, r2, ror 14
+add r1, r1, 3
+and r2, r2, r1, ror 3
+bfi r1, r2, 12, 7

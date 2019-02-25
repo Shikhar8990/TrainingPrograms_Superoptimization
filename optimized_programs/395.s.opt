@@ -1,0 +1,5 @@
+rsb r0, r1, r0
+tst r1, r0
+orreq r2, r1, 7
+mvn r2, r2
+asr r2, r2, r2

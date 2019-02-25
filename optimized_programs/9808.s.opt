@@ -1,0 +1,2 @@
+cmp r0, r1
+lslcc r1, r0, 0

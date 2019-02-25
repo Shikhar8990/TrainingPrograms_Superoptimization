@@ -1,0 +1,6 @@
+cmp r3, 15
+eor r2, r3, 12
+eorge r2, r2, r1
+add r0, r1, 4
+rsb r2, r2, r0
+bic r0, r2, 12

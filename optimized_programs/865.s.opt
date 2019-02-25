@@ -1,0 +1,3 @@
+and r0, r1, r2, lsl 8
+mvn r3, r0, lsl 2
+eor r3, r3, r3, lsl 14

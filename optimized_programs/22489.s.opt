@@ -1,0 +1,4 @@
+tst r0, r1
+movge r2, 31
+rsb r3, r2, r1
+and r3, r3, r1

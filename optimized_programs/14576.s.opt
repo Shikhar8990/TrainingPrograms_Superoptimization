@@ -1,0 +1,3 @@
+tst r0, r1
+addcs r2, r3, 0
+mvn r1, r2

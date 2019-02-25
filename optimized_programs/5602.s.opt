@@ -1,0 +1,3 @@
+cmp r0, 15
+rsb r3, r0, r2
+movcc r3, r0, asr 31

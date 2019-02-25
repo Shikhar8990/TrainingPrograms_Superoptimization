@@ -1,0 +1,4 @@
+tst r0, r1
+addeq r1, r2, r0, lsl 6
+add r0, r2, r1, lsr 10
+and r3, r0, 2

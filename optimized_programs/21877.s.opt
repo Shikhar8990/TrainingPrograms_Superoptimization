@@ -1,0 +1,4 @@
+and r1, r1, r1
+eoreq r2, r2, r3
+sub r1, r1, r2, asr 31
+sub r2, r1, r2

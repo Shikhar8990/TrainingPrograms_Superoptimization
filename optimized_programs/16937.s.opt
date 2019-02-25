@@ -1,0 +1,4 @@
+tst r0, 6
+movne r0, r1
+movcs r0, 11
+bic r0, r3, r0

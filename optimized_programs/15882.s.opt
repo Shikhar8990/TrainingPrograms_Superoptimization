@@ -1,0 +1,6 @@
+tst r0, r1
+rsbeq r2, r1, r2, lsl 14
+mov r1, r2, lsl 10
+bic r0, r1, r2
+movwlt r2, -473920406
+orr r2, r0, 12

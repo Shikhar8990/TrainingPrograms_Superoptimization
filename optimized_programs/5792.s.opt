@@ -1,0 +1,3 @@
+tst r1, 13
+lslls r2, r1, 1
+lsl r0, r2, 15

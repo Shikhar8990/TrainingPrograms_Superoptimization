@@ -1,0 +1,4 @@
+bfi r0, r0, #2, #1 
+orr r1, r2, r0, asr #13 
+add r1, r3, r1, ror #12 
+eor r2, r1, #10 

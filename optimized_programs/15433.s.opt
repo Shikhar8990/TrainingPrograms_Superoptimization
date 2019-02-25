@@ -1,0 +1,5 @@
+cmp r0, r1
+eorge r3, r1, 7
+bic r3, r3, 13
+eor r2, r3, 11
+mvn r3, r2

@@ -1,0 +1,6 @@
+orr r0, r1, r2
+ror r1, r2, r2
+ror r0, r0, r1
+mov r3, r0, lsl 256
+orr r3, r3, r3, lsl 1
+orr r0, r3, 11

@@ -1,0 +1,5 @@
+tst r0, 9
+mvn r1, r2
+mvneq r1, r3
+ror r0, r1, r2
+eor r3, r0, r1

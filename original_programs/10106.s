@@ -1,0 +1,9 @@
+cmp r0, r1 
+addge r0, r2, r1, asr #9 
+lsl r3, r3, #4 
+lsl r1, r3, #3 
+asr r2, r3, #14 
+bfi r2, r2, #0, #4 
+bic r3, r1, r0 
+add r1, r2, r0 
+and r0, r1, r3, ror #11 

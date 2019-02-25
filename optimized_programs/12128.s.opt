@@ -1,0 +1,4 @@
+cmp r0, r1
+movlt r1, 6
+rsb r1, r1, r2, lsr 3
+orr r0, r1, r0

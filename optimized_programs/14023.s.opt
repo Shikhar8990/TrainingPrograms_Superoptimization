@@ -1,0 +1,2 @@
+mov r2, r0, asr 3
+and r0, r2, r1, asr 13

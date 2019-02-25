@@ -1,0 +1,2 @@
+orr r2, r1, r1, lsl 30
+rsb r1, r2, 1

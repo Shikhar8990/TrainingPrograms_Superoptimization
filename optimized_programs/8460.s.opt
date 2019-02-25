@@ -1,0 +1,4 @@
+tst r0, r1
+addne r0, r3, 14
+bfi r3, r1, 1, 2
+asr r2, r0, r3

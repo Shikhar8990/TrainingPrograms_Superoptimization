@@ -1,0 +1,5 @@
+rsb r0, r1, r2
+bfi r2, r0, 0, 4
+add r3, r2, r2, lsl 12
+lsr r3, r3, r2
+lsr r2, r2, r3

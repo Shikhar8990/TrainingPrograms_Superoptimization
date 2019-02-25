@@ -1,0 +1,3 @@
+cmp r0, r1
+movne r0, 7
+lsleq r0, r2, 1

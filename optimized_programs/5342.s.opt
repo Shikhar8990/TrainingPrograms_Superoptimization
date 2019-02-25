@@ -1,0 +1,5 @@
+cmp r0, 15
+addne r0, r1, r0
+addeq r0, r2, r0, ror 13
+orn r2, r0, r2, ror 8
+bic r0, r2, r0

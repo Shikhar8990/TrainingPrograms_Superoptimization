@@ -1,0 +1,6 @@
+and r0, r1, r2
+rsb r3, r0, r0, lsl 7
+asr r1, r3, 10
+rsb r1, r3, r1, lsr 14
+lsr r2, r1, 8
+bfi r2, r2, 2, 1

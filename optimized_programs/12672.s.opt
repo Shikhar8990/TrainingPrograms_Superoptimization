@@ -1,0 +1,4 @@
+cmp r0, r1
+movne r2, r1, asr 12
+movcs r2, r3
+bfi r2, r2, 2, 2

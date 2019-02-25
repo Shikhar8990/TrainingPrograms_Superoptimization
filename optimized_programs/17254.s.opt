@@ -1,0 +1,3 @@
+eor r0, r1, r2, lsl 11
+sub r3, r0, r1, lsl 15
+add r1, r0, r3

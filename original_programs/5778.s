@@ -1,0 +1,6 @@
+mov r0, r1 
+bfi r2, r1, #0, #2 
+bfi r0, r0, #1, #3 
+cmp r2, r0 
+rsbhi r1, r0, #8 
+bfi r1, r1, #0, #3 

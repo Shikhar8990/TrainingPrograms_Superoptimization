@@ -1,0 +1,4 @@
+tst r0, r1
+movne r0, 4
+movls r0, 1
+rsb r2, r0, 4

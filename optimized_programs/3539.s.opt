@@ -1,0 +1,4 @@
+and r0, r1, r2
+cmp r0, r3
+orrcs r3, r0, r3
+asr r3, r0, r3

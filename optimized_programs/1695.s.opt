@@ -1,0 +1,3 @@
+tst r0, 14
+addne r0, r0, r1
+orr r3, r0, r1, ror 3

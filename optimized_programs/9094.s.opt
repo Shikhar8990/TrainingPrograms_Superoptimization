@@ -1,0 +1,2 @@
+cmp r0, 2
+movhi r1, r2

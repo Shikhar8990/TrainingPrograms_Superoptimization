@@ -1,0 +1,3 @@
+cmp r0, 11
+orrge r0, r2, 14
+sub r2, r0, r2, asr 13

@@ -1,0 +1,3 @@
+tst r0, r1
+orrne r0, r2, r3
+mvn r2, r0, asr -2147418012

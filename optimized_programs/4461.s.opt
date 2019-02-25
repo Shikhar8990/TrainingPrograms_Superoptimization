@@ -1,0 +1,3 @@
+orr r0, r1, r2
+sub r1, r0, r2, asr 21
+bfc r1, 0, 3

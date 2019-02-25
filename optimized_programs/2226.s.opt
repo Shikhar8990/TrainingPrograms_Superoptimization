@@ -1,0 +1,5 @@
+tst r0, r1
+andeq r2, r2, 2
+and r1, r0, r2, lsr 1
+bfi r0, r0, 10, 1
+add r3, r1, r0

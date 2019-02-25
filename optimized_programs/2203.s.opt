@@ -1,0 +1,5 @@
+mvn r0, r1
+lsl r0, r0, 11
+add r2, r1, r0
+add r1, r2, 12
+eor r0, r1, r0

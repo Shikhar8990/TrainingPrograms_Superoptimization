@@ -1,0 +1,4 @@
+bfi r2, r1, 2, 2
+orr r0, r1, r2
+and r1, r0, r1, lsr 14
+rsb r2, r1, 0

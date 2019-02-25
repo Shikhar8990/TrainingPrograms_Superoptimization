@@ -1,0 +1,2 @@
+and r0, r2, 7
+mvn r3, r0

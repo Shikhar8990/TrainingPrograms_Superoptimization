@@ -1,0 +1,4 @@
+orr r0, r1, 14
+mov r1, r0, ror 13
+orn r3, r1, 1
+and r3, r0, r3, ror 31

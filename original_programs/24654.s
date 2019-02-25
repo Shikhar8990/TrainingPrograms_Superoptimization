@@ -1,0 +1,6 @@
+tst r0, r1 
+movne r2, r0, lsl #31 
+rsb r0, r0, r2 
+mvn r3, r2 
+eor r0, r0, #31 
+add r1, r3, r0, lsr #31 

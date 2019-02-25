@@ -1,0 +1,2 @@
+eor r0, r1, r2
+and r2, r0, 5

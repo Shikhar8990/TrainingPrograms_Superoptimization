@@ -1,0 +1,5 @@
+eor r0, r0, 3
+bfi r0, r1, 2, 2
+asr r3, r0, r0
+rsb r1, r3, r0, asr 11
+bfc r1, 2, 2

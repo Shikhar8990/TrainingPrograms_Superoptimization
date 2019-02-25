@@ -1,0 +1,4 @@
+tst r0, 2
+eorne r0, r1, r2, ror 9
+eor r3, r0, 3
+ubfx r1, r3, 0, 3

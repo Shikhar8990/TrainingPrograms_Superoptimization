@@ -1,0 +1,5 @@
+cmp r0, 15
+sublt r1, r0, 5
+subge r1, r0, r1, asr 14
+rsb r0, r0, r1, ror 9
+rsb r3, r0, 5

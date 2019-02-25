@@ -1,0 +1,3 @@
+add r0, r1, r2
+add r2, r0, 16
+ror r1, r2, 12

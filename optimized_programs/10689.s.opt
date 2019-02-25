@@ -1,0 +1,2 @@
+cmp r0, 2
+movwcc r0, 13

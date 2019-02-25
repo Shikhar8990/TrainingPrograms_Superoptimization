@@ -1,0 +1,6 @@
+tst r0, r1 
+orreq r1, r2, #15 
+bfi r3, r2, #1, #2 
+bfi r1, r1, #0, #3 
+sub r0, r3, r0 
+rsb r1, r0, r1, lsr #4 

@@ -1,0 +1,5 @@
+tst r0, 7
+andne r0, r1, 9
+cmp r2, r0
+orrne r1, r2, 3
+bic r2, r0, r1

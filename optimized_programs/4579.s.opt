@@ -1,0 +1,5 @@
+cmp r1, r2
+subcc r1, r1, r3
+eor r2, r2, r2
+lsr r1, r1, r3
+rsb r2, r1, r2

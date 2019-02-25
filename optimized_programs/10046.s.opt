@@ -1,0 +1,2 @@
+bic r0, r1, 6
+mvn r2, r0

@@ -1,0 +1,5 @@
+cmp r0, 3
+rsbeq r1, r2, r3, asr 11
+rsbne r1, r2, r0
+mov r3, r1, lsl 5
+mvn r2, r3

@@ -1,0 +1,5 @@
+tst r0, r1 
+addeq r2, r2, r2, lsl #7 
+bfi r1, r2, #0, #4 
+eor r1, r2, r1 
+bfi r1, r1, #0, #1 

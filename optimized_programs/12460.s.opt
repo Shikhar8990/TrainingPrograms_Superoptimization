@@ -1,0 +1,3 @@
+tst r0, 3
+eorge r1, r2, r1
+orr r3, r1, 15

@@ -1,0 +1,7 @@
+cmp r0, r1
+orrlt r0, r2, 1
+orrge r0, r2, 3
+asr r2, r0, 11
+cmp r0, r1
+movcs r3, r1
+and r3, r2, r3, lsr 9

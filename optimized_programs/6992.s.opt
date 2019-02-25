@@ -1,0 +1,2 @@
+and r1, r2, r0, lsl 22
+rsb r0, r1, 15

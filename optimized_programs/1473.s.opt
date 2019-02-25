@@ -1,0 +1,5 @@
+and r0, r0, r1, lsr 2
+asr r1, r1, r2
+add r2, r1, r1, lsl 3
+lsr r0, r0, r2
+bic r0, r0, 6

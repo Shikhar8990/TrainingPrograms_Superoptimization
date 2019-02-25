@@ -1,0 +1,7 @@
+tst r0, r1 
+moveq r2, r0 
+asr r1, r2, r0 
+eor r0, r0, #4 
+bic r0, r0, #5 
+rsb r3, r0, r1 
+rsb r3, r3, r1, asr #8 

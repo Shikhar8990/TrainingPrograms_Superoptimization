@@ -1,0 +1,5 @@
+cmp r0, r1
+addge r2, r0, 15
+andlt r2, r1, r3
+bfi r2, r2, 2, 2
+ror r3, r2, 6

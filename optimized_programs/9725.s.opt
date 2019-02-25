@@ -1,0 +1,2 @@
+mov r1, r1, ror 5
+bic r3, r1, r2, ror 5

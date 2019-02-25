@@ -1,0 +1,5 @@
+asr r0, r1, 15
+tst r3, r0
+orrne r1, r0, 9
+sub r1, r1, r0
+bfi r0, r1, 1, 5

@@ -1,0 +1,3 @@
+rsb r0, r1, r2, lsl 31
+bic r1, r0, r3
+orr r0, r1, r3, lsr 31

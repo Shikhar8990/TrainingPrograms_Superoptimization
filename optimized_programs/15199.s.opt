@@ -1,0 +1,5 @@
+tst r1, r0
+bicge r1, r0, r2, ror 31
+orn r2, r0, r1
+add r2, r2, 12
+bfi r2, r2, 1, 1

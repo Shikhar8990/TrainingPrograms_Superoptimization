@@ -1,0 +1,2 @@
+tst r0, 10
+movne r0, r2

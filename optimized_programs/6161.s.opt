@@ -1,0 +1,4 @@
+cmp r1, r2
+eorlt r2, r3, r1
+add r0, r0, r0, ror 7
+lsl r0, r0, r2

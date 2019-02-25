@@ -1,0 +1,4 @@
+ror r0, r1, r2
+rsb r1, r0, 15
+and r2, r0, r1, ror 13
+eor r0, r2, r3, lsl 10

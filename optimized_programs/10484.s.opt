@@ -1,0 +1,4 @@
+bic r0, r2, r1
+asr r2, r0, 6
+and r2, r2, r0, asr 7
+bic r2, r2, 14

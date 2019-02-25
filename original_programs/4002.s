@@ -1,0 +1,8 @@
+tst r0, r1 
+movne r2, r1 
+addne r2, r2, r2 
+rsb r3, r2, r1, lsl #3 
+eor r0, r2, r3 
+sub r2, r3, r0 
+bic r1, r1, r2 
+lsl r3, r1, #14 

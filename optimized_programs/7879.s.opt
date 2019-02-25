@@ -1,0 +1,4 @@
+eor r0, r0, r1
+tst r2, 11
+orrne r1, r2, r0
+orr r1, r1, 9

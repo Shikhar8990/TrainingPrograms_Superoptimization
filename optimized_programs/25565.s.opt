@@ -1,0 +1,4 @@
+orr r0, r1, r1, lsl 1
+add r3, r1, 1
+eor r2, r3, r0
+mvn r1, r2

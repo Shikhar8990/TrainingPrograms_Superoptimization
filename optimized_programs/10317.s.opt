@@ -1,0 +1,4 @@
+bic r2, r1, 14
+mvn r1, r2
+orn r2, r1, r0
+rsb r3, r2, 12

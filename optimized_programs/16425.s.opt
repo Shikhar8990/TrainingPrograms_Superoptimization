@@ -1,0 +1,2 @@
+bic r3, r1, r0
+orn r2, r3, r2

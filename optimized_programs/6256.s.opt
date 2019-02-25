@@ -1,0 +1,3 @@
+cmp r0, r1
+andne r2, r0, 12
+add r1, r2, 5

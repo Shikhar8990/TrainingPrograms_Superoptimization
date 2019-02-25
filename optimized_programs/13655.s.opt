@@ -1,0 +1,2 @@
+rsb r0, r1, r2, ror 7
+mvn r2, r0, lsr 15

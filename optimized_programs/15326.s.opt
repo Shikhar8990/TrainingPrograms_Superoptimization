@@ -1,0 +1,4 @@
+cmp r0, 5
+sub r0, r2, r0
+rsbge r1, r2, r1, asr 1
+eor r3, r1, r0

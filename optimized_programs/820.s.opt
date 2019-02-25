@@ -1,0 +1,2 @@
+eor r2, r3, r2, lsl 12
+sub r1, r2, 3

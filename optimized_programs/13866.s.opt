@@ -1,0 +1,2 @@
+sub r2, r1, r1, lsr 8
+and r3, r2, 8

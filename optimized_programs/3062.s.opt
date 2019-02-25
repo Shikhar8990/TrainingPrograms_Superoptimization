@@ -1,0 +1,3 @@
+cmp r0, r1
+mvnls r2, r1
+rsb r3, r0, r2, asr 5

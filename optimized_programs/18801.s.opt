@@ -1,0 +1,4 @@
+cmp r0, 31
+subne r1, r0, 0
+lsr r2, r1, 31
+orr r3, r1, r2, ror 31

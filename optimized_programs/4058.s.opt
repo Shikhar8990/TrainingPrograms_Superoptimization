@@ -1,0 +1,6 @@
+ror r0, r1, 8
+orr r0, r0, 1
+asr r2, r0, 4
+sub r0, r0, 8
+orr r2, r2, r0, ror 10
+and r2, r2, r2, asr 2

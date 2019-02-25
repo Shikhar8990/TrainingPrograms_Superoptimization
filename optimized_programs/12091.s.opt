@@ -1,0 +1,2 @@
+cmp r0, r1
+subne r0, r1, r2, lsr 15

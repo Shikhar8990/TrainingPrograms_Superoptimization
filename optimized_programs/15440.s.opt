@@ -1,0 +1,2 @@
+bic r2, r2, r1
+bic r1, r2, r1, ror 14

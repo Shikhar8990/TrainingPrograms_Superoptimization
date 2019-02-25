@@ -1,0 +1,4 @@
+cmp r0, 0
+mvnge r0, r1
+sub r2, r0, r3
+add r3, r0, r2

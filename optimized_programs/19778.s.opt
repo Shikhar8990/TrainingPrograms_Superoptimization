@@ -1,0 +1,5 @@
+cmp r0, r1
+asreq r2, r0, 1
+rsb r0, r2, 1
+mvn r3, r0
+add r2, r3, r3

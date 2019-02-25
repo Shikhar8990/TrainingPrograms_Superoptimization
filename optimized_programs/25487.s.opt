@@ -1,0 +1,3 @@
+cmp r0, r1
+rsb r3, r1, 0
+sublt r3, r2, r2, lsl 1

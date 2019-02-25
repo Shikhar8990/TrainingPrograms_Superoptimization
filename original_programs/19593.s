@@ -1,0 +1,5 @@
+bic r0, r0, r1 
+orr r2, r0, #31 
+mov r0, r2, lsl #1 
+mvn r2, r0 
+orr r1, r0, r2, lsl #31 

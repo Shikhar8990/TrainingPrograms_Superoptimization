@@ -1,0 +1,2 @@
+cmp r0, r1
+mvncc r2, r0

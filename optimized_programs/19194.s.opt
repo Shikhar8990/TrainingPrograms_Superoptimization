@@ -1,0 +1,3 @@
+cmp r0, 31
+mvnge r1, r2
+asr r1, r1, r0

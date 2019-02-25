@@ -1,0 +1,5 @@
+tst r1, 0
+andls r1, r1, r3
+rsb r2, r0, r2, lsr 1
+addne r1, r2, 31
+orr r0, r2, r1

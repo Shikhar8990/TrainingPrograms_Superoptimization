@@ -1,0 +1,4 @@
+cmp r0, 8
+mvn r1, r2
+mvnge r1, r3
+and r3, r1, r1, lsr 14

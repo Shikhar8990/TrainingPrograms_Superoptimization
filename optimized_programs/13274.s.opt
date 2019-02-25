@@ -1,0 +1,3 @@
+cmp r0, 12
+movne r2, 5
+add r2, r2, 1

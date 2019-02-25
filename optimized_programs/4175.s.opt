@@ -1,0 +1,3 @@
+tst r0, r1
+eoreq r3, r2, r1
+and r3, r0, r3

@@ -1,0 +1,4 @@
+cmp r0, r1
+movge r1, 9
+movlt r1, 5
+eor r2, r2, r1, asr 1

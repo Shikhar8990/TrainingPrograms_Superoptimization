@@ -1,0 +1,3 @@
+tst r0, 10
+sub r1, r2, 9
+subge r1, r3, 9

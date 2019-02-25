@@ -1,0 +1,3 @@
+orr r0, r1, r2
+tst r0, r3
+andne r2, r0, r0

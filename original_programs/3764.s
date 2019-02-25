@@ -1,0 +1,6 @@
+rsb r0, r1, r2, lsl #7 
+rsb r3, r0, #1 
+cmp r3, #12 
+subcs r0, r1, r0, asr #15 
+orr r3, r0, r3, asr #6 
+mov r1, r3 

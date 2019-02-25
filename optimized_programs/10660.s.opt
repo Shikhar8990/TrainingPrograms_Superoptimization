@@ -1,0 +1,2 @@
+tst r0, 2
+moveq r2, 7

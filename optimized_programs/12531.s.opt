@@ -1,0 +1,5 @@
+cmp r0, 8
+mvncc r1, r0
+tst r2, 15
+rsbne r3, r0, r1
+and r3, r3, r0

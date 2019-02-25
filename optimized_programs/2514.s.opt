@@ -1,0 +1,6 @@
+orr r0, r0, r1
+eor r1, r0, r2
+asr r1, r2, r1
+rsb r1, r1, r2, asr 7
+bic r0, r1, 13
+add r1, r0, 1

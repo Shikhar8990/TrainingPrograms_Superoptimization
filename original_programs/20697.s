@@ -1,0 +1,4 @@
+bfi r0, r0, #0, #3 
+bic r1, r0, r2 
+and r3, r1, r2, asr #31 
+asr r0, r3, r2 

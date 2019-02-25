@@ -1,0 +1,2 @@
+lsl r3, r2, 15
+orr r0, r2, r3, lsl 5

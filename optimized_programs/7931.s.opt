@@ -1,0 +1,6 @@
+tst r0, 13
+subcs r0, r2, 1
+subne r0, r0, r1, asr 6
+sub r3, r0, 2
+bic r3, r3, r0
+bic r1, r3, 14

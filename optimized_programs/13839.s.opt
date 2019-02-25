@@ -1,0 +1,5 @@
+cmp r0, 2
+mvncc r1, r2
+mvncs r1, r3
+sub r0, r1, r1, ror 15
+bfi r1, r0, 1, 3

@@ -1,0 +1,6 @@
+cmp r0, r1
+eorls r1, r2, r3, asr 8
+eorne r1, r0, 11
+orr r3, r1, r2, asr 6
+sub r1, r0, r0
+sub r1, r3, r1, ror 1

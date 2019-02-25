@@ -1,0 +1,4 @@
+orr r3, r2, r0, lsl 8
+cmp r1, r2
+orneq r3, r1, 1
+and r3, r3, 9

@@ -1,0 +1,3 @@
+cmp r0, r1
+rsbeq r1, r0, r1
+mov r3, r1, lsr 2

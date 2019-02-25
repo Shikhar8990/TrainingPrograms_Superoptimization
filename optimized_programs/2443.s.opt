@@ -1,0 +1,3 @@
+tst r0, r1
+rsbne r0, r1, r1, lsr 7
+rsbls r0, r2, r1, lsr 7

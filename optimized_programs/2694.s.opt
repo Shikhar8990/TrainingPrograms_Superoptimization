@@ -1,0 +1,5 @@
+cmp r0, 6
+mvnlt r1, r2
+bfi r3, r1, 2, 1
+add r2, r3, 14
+add r1, r2, 12

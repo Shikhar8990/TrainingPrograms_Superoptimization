@@ -1,0 +1,3 @@
+sub r3, r1, 0
+tst r0, 3
+subls r3, r2, 0

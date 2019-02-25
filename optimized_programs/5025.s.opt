@@ -1,0 +1,5 @@
+tst r0, r1
+subeq r1, r1, 3
+tst r0, r1
+lslge r3, r3, r3
+lslne r3, r3, r0

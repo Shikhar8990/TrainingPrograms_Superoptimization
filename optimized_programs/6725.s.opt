@@ -1,0 +1,4 @@
+bic r0, r0, r1
+rsb r2, r2, r0, asr 12
+ror r2, r2, 2
+mvn r0, r2, lsl 3

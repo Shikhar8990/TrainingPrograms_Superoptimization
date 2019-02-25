@@ -1,0 +1,4 @@
+cmp r0, r1
+subeq r1, r1, 8
+ror r2, r1, 2
+bfi r2, r2, 2, 2

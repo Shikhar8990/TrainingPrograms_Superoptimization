@@ -1,0 +1,2 @@
+tst r0, 7
+rsbne r2, r1, r0

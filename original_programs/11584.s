@@ -1,0 +1,5 @@
+tst r0, r1 
+movne r0, #12 
+movne r0, #3 
+orr r0, r0, r2 
+bic r2, r1, r0 

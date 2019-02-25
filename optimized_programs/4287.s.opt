@@ -1,0 +1,6 @@
+eor r0, r3, r1, lsr 4
+orr r3, r1, r2
+rsb r2, r0, r3, lsl 6
+lsl r0, r1, r2
+lsl r1, r0, r2
+mvn r3, r1

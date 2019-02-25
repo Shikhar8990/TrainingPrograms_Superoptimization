@@ -1,0 +1,3 @@
+rsb r2, r1, 2
+and r0, r2, r3, lsl 13
+orr r3, r0, 8

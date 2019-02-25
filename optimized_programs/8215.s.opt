@@ -1,0 +1,3 @@
+mov r0, r1, ror 7
+bfc r1, 2, 1
+ror r1, r1, r0

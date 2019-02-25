@@ -1,0 +1,9 @@
+tst r0, 3
+asrcs r0, r2, 0
+bic r0, r0, 3
+mvn r1, r0
+lsl r3, r1, 15
+bic r0, r1, 3
+and r1, r3, r1, lsr 7
+orr r3, r1, r0
+mvn r2, r3

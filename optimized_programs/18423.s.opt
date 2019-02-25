@@ -1,0 +1,4 @@
+and r4, r0, r0, asr 31
+orr r1, r1, r4
+sub r2, r1, r0, ror 1
+eor r2, r2, r3

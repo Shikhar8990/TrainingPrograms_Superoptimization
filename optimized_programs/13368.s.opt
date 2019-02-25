@@ -1,0 +1,4 @@
+tst r0, r1
+movne r1, r0
+andeq r1, r0, 12
+sub r2, r1, r1, asr 11

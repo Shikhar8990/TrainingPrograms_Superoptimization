@@ -1,0 +1,5 @@
+mvn r2, r3
+lsr r0, r1, 10
+tst r2, r0
+orrne r1, r2, 4
+add r1, r1, 6

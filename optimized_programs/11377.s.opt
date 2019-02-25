@@ -1,0 +1,3 @@
+tst r0, 9
+mov r1, 2
+bicls r1, r1, r1

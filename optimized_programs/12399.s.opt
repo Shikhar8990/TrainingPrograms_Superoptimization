@@ -1,0 +1,2 @@
+tst r0, 5
+andeq r0, r0, 8

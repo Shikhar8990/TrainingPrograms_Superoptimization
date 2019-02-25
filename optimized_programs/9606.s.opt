@@ -1,0 +1,2 @@
+cmp r0, 5
+movcc r0, r1

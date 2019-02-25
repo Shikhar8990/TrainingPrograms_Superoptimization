@@ -1,0 +1,2 @@
+orn r2, r0, r0, ror 11
+add r2, r2, r2, asr 7

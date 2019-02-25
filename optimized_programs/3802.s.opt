@@ -1,0 +1,6 @@
+tst r0, r1
+addne r2, r1, 5
+addeq r2, r2, 9
+eor r0, r2, 4
+orn r1, r3, r0
+add r2, r1, 1

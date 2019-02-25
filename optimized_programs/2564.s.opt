@@ -1,0 +1,4 @@
+asr r0, r0, 8
+tst r0, r1
+moveq r2, r1
+mvn r1, r2, ror 16323

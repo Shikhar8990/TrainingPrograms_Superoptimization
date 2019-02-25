@@ -1,0 +1,4 @@
+sub r0, r0, r1, ror 6
+tst r3, 9
+mvnne r3, r0
+bfi r3, r3, 2, 2

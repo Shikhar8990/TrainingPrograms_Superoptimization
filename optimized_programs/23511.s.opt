@@ -1,0 +1,5 @@
+tst r0, r1
+moveq r2, r0, ror 1
+add r1, r0, r2
+sub r2, r0, r1, asr 1
+mov r3, r2

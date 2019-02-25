@@ -1,0 +1,5 @@
+orr r0, r1, r2, asr 6
+asr r1, r0, r0
+mvn r0, r1
+sub r1, r0, 9
+bic r1, r1, 15

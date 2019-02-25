@@ -1,0 +1,8 @@
+sub r0, r0, r1, lsr 2
+mvn r4, r2, lsr 2
+and r2, r0, r4, lsl 2
+rsb r3, r2, r1, asr 14
+bic r1, r1, 1
+bfi r1, r3, 1, 1
+lsl r3, r2, r1
+sub r1, r3, 5

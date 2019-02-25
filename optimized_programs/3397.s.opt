@@ -1,0 +1,4 @@
+cmp r0, 10
+andeq r1, r1, r0
+asr r3, r1, 2
+lsl r0, r3, 9

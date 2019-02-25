@@ -1,0 +1,2 @@
+tst r2, 3
+bicne r2, r2, r0, lsr 6

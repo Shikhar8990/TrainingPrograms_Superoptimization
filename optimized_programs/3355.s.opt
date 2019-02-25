@@ -1,0 +1,3 @@
+tst r1, 15
+orrge r3, r1, r1
+mov r0, r3

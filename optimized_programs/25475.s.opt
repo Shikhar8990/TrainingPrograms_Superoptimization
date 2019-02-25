@@ -1,0 +1,3 @@
+cmp r0, r1
+subne r0, r1, r2, lsl 31
+subne r1, r2, r0

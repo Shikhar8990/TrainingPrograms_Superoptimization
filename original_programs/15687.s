@@ -1,0 +1,7 @@
+cmp r0, r1 
+movne r2, r3, lsl #15 
+movne r2, #1 
+mov r0, r1 
+bic r2, r0, r2 
+bfi r3, r2, #1, #1 
+bfi r2, r3, #2, #2 

@@ -1,0 +1,5 @@
+tst r0, r1
+orrne r0, r2, 9
+orreq r0, r1, r0
+mvn r1, r3, lsl 136314880
+eor r3, r1, r0, ror 3

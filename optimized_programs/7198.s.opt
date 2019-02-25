@@ -1,0 +1,5 @@
+tst r0, 10
+addeq r1, r0, r1
+tst r1, r2
+movne r0, r1
+lsl r0, r1, r0

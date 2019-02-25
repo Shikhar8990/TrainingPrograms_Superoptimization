@@ -1,0 +1,5 @@
+tst r0, r1
+mvnne r0, r1
+mov r1, r0, lsl 16
+bic r0, r3, r1
+bfi r3, r0, 1, 3

@@ -1,0 +1,5 @@
+sub r0, r1, r2
+asr r1, r3, 5
+orr r3, r3, r1, lsl 8
+asr r3, r3, r0
+bfi r3, r3, 2, 2

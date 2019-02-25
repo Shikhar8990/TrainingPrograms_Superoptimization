@@ -1,0 +1,2 @@
+tst r0, r1
+eoreq r2, r3, r1, lsr 31

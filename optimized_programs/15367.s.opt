@@ -1,0 +1,5 @@
+mov r1, 6
+cmp r0, 5
+movlt r1, 5
+mvn r2, r1
+bic r1, r2, r0

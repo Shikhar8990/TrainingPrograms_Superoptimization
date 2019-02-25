@@ -1,0 +1,2 @@
+lsl r1, r1, r2
+bic r0, r2, r1

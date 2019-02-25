@@ -1,0 +1,4 @@
+cmp r0, r1
+orrls r2, r1, 8
+orrhi r2, r1, 7
+and r1, r2, 1

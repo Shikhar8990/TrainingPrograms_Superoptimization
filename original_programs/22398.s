@@ -1,0 +1,5 @@
+tst r0, #0 
+rsbeq r1, r1, r2, lsr #1 
+mvn r0, r2 
+add r3, r0, r3 
+rsb r3, r1, r3, lsl #1 

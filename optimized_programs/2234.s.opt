@@ -1,0 +1,4 @@
+eor r2, r2, 1
+cmp r3, r2
+biccs r2, r0, r1
+and r1, r2, r1, asr 7

@@ -1,0 +1,8 @@
+tst r0, r1 
+eorne r2, r0, r1, lsr #12 
+andne r2, r0, r2 
+and r0, r2, r0, asr #7 
+rsb r0, r0, #4 
+eor r1, r0, #11 
+rsb r1, r1, #1 
+bfi r1, r1, #6, #5 

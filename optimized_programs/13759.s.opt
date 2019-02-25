@@ -1,0 +1,4 @@
+cmp r0, 1
+andeq r0, r1, 11
+movcc r0, r1, lsl 4
+orr r2, r0, r0, lsr 7

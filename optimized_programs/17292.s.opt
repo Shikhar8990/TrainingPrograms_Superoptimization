@@ -1,0 +1,2 @@
+bic r3, r2, r1
+orr r3, r1, r3, asr 9

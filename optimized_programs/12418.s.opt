@@ -1,0 +1,4 @@
+sub r0, r1, r2
+orr r1, r2, r3, ror 2
+bic r4, r0, r1
+eor r0, r4, 8

@@ -1,0 +1,6 @@
+tst r0, r1
+subne r1, r2, r1
+subeq r1, r3, r1, lsl 7
+tst r3, r2
+andeq r2, r3, r1
+bic r3, r2, r2, asr 10

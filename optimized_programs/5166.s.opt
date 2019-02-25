@@ -1,0 +1,4 @@
+orr r3, r1, r3, asr 5
+cmp r3, 10
+mvnls r2, r3
+lsl r0, r2, 13

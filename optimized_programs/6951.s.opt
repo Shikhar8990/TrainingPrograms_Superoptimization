@@ -1,0 +1,2 @@
+tst r0, 7
+bfige r2, r1, 0, 3

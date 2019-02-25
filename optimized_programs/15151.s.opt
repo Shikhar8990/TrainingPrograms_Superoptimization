@@ -1,0 +1,4 @@
+rsb r1, r2, r1
+tst r0, 7
+rsbne r1, r0, r2, asr 7
+rsb r3, r1, r0, lsr 9

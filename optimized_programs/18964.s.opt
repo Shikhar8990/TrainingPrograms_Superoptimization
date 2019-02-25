@@ -1,0 +1,4 @@
+tst r0, 31
+mvnne r1, r0
+mvn r2, r0
+bic r0, r1, r2

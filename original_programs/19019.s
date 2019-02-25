@@ -1,0 +1,4 @@
+mov r0, r1, ror #1 
+ror r0, r0, r2 
+add r2, r0, r2, asr #1 
+bfi r2, r2, #0, #1 

@@ -1,0 +1,2 @@
+add r0, r1, r0, asr 14
+mvn r2, r0

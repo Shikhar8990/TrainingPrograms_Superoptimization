@@ -1,0 +1,4 @@
+tst r1, r0
+rsbne r2, r2, r3, ror 10
+bic r2, r2, 3
+orr r2, r2, 4

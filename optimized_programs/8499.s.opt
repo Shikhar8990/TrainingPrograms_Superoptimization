@@ -1,0 +1,3 @@
+rsb r0, r1, r2, lsr 1
+add r3, r0, r0, ror 9
+bfc r3, 2, 1

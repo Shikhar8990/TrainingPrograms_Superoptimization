@@ -1,0 +1,4 @@
+bic r1, r1, r2
+tst r1, r3
+mvnge r3, r2
+add r2, r3, 3

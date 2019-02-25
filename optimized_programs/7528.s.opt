@@ -1,0 +1,4 @@
+sub r2, r1, 13
+bfi r1, r2, 1, 2
+bic r0, r1, 8
+sub r2, r0, 7

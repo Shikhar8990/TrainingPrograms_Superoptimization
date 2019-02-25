@@ -1,0 +1,5 @@
+and r3, r1, 11
+sub r2, r1, 1
+orr r1, r2, r3, ror 7
+sub r2, r3, r1, lsr 6
+and r1, r1, r2

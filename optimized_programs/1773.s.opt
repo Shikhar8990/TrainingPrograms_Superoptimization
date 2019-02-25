@@ -1,0 +1,6 @@
+tst r0, 13
+addne r1, r2, r3, lsr 15
+and r1, r1, 11
+lsr r0, r1, 2
+bfi r0, r0, 7, 7
+lsr r2, r0, r0

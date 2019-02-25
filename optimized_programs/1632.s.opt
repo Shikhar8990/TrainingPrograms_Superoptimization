@@ -1,0 +1,5 @@
+sub r0, r1, r2, asr 9
+rsb r1, r2, r1
+cmp r2, 10
+subne r3, r0, r2, lsr 15
+bic r1, r1, r3

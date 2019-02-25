@@ -1,0 +1,6 @@
+bfi r0, r0, #2, #2 
+mvn r1, r0 
+bfi r2, r1, #1, #3 
+rsb r3, r0, r2 
+ror r0, r3, r3 
+bfi r0, r0, #0, #3 

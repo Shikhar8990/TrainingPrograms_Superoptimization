@@ -1,0 +1,6 @@
+cmp r0, r1
+movge r0, r1
+and r2, r0, r3
+ror r0, r3, r2
+sub r1, r0, 3
+add r0, r1, r2, lsl 13

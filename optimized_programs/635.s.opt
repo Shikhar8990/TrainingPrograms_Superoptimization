@@ -1,0 +1,5 @@
+cmp r0, r1
+andne r1, r2, r0, ror 12
+and r2, r1, 1
+mov r1, r2
+eor r2, r1, 5

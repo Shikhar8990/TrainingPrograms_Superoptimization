@@ -1,0 +1,4 @@
+tst r0, 8
+movcs r0, 8
+eor r1, r0, 4
+orr r2, r1, 3

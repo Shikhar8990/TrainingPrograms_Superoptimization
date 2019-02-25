@@ -1,0 +1,4 @@
+cmp r0, r1
+addhi r2, r1, r1, lsl 4
+bic r0, r0, 1
+bic r0, r2, r0

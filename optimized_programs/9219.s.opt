@@ -1,0 +1,2 @@
+add r2, r1, r1, asr 11
+and r3, r2, 9

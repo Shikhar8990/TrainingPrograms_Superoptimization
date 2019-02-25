@@ -1,0 +1,5 @@
+tst r0, 5
+orrne r1, r1, 1
+mvn r2, 5
+and r1, r2, r1, ror 8
+and r1, r2, r1, ror 1

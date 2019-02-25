@@ -1,0 +1,6 @@
+cmp r0, #31 
+subeq r1, r0, r1, asr #31 
+movcs r1, r0 
+orr r2, r1, r3, lsl #31 
+rsb r0, r1, r0, lsr #1 
+add r2, r0, r2 

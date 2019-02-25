@@ -1,0 +1,3 @@
+cmp r0, 7
+mvnge r1, r2
+orn r3, r3, r1

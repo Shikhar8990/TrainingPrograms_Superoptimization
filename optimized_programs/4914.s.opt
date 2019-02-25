@@ -1,0 +1,4 @@
+bfi r1, r1, 1, 2
+cmp r2, r1
+rsbeq r2, r3, 11
+mvn r0, r2

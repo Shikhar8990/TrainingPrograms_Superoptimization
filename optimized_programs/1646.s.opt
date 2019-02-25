@@ -1,0 +1,4 @@
+rsb r0, r1, r2
+orn r1, r0, r0, ror 9
+bic r2, r1, 3
+add r1, r2, 13

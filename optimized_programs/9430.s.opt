@@ -1,0 +1,6 @@
+bic r2, r0, 2
+cmp r0, r1
+orrhi r2, r1, r3
+bic r0, r3, 9
+orr r3, r2, r0, lsl 11
+lsr r0, r3, 6

@@ -1,0 +1,5 @@
+tst r0, r1
+moveq r1, 3
+orr r2, r1, 15
+bic r2, r2, 3
+orr r0, r2, 5

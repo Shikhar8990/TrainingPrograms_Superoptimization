@@ -1,0 +1,5 @@
+mov r1, r2
+tst r0, 11
+movcs r1, r3
+bic r2, r1, 11
+bic r0, r2, 14

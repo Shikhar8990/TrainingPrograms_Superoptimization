@@ -1,0 +1,2 @@
+and r0, r1, r0, lsr 14
+ror r1, r0, r0

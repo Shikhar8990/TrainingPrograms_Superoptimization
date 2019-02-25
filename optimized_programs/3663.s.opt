@@ -1,0 +1,4 @@
+orn r0, r0, r1
+asr r3, r0, 6
+bic r2, r3, 8
+sub r0, r2, 5

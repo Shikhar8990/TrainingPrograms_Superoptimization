@@ -1,0 +1,3 @@
+sub r0, r1, 31
+orn r3, r2, r0
+bfi r3, r3, 2, 2

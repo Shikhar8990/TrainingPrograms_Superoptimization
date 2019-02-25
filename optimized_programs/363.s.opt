@@ -1,0 +1,4 @@
+add r0, r1, 10
+bfc r1, 6, 10
+add r3, r1, r3, lsl 15
+bic r2, r3, r0

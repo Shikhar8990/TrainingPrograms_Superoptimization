@@ -1,0 +1,3 @@
+rsb r0, r1, r2, asr 14
+sub r3, r0, 27
+and r3, r3, r0

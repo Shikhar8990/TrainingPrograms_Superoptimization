@@ -1,0 +1,6 @@
+orr r0, r0, r1, ror 9
+sub r1, r2, 1
+orr r3, r0, r1, lsr 2
+sub r2, r3, r1
+orr r3, r3, 11
+bic r2, r3, r2

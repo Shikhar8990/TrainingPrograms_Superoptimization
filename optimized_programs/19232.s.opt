@@ -1,0 +1,6 @@
+tst r0, r1
+rsbne r2, r0, r1
+rsbeq r2, r1, 1
+bic r3, r2, r3
+bic r1, r1, r3
+sub r3, r2, r1, asr 31

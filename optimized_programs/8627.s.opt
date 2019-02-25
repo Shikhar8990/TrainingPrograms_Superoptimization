@@ -1,0 +1,3 @@
+add r0, r0, r0
+cmp r0, 15
+movhi r1, r0, lsr 4

@@ -1,0 +1,5 @@
+orr r1, r1, 1
+asr r0, r0, 6
+cmp r1, r0
+asrls r0, r2, 0
+mvn r0, r0

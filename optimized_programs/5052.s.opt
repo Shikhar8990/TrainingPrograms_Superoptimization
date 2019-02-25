@@ -1,0 +1,5 @@
+tst r0, 2
+mvnne r1, r2
+sub r1, r1, 14
+add r2, r2, r1
+bic r2, r2, 14

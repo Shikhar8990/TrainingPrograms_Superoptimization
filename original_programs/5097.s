@@ -1,0 +1,7 @@
+lsr r0, r1, #1 
+eor r1, r1, r2 
+bfi r2, r0, #0, #3 
+ror r3, r1, r3 
+lsl r0, r2, r3 
+mov r1, r0 
+rsb r0, r1, r0, lsr #7 

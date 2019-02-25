@@ -1,0 +1,6 @@
+cmp r0, r1
+movne r2, 6
+moveq r2, r3
+rsb r2, r2, 10
+rsb r3, r3, r2, asr 4
+eor r3, r3, r2

@@ -1,0 +1,2 @@
+bic r0, r1, r1, asr 1
+add r2, r0, r3

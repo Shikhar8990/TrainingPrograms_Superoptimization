@@ -1,0 +1,5 @@
+and r0, r1, r2
+bic r2, r2, r0
+sub r3, r3, 2
+add r1, r2, r3, ror 10
+bfi r0, r1, 2, 1

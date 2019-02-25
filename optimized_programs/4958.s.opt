@@ -1,0 +1,5 @@
+tst r0, 7
+eor r1, r3, r1
+andne r1, r0, r2, lsr 15
+add r0, r1, 6
+bic r1, r0, 8

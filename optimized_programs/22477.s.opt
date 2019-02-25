@@ -1,0 +1,2 @@
+cmp r0, 0
+mvnge r1, r2

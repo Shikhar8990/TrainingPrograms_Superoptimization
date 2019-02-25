@@ -1,0 +1,4 @@
+and r0, r1, r0, lsl 14
+eor r2, r0, r1, asr 9
+mvn r3, r1, ror 4
+bic r1, r2, r3, lsl 4

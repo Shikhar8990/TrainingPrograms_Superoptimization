@@ -1,0 +1,4 @@
+sub r0, r1, 10
+rsb r2, r0, r2
+orr r0, r2, r1, asr 3
+rsb r2, r0, 22

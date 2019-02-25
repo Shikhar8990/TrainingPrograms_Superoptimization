@@ -1,0 +1,4 @@
+cmp r0, 1
+mvnne r1, r2
+rsb r0, r2, r1, lsl 1
+add r3, r0, 1

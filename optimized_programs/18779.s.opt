@@ -1,0 +1,4 @@
+tst r0, r1
+mvncs r0, r2
+orr r1, r0, 1
+sub r3, r1, r2, asr 31

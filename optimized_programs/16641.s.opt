@@ -1,0 +1,4 @@
+mov r0, r1, asr 9
+add r2, r0, r0
+lsr r3, r1, 1
+sub r2, r2, r3, ror 31

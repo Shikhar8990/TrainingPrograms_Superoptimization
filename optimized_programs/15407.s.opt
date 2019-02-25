@@ -1,0 +1,6 @@
+tst r0, r1
+movne r1, 8
+eor r1, r1, r2
+add r1, r1, r2
+mov r3, r1, lsl 12
+orr r3, r3, 2

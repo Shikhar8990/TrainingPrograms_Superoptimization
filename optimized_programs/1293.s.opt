@@ -1,0 +1,4 @@
+rsb r0, r1, 14
+tst r2, r0
+subge r1, r2, 0
+sub r3, r1, r2, asr 9

@@ -1,0 +1,6 @@
+cmp r0, r1
+movne r1, r2
+movge r1, r3
+cmp r0, r1
+andlt r0, r1, r2
+orr r2, r0, 13

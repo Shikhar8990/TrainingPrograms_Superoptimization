@@ -1,0 +1,4 @@
+mov r1, 14
+cmp r0, 4
+movls r1, 13
+orr r3, r2, r1

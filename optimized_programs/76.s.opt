@@ -1,0 +1,5 @@
+bfi r0, r1, 4, 7
+orr r2, r0, r2
+sub r1, r2, 10
+eor r2, r0, r1, ror 2
+eor r0, r2, r3

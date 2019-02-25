@@ -1,0 +1,2 @@
+lsr r2, r0, 4
+asr r0, r2, r2

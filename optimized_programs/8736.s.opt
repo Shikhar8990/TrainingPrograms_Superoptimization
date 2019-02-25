@@ -1,0 +1,2 @@
+tst r0, 14
+movne r1, 8

@@ -1,0 +1,3 @@
+tst r1, 15
+subeq r1, r1, 6
+add r0, r1, r1

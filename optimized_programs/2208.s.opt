@@ -1,0 +1,5 @@
+ror r0, r1, r0
+cmp r1, 9
+addlt r2, r1, r0
+lsl r0, r2, 14
+eor r2, r0, 12

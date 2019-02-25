@@ -1,0 +1,3 @@
+tst r0, r1
+addls r2, r0, r1
+asr r2, r3, r2

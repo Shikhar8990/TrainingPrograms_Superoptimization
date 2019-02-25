@@ -1,0 +1,5 @@
+tst r0, r1
+andne r0, r1, r3, asr 12
+bic r1, r0, r1
+sub r0, r1, 1
+bfi r3, r0, 2, 2

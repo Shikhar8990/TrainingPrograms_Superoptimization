@@ -1,0 +1,5 @@
+cmp r0, r1
+movne r2, r2, lsl 12
+ror r1, r2, r2
+add r0, r1, 10
+add r1, r1, r0, asr 10

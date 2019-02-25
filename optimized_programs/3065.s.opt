@@ -1,0 +1,4 @@
+cmp r0, r1
+subcc r2, r2, r1, lsl 11
+eor r2, r2, 10
+eor r2, r2, r0, lsl 10

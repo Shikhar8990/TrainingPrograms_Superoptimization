@@ -1,0 +1,5 @@
+tst r3, r2
+andne r3, r3, r2
+rsb r1, r1, r3, ror 32
+orr r2, r1, r2
+sub r0, r2, r1, asr 14

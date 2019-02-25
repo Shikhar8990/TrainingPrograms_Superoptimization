@@ -1,0 +1,4 @@
+lsl r0, r1, r0
+lsl r1, r2, 13
+rsb r0, r0, r1, asr 3
+bfc r0, 1, 1

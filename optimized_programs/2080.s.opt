@@ -1,0 +1,5 @@
+cmp r0, r1
+andlt r2, r3, r2
+mov r0, 9
+biclt r0, r0, r2
+lsr r2, r0, r1

@@ -1,0 +1,4 @@
+tst r0, r1
+rsbne r1, r2, r1
+rsbne r2, r1, 255
+bfi r0, r2, 0, 2

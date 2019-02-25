@@ -1,0 +1,3 @@
+mvn r1, r0
+orr r2, r3, 1
+sub r3, r1, r2

@@ -1,0 +1,4 @@
+sub r0, r1, r2
+mvn r3, r0, asr 128
+bfi r0, r3, 2, 1
+add r0, r0, 13

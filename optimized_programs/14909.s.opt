@@ -1,0 +1,4 @@
+cmp r0, 13
+movge r0, 7
+orr r2, r1, r2
+bic r0, r2, r0

@@ -1,0 +1,4 @@
+rsb r2, r1, 2
+mov r0, r2, asr -2147483585
+and r2, r1, r2
+lsl r3, r0, r2

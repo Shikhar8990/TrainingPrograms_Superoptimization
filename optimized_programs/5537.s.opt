@@ -1,0 +1,5 @@
+bic r0, r1, r0
+eor r2, r0, 3
+tst r1, r2
+rsbne r1, r1, r1, lsl 15
+ror r0, r1, 4

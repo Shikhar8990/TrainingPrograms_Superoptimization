@@ -1,0 +1,6 @@
+tst r0, #5 
+orrne r1, r0, r1, ror #9 
+bic r2, r1, r3 
+bfi r2, r2, #9, #8 
+bfi r0, r2, #10, #3 
+bfi r0, r0, #14, #10 

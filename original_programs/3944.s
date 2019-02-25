@@ -1,0 +1,6 @@
+tst r0, r1 
+mvnne r2, r3 
+bic r2, r2, #5 
+bic r3, r3, r2 
+lsl r0, r3, #7 
+lsl r0, r0, #10 

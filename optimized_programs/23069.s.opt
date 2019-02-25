@@ -1,0 +1,2 @@
+add r3, r2, r1, ror 1
+rsb r2, r3, r2

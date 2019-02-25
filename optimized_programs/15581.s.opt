@@ -1,0 +1,4 @@
+add r3, r2, 9
+bfc r2, 2, 2
+sub r1, r2, 2
+rsb r1, r3, r1, lsl 1

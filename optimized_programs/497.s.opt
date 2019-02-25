@@ -1,0 +1,6 @@
+cmp r0, r1
+mvn r2, r1
+orncs r2, r2, r0
+asr r0, r2, r2
+bfi r3, r0, 13, 15
+rsb r1, r3, 13

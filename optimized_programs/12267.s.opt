@@ -1,0 +1,4 @@
+cmp r0, r1
+mov r2, r1, lsl 3
+movcs r2, r3
+bfi r2, r1, 1, 3

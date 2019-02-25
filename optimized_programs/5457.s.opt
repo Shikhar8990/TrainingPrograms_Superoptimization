@@ -1,0 +1,5 @@
+orr r1, r2, r3, asr 15
+bfi r0, r0, 2, 1
+and r2, r1, r0
+lsl r0, r2, 2
+add r1, r0, 10

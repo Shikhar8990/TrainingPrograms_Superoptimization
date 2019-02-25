@@ -1,0 +1,3 @@
+cmp r0, 12
+mvneq r1, r2
+bfi r2, r1, 0, 2

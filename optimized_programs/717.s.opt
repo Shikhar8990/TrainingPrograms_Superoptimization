@@ -1,0 +1,2 @@
+eor r1, r3, 8
+eor r3, r1, r1, lsr 15

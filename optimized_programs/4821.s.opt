@@ -1,0 +1,7 @@
+tst r0, 15
+rsbeq r0, r2, r1, asr 1
+rsbne r0, r1, r0
+bfi r3, r0, 1, 2
+ror r0, r3, r3
+bic r1, r0, r2, lsr 32
+lsr r0, r0, 15

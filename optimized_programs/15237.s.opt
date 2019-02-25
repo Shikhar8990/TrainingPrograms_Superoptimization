@@ -1,0 +1,4 @@
+bic r0, r1, r0
+orr r1, r0, r2
+bfi r2, r3, 0, 1
+sub r0, r2, r1, lsr 3

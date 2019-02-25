@@ -1,0 +1,5 @@
+cmp r0, #14 
+rsbcs r1, r2, r3 
+sub r2, r1, r3, lsr #11 
+bfi r3, r2, #2, #2 
+bfi r2, r3, #1, #1 

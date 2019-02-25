@@ -1,0 +1,4 @@
+tst r0, r1
+addne r2, r2, 2
+and r1, r2, 7
+bic r1, r0, r1

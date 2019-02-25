@@ -1,0 +1,4 @@
+rsb r0, r0, 9
+asr r2, r0, 7
+eor r2, r2, r0, lsr 8
+add r0, r2, 6

@@ -1,0 +1,2 @@
+tst r0, 31
+movne r1, 31

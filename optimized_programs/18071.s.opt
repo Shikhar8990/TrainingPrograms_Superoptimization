@@ -1,0 +1,3 @@
+and r2, r1, 4
+add r1, r2, 11
+add r0, r2, r1

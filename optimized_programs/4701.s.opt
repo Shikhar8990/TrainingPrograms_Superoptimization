@@ -1,0 +1,4 @@
+tst r0, r1
+mvnne r0, r2
+sub r3, r3, r0, lsl 11
+sub r2, r2, r3

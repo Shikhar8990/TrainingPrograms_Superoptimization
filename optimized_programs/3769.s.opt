@@ -1,0 +1,5 @@
+asr r0, r0, 3
+cmp r2, 8192
+addcc r1, r0, r0, lsl 15
+addcs r1, r0, r0, ror 7
+bic r2, r1, 8

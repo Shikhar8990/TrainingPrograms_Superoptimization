@@ -1,0 +1,4 @@
+add r0, r1, r2, asr 10
+eor r3, r1, r0
+eor r1, r2, r3, asr 11
+sub r3, r1, 11

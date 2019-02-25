@@ -1,0 +1,4 @@
+cmp r0, 4
+orr r1, r0, 2
+orrne r1, r2, r2, lsl 31
+orn r1, r1, r2

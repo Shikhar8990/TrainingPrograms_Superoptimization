@@ -1,0 +1,4 @@
+orr r2, r1, 1
+cmp r0, r1
+moveq r2, 1
+sub r2, r2, r1

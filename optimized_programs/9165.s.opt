@@ -1,0 +1,5 @@
+lsl r0, r1, 9
+bic r1, r2, 14
+orr r0, r1, r0, ror 1
+bic r0, r2, r0, lsl 12
+bfc r0, 1, 1

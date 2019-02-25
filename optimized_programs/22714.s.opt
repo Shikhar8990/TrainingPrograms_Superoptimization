@@ -1,0 +1,3 @@
+mvn r0, r1
+orn r1, r1, 31
+rsb r3, r1, 31

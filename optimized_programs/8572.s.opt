@@ -1,0 +1,3 @@
+bfc r2, 1, 1
+add r2, r2, 7
+mvn r0, r2

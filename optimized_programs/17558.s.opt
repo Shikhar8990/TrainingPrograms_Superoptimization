@@ -1,0 +1,2 @@
+orn r2, r3, r1, lsl 31
+bfc r3, 0, 4

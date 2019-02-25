@@ -1,0 +1,2 @@
+tst r0, 11
+subeq r0, r2, 0

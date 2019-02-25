@@ -1,0 +1,5 @@
+tst r1, r0
+mvnne r2, r3
+add r2, r2, r1, asr 3
+orr r2, r2, r3, asr 10
+bic r2, r1, r2

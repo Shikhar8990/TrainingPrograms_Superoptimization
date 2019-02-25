@@ -1,0 +1,5 @@
+cmp r0, r1
+movls r1, r0
+add r2, r1, r2, lsr 5
+lsl r2, r2, r2
+mov r0, r2

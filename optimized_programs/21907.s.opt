@@ -1,0 +1,4 @@
+cmp r0, r1
+addls r1, r1, r2, asr 31
+addhi r1, r2, r2, asr 31
+sub r0, r1, r3

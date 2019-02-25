@@ -1,0 +1,5 @@
+tst r0, r1
+mvncs r1, r2
+tst r1, 2
+mvnne r1, r0
+rsb r0, r1, 8

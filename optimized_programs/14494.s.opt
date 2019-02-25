@@ -1,0 +1,3 @@
+cmp r0, 3
+and r3, r1, r2
+andeq r3, r0, r1

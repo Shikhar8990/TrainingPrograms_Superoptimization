@@ -1,0 +1,2 @@
+cmp r0, 12
+rsbge r1, r0, r2

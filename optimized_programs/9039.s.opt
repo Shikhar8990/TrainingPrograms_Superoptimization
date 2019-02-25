@@ -1,0 +1,6 @@
+sub r1, r0, r2
+cmp r0, 4
+subge r1, r2, 9
+orr r1, r1, r2
+rsb r2, r3, r2, asr 3
+orr r3, r1, r2

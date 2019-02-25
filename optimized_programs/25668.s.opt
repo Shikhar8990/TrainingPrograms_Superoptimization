@@ -1,0 +1,2 @@
+orn r2, r1, r1, lsr 31
+sub r3, r1, r2, ror 1

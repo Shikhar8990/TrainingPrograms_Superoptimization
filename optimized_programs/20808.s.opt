@@ -1,0 +1,4 @@
+cmp r0, 1
+movne r1, r2
+and r3, r0, r3
+bic r1, r3, r1

@@ -1,0 +1,6 @@
+sub r0, r0, 10
+rsb r0, r0, r1, ror 3
+add r1, r0, 13
+bic r0, r0, 13
+and r3, r0, r1
+orn r0, r3, r0, ror 1

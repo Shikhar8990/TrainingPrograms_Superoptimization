@@ -1,0 +1,5 @@
+tst r0, r1
+andeq r2, r2, 12
+sub r1, r1, r2
+bfi r3, r2, 0, 3
+sub r2, r3, r1, lsr 6

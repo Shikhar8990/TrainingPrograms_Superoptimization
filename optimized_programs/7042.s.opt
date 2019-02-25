@@ -1,0 +1,4 @@
+cmp r0, r1
+subls r2, r3, r1, ror 2
+rsb r0, r0, r2
+bic r0, r2, r0, lsl 5

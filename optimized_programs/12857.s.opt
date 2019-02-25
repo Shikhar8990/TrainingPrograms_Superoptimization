@@ -1,0 +1,4 @@
+mov r2, r1, lsr 15
+tst r0, r1
+movls r2, r0
+eor r2, r2, r3

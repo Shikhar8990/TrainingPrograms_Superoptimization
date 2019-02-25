@@ -1,0 +1,3 @@
+tst r0, r1
+rsbls r0, r1, r0
+mvn r3, r0, lsl -31

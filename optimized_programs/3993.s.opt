@@ -1,0 +1,4 @@
+tst r1, r0
+addne r1, r2, r1
+mov r2, 1
+bfi r1, r2, 2, 2

@@ -1,0 +1,4 @@
+bfi r3, r1, 1, 2
+and r1, r2, r3
+bfi r3, r1, 2, 2
+mvn r2, r3, lsl 11

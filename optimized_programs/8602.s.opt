@@ -1,0 +1,4 @@
+bic r0, r1, 8
+rsb r1, r0, r0, lsr 1
+orn r2, r2, r1, asr 31
+lsl r1, r2, r0

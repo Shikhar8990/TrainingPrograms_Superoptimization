@@ -1,0 +1,3 @@
+lsr r2, r1, 4
+lsl r0, r1, 1
+sub r2, r0, r2, lsl 12

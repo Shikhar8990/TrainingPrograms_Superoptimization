@@ -1,0 +1,5 @@
+eor r0, r1, r0, lsr 14
+asr r1, r0, 10
+add r0, r1, r1, lsr 14
+orr r2, r1, 7
+orr r1, r2, r0, ror 5

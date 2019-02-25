@@ -1,0 +1,2 @@
+orn r3, r1, 6
+mov r1, r3, ror 15

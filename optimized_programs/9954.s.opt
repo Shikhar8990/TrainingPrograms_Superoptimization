@@ -1,0 +1,4 @@
+and r1, r2, r1, asr 15
+and r3, r1, 12
+sub r1, r1, 6
+add r2, r3, r1

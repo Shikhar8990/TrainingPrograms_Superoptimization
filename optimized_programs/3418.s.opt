@@ -1,0 +1,4 @@
+add r0, r1, r0
+orr r1, r2, r0, asr 5
+bfi r3, r1, 1, 1
+sub r1, r3, r0, lsl 1

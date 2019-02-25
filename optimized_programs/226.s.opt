@@ -1,0 +1,4 @@
+sub r0, r1, r0, ror 10
+cmp r2, r0
+sublt r2, r1, r1
+sub r0, r2, r0

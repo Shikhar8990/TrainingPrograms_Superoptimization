@@ -1,0 +1,5 @@
+cmp r0, r1
+eoreq r2, r1, 2
+and r2, r2, r2, asr 4
+bic r0, r2, 15
+eor r2, r0, 5

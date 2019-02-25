@@ -1,0 +1,5 @@
+cmp r0, r1
+movcs r1, r2, asr 2
+movcc r1, r0, asr 14
+bfi r1, r1, 2, 1
+lsl r0, r1, 8

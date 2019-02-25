@@ -1,0 +1,4 @@
+bic r0, r1, 15
+tst r0, r2
+mvneq r2, r3
+eor r2, r2, 7

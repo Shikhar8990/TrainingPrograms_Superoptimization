@@ -1,0 +1,4 @@
+cmp r0, 14
+orrne r1, r2, 5
+orreq r0, r1, 15
+andne r0, r1, r1

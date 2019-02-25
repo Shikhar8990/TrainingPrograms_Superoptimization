@@ -1,0 +1,4 @@
+cmp r0, 7
+addeq r1, r1, r2
+tst r1, 4
+mvnne r0, r1

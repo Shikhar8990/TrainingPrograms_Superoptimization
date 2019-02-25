@@ -1,0 +1,3 @@
+add r1, r1, r1, lsr 17
+and r2, r2, 12
+rsb r2, r1, r2

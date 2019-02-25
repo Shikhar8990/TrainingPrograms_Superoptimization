@@ -1,0 +1,5 @@
+cmp r0, 0
+orrge r1, r2, r3
+orr r0, r1, r0
+rsb r1, r0, r1
+mov r3, r1

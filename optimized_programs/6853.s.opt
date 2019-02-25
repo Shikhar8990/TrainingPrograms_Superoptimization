@@ -1,0 +1,5 @@
+cmp r0, r1
+andcc r2, r2, r0
+cmp r2, r1
+sub r1, r1, r0
+subge r1, r1, r0

@@ -1,0 +1,3 @@
+orr r0, r0, 8
+orr r1, r0, r3
+rsb r3, r1, 3

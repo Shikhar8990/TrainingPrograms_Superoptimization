@@ -1,0 +1,3 @@
+tst r0, r0
+addne r2, r3, 6
+ror r1, r2, r2

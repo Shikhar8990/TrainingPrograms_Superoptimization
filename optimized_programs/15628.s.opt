@@ -1,0 +1,4 @@
+tst r0, r1
+rsbcs r1, r2, 12
+mov r2, r1, ror 2
+orr r3, r2, r3

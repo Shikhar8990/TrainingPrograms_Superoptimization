@@ -1,0 +1,5 @@
+tst r0, 8
+orrne r1, r2, r1
+orreq r1, r0, 10
+bfi r2, r1, 0, 1
+bic r3, r2, 2

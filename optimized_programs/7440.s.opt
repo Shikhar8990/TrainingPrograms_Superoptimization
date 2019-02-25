@@ -1,0 +1,5 @@
+eor r2, r3, r1, lsr 13
+add r3, r3, r3, lsr 10
+rsb r1, r3, r2, lsl 15
+add r2, r2, r1, lsl 1
+bic r1, r1, r2

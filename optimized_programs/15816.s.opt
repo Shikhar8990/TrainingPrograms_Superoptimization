@@ -1,0 +1,4 @@
+tst r0, r1
+mvnge r2, r0
+mov r2, r2, asr 14
+sub r1, r2, 2

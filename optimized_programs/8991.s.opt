@@ -1,0 +1,6 @@
+cmp r0, r1
+mvncs r0, r1
+bic r3, r0, r3
+and r0, r3, r0, lsl 12
+lsl r1, r0, 5
+asr r1, r1, 5

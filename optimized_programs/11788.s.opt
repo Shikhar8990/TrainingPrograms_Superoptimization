@@ -1,0 +1,3 @@
+cmp r0, 15
+eorcs r2, r1, 7
+bfi r0, r2, 2, 2

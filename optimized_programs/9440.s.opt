@@ -1,0 +1,6 @@
+tst r1, r0
+mvneq r2, r3
+and r3, r2, 6
+bfi r1, r3, 1, 2
+add r0, r1, 9
+add r2, r0, r0

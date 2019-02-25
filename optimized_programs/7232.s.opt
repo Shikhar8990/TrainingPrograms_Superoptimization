@@ -1,0 +1,5 @@
+tst r0, r1
+subcs r1, r2, r3, ror 2
+subne r1, r2, 14
+bfi r3, r1, 0, 4
+sub r2, r3, 6

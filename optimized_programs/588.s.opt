@@ -1,0 +1,5 @@
+tst r0, 6
+orrcs r1, r1, 1
+cmp r1, r2
+sublt r3, r2, r1
+bic r3, r3, 10

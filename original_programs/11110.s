@@ -1,0 +1,5 @@
+bic r0, r1, r2 
+bfi r3, r2, #2, #1 
+bfi r2, r3, #2, #1 
+bic r0, r0, r3 
+rsb r1, r0, r2, lsr #8 

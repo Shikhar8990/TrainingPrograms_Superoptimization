@@ -1,0 +1,4 @@
+tst r0, r1
+movcs r1, 15
+add r0, r1, r1
+rsb r1, r0, 2

@@ -1,0 +1,3 @@
+cmp r0, 11
+ornls r0, r2, r3
+ornne r0, r1, 0

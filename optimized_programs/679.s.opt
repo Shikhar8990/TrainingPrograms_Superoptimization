@@ -1,0 +1,3 @@
+tst r0, r1
+eorcs r0, r3, 10
+rsb r3, r0, r1

@@ -1,0 +1,5 @@
+cmp r0, r1
+add r3, r2, r0
+subhi r3, r1, 8
+bic r3, r3, 1
+bic r1, r2, r3

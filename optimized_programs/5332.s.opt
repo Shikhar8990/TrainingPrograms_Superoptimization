@@ -1,0 +1,3 @@
+eor r1, r3, r1, lsr 14
+bfc r1, 2, 1
+mov r0, r1, lsl 9

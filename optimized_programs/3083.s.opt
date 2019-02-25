@@ -1,0 +1,3 @@
+rsb r0, r1, 7
+bfc r3, 1, 2
+orr r2, r3, r0, lsl 12

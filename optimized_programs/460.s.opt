@@ -1,0 +1,6 @@
+cmp r0, r1
+subge r1, r2, 3
+mvnlt r1, r0
+and r0, r1, 1
+bfi r1, r0, 11, 2
+mov r0, r1

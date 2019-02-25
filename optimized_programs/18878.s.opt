@@ -1,0 +1,4 @@
+cmp r0, 1
+movcs r1, 31
+rsb r2, r1, 30
+rsb r0, r2, 1

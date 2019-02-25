@@ -1,0 +1,6 @@
+mvn r0, r1 
+rsb r1, r2, #5 
+bfi r3, r0, #2, #2 
+bfi r0, r3, #0, #2 
+rsb r3, r1, r0 
+and r3, r3, #12 

@@ -1,0 +1,4 @@
+cmp r0, 9
+asrhi r0, r1, 0
+bic r2, r0, 15
+lsl r1, r2, r1

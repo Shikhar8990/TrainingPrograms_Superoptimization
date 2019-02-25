@@ -1,0 +1,4 @@
+bfi r0, r1, 1, 2
+bic r2, r1, r3
+tst r0, r2
+bfine r0, r1, 0, 2

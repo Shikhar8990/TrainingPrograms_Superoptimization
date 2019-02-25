@@ -1,0 +1,2 @@
+tst r0, r1
+orrge r3, r2, r2

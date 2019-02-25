@@ -1,0 +1,5 @@
+cmp r1, r0
+subne r1, r1, 2
+eor r0, r1, 14
+bfi r3, r0, 12, 2
+eor r1, r0, r3

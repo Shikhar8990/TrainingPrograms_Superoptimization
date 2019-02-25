@@ -1,0 +1,6 @@
+orr r0, r0, 8
+mov r1, r0
+eor r0, r0, 11
+cmp r2, r1
+eorge r1, r0, r0, lsr 4
+eorne r1, r3, r3, lsr 4

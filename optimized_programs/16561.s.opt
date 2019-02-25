@@ -1,0 +1,2 @@
+ror r2, r1, 4
+mvn r2, r2, lsl 4

@@ -1,0 +1,4 @@
+mov r0, r1, lsr 1
+orr r2, r0, r2, lsl 12
+eor r0, r2, 15
+rsb r0, r3, r0

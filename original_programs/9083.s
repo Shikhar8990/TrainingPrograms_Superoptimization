@@ -1,0 +1,5 @@
+bfi r0, r0, #0, #2 
+lsr r1, r0, r1 
+lsl r0, r1, #1 
+ror r2, r0, r0 
+asr r2, r2, #6 

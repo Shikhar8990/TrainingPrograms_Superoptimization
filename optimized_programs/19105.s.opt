@@ -1,0 +1,5 @@
+tst r0, r1
+mov r3, r1, lsr 31
+mvnne r2, r0
+add r1, r2, 31
+orr r3, r1, r1

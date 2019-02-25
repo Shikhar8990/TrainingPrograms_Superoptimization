@@ -1,0 +1,5 @@
+mov r1, r2
+tst r0, 11
+movls r1, 9
+and r2, r1, 2
+add r2, r2, r1, asr 10

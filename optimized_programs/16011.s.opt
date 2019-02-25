@@ -1,0 +1,4 @@
+bfi r0, r1, 1, 2
+add r1, r2, 9
+and r2, r0, r1
+sub r3, r2, r2, lsl 1

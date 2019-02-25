@@ -1,0 +1,4 @@
+cmp r2, 8
+mvn r0, r1
+subeq r3, r0, r1, ror 7
+orr r1, r3, r0, asr 7

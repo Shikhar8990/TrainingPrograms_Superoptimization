@@ -1,0 +1,6 @@
+sub r0, r0, r1
+and r2, r2, 8
+bic r2, r2, r3
+rsb r1, r2, r0, ror 11
+bfi r1, r1, 2, 1
+sub r0, r0, r1

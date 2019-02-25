@@ -1,0 +1,4 @@
+add r0, r0, 8
+tst r0, r1
+movge r1, r2
+mov r3, r1

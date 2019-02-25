@@ -1,0 +1,4 @@
+asr r0, r1, 15
+sub r1, r0, r2
+bfc r0, 14, 9
+rsb r1, r0, r1, asr 3

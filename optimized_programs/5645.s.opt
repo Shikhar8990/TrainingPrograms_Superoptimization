@@ -1,0 +1,3 @@
+cmp r2, r1
+mvnlt r3, r1
+asr r3, r3, 9

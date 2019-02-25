@@ -1,0 +1,3 @@
+add r2, r1, 14
+bfi r0, r1, 1, 3
+orr r2, r0, r2

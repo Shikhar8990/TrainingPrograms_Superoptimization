@@ -1,0 +1,4 @@
+mov r2, r1, ror 11
+bfi r2, r2, 2, 2
+sub r2, r2, 5
+and r2, r2, 9

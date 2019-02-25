@@ -1,0 +1,4 @@
+rsb r0, r1, r0
+bic r1, r0, 4
+mvn r3, r1
+orr r1, r1, r3, lsl 8

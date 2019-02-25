@@ -1,0 +1,4 @@
+tst r0, 2
+movne r1, r0, lsl 13
+moveq r1, 11
+mov r1, r1, asr 536347164

@@ -1,0 +1,3 @@
+bic r0, r1, r2
+ror r2, r0, r3
+sub r1, r2, r1

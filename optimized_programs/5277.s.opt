@@ -1,0 +1,4 @@
+and r2, r0, r1, lsr 3
+tst r2, 11
+movge r3, r1
+orr r3, r1, r3, asr 15

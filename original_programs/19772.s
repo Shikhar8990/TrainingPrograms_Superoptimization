@@ -1,0 +1,4 @@
+cmp r0, r1 
+mvnls r2, r1 
+mvnls r2, r0 
+lsr r2, r2, #1 

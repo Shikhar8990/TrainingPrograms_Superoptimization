@@ -1,0 +1,3 @@
+cmp r0, 31
+rsblt r1, r2, r0
+sub r1, r3, r1

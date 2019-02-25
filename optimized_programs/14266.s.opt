@@ -1,0 +1,4 @@
+cmp r0, r1
+movls r1, 5
+rsbge r1, r0, r1, ror 10
+bic r0, r1, r0

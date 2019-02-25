@@ -1,0 +1,3 @@
+cmp r0, r1
+orneq r0, r3, r3
+ornne r0, r3, r2

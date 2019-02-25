@@ -1,0 +1,4 @@
+tst r0, r1
+eorne r2, r2, r3
+rsbls r2, r1, r1
+bfi r2, r2, 1, 1

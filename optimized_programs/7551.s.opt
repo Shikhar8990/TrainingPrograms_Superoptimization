@@ -1,0 +1,6 @@
+tst r0, r1
+andne r1, r0, 9
+lsr r3, r1, 5
+cmp r1, r3
+eorne r3, r3, 9
+bfi r1, r3, 0, 4

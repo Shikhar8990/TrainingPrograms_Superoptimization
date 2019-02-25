@@ -1,0 +1,4 @@
+tst r0, 1
+addeq r1, r2, r1, asr 31
+sub r3, r1, 1
+mov r0, r3

@@ -1,0 +1,4 @@
+mvn r0, r1
+orn r1, r1, r1, asr 31
+add r1, r0, r1, lsr 12
+orr r2, r1, 2

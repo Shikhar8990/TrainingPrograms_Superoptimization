@@ -1,0 +1,5 @@
+add r0, r1, 6
+orr r0, r2, r0, ror 9
+and r2, r0, 12
+bic r1, r2, r0, ror 31
+bic r0, r1, 7

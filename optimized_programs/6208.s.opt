@@ -1,0 +1,4 @@
+bfi r0, r1, 1, 1
+mvn r2, r0
+mvn r2, r2, lsl r0
+add r2, r0, r2

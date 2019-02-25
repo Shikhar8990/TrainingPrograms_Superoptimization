@@ -1,0 +1,5 @@
+tst r0, r1 
+moveq r1, r2 
+bfi r1, r1, #1, #1 
+sub r1, r1, #7 
+sub r1, r1, #6 

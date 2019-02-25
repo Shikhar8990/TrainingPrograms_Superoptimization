@@ -1,0 +1,4 @@
+rsb r0, r1, r2, lsr 6
+tst r1, 1
+eoreq r1, r3, r0
+mov r0, r1, lsr 11

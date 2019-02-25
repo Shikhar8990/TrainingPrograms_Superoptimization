@@ -1,0 +1,4 @@
+tst r0, 8
+orreq r1, r3, 7
+eor r3, r1, 8
+bic r3, r3, 4

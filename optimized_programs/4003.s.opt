@@ -1,0 +1,4 @@
+cmp r0, 7
+movne r1, r2
+bfi r3, r1, 2, 1
+sub r1, r3, 2

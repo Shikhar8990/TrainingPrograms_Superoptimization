@@ -1,0 +1,6 @@
+ror r0, r0, #5 
+bic r1, r2, #4 
+bic r3, r3, #4 
+tst r1, r3 
+eoreq r0, r0, #3 
+orr r0, r0, #12 

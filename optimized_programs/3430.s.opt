@@ -1,0 +1,5 @@
+tst r0, r1
+subne r0, r1, r2, asr 13
+add r0, r0, 14
+ror r1, r0, 5
+sub r0, r1, 14

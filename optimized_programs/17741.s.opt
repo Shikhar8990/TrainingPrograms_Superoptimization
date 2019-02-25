@@ -1,0 +1,2 @@
+asr r2, r1, 10
+rsb r1, r2, r1, ror 1

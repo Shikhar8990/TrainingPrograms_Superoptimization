@@ -1,0 +1,4 @@
+tst r1, r0
+subls r1, r1, r2
+subne r1, r2, r1, ror 31
+and r3, r2, r1, asr 31

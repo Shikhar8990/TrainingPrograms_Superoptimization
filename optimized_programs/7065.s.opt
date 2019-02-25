@@ -1,0 +1,2 @@
+mvn r0, r0, lsr 4095
+sub r1, r0, 16

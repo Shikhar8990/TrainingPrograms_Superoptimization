@@ -1,0 +1,4 @@
+cmp r0, r1
+subcc r2, r2, r0
+orr r2, r2, r3, asr 13
+mvn r2, r2

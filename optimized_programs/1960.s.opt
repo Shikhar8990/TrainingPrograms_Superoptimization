@@ -1,0 +1,4 @@
+add r0, r1, 12
+rsb r1, r0, r2
+asr r3, r1, 14
+bic r1, r3, r3, asr 12

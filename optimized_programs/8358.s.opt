@@ -1,0 +1,2 @@
+and r1, r1, r0, asr 1
+bfi r2, r1, 2, 1

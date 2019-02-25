@@ -1,0 +1,3 @@
+rsb r0, r1, r2, asr 31
+add r1, r3, r0, asr 31
+add r0, r1, 1

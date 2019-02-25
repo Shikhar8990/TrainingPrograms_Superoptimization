@@ -1,0 +1,6 @@
+cmp r0, 6
+mvnne r0, r1
+addge r0, r0, r1, lsr 14
+and r2, r2, r0
+bic r1, r2, 11
+bic r0, r1, 7

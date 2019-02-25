@@ -1,0 +1,6 @@
+eor r0, r0, r1, asr #14 
+and r1, r2, #11 
+orr r0, r1, r0, asr #3 
+sub r3, r0, #8 
+sub r0, r0, r1, lsr #9 
+lsl r2, r0, r3 

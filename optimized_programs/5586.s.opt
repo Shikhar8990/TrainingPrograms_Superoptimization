@@ -1,0 +1,4 @@
+mov r2, r1
+tst r0, r2
+movls r2, r0
+lsl r0, r2, 9

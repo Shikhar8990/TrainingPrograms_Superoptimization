@@ -1,0 +1,3 @@
+orr r1, r1, r1, ror 2
+mov r2, r1, lsr 9
+and r1, r2, 1

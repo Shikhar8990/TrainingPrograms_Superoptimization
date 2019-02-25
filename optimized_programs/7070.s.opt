@@ -1,0 +1,5 @@
+tst r0, r1
+eoreq r1, r0, 3
+ror r2, r1, r1
+mvn r3, r2
+add r3, r3, r3, lsl 4

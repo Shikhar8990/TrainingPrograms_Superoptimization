@@ -1,0 +1,5 @@
+cmp r0, 7
+eorls r0, r1, r2
+addlt r0, r0, r1, lsr 8
+bic r0, r0, 10
+bfi r2, r0, 0, 2

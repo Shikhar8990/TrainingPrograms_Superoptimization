@@ -1,0 +1,5 @@
+eor r2, r2, 1
+eor r2, r3, r1
+cmp r3, r1
+rsbcc r0, r0, r2
+add r3, r1, r0

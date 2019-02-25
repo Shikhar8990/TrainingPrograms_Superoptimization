@@ -1,0 +1,3 @@
+tst r3, 1
+orrne r1, r3, r3, lsr 31
+orr r1, r1, 4

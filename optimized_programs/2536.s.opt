@@ -1,0 +1,4 @@
+and r0, r1, r0, lsr 10
+and r1, r0, 13
+orr r3, r1, r1, lsl 8
+add r2, r3, r3

@@ -1,0 +1,6 @@
+orr r0, r1, r2, lsr #6 
+sub r1, r1, r0 
+cmp r2, r3 
+subhi r1, r1, r3 
+asr r0, r1, r2 
+mov r2, r0 

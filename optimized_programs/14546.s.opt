@@ -1,0 +1,3 @@
+mvn r3, r0
+cmp r0, 6
+andcc r3, r1, r3, asr 31

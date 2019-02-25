@@ -1,0 +1,8 @@
+tst r0, 13
+addne r1, r2, r0
+addeq r1, r0, 2
+and r1, r3, r1
+eor r0, r1, 10
+sub r1, r0, 3
+bic r2, r0, r1
+orr r2, r2, 11

@@ -1,0 +1,4 @@
+tst r0, r1
+movls r2, 1
+ror r1, r2, 1
+bic r2, r1, 0

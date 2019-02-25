@@ -1,0 +1,5 @@
+tst r0, r1
+subne r1, r2, r1
+subeq r1, r1, r3
+add r3, r2, r1
+eor r2, r1, r3

@@ -1,0 +1,4 @@
+rsb r0, r1, r2, ror 13
+cmp r0, 2
+orrge r2, r2, 6
+orr r3, r2, r2

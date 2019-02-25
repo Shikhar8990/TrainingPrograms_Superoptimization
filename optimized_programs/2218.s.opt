@@ -1,0 +1,2 @@
+mvn r3, r1, asr 5
+rsb r1, r1, r3, lsl 4

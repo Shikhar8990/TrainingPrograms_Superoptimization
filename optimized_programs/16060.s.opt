@@ -1,0 +1,3 @@
+tst r0, r1
+bic r0, r1, r3
+bicge r0, r1, r1

@@ -1,0 +1,2 @@
+mvn r3, r1, lsl 14
+add r3, r3, r3, asr 3

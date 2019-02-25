@@ -1,0 +1,3 @@
+add r2, r3, 6
+rsb r0, r2, 0
+eor r3, r0, r1

@@ -1,0 +1,4 @@
+tst r1, r0
+orrcs r1, r3, r1
+andcs r1, r1, r2
+eor r1, r1, 9

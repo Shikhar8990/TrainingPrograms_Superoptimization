@@ -1,0 +1,2 @@
+orr r2, r1, r1, ror 5
+bfi r3, r2, 15, 4

@@ -1,0 +1,6 @@
+cmp r0, r1
+rsbcs r2, r3, r1
+asr r1, r2, r1
+lsr r2, r1, 12
+eor r2, r2, r1, lsr 13
+sub r0, r2, 3

@@ -1,0 +1,5 @@
+tst r0, 15
+subeq r1, r1, 8
+sub r2, r2, r1, asr 3
+mvn r2, r2, ror 16777219
+and r2, r2, 3

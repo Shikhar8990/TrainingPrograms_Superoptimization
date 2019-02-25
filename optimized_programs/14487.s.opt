@@ -1,0 +1,3 @@
+tst r0, r1
+moveq r2, r3, asr 14
+add r0, r2, r0

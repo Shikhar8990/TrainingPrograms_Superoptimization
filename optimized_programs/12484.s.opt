@@ -1,0 +1,4 @@
+orr r0, r1, 1
+uxtah r3, r0, r2
+orr r2, r3, 5
+bfi r0, r2, 2, 2

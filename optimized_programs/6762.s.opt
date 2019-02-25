@@ -1,0 +1,5 @@
+tst r0, 3
+addeq r1, r2, r3
+add r3, r1, r2, asr 6
+add r3, r2, r3
+bfi r0, r3, 0, 1

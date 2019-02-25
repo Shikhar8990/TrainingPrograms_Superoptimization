@@ -1,0 +1,5 @@
+add r1, r0, 10
+and r1, r1, r2, lsl 11
+sub r2, r1, 7
+add r0, r1, 13
+and r1, r2, r0

@@ -1,0 +1,5 @@
+tst r0, r1
+rorls r0, r2, 32
+cmp r2, 7
+andhi r0, r0, 10
+mov r3, r0

@@ -1,0 +1,5 @@
+tst r0, r1
+addne r0, r0, r0
+addeq r0, r2, r1
+lsl r0, r0, 22
+add r1, r0, 15

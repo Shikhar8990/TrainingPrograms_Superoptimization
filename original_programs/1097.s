@@ -1,0 +1,8 @@
+cmp r0, #12 
+mvnls r1, r2 
+addhi r1, r3, #5 
+orr r1, r1, r0 
+tst r2, r3 
+subne r3, r1, r3 
+bic r0, r3, #4 
+and r1, r0, #8 

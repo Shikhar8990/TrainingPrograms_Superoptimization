@@ -1,0 +1,2 @@
+orr r0, r1, r2
+lsl r1, r0, r0

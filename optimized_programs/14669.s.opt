@@ -1,0 +1,4 @@
+tst r0, r1
+andge r0, r2, 10
+mov r2, r0, lsl 5
+eor r2, r2, 10

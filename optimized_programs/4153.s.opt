@@ -1,0 +1,6 @@
+mvn r0, r1
+mov r2, r1
+tst r3, r2
+andeq r2, r0, r2, lsr 5
+sub r0, r2, r1, lsl 8
+orr r2, r2, r0, lsl 13

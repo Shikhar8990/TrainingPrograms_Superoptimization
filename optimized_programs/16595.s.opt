@@ -1,0 +1,2 @@
+and r1, r2, r0, lsr 9
+bfc r1, 0, 2

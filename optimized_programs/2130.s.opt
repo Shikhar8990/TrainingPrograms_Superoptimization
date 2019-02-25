@@ -1,0 +1,6 @@
+sub r2, r1, r3
+add r0, r3, 5
+eor r1, r0, r1, lsr 15
+add r0, r2, 9
+sub r1, r0, r1, ror 9
+add r0, r1, r0

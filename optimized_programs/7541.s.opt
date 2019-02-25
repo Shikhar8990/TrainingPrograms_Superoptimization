@@ -1,0 +1,3 @@
+tst r0, r1
+orrne r1, r2, r3, lsr 9
+rsb r3, r1, 3

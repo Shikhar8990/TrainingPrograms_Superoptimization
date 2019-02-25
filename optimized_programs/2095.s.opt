@@ -1,0 +1,5 @@
+eor r2, r2, r1, ror 10
+add r1, r1, r2, lsr 7
+add r0, r1, 13
+mvn r2, r0
+eor r2, r2, r0, lsr 8

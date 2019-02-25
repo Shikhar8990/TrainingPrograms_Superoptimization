@@ -1,0 +1,4 @@
+tst r0, r1
+subne r1, r2, 1
+subeq r1, r3, 13
+and r0, r1, 14

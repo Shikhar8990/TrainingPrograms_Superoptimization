@@ -1,0 +1,8 @@
+add r0, r1, r2, lsr #13 
+and r0, r0, #6 
+add r3, r0, r2, asr #3 
+mov r1, r2 
+orr r2, r3, r1 
+add r3, r0, r3 
+and r1, r2, #15 
+rsb r3, r1, r3 

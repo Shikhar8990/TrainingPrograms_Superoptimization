@@ -1,0 +1,3 @@
+cmp r0, r1
+rsb r3, r0, 3
+rsbhi r3, r1, 3

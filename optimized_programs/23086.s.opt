@@ -1,0 +1,2 @@
+cmp r0, 31
+mvneq r0, r1

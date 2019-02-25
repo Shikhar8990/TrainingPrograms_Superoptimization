@@ -1,0 +1,2 @@
+sub r3, r3, r3, lsr 7
+asr r0, r3, 6

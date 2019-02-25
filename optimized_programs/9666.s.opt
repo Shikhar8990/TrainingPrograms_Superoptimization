@@ -1,0 +1,2 @@
+mvn r1, r1, asr 1
+bfi r2, r1, 1, 3

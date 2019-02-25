@@ -1,0 +1,5 @@
+cmp r0, 9
+subls r1, r1, r2, asr 5
+subhi r1, r2, r1
+bic r1, r2, r1
+sub r0, r2, r1, lsl 11

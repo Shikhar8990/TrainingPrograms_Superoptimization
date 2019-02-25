@@ -1,0 +1,5 @@
+cmp r0, r1
+mvnge r2, r1
+rsb r2, r0, r2, lsr 5
+bfi r3, r2, 2, 2
+mvn r0, r3

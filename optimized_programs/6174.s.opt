@@ -1,0 +1,2 @@
+orr r2, r3, 10
+bic r2, r2, r1, asr 7

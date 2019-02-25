@@ -1,0 +1,6 @@
+rsb r0, r1, #6 
+add r0, r2, r0 
+mov r2, r0 
+add r3, r2, r2, lsr #4 
+eor r2, r3, r0, lsr #14 
+sub r2, r0, r2, asr #13 

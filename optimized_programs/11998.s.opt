@@ -1,0 +1,3 @@
+bfc r1, 1, 2
+eor r1, r1, r2
+bfi r1, r1, 2, 2

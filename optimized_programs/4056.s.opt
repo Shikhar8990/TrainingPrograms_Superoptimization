@@ -1,0 +1,5 @@
+cmp r0, r1
+addne r2, r1, r1, asr 12
+movcs r2, r1
+orn r2, r2, 14
+and r2, r1, r2

@@ -1,0 +1,4 @@
+cmp r0, 12
+subeq r1, r2, r1
+bic r0, r2, r1, lsr 12
+ror r2, r0, 9

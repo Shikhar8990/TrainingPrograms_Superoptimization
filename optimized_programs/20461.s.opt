@@ -1,0 +1,2 @@
+and r2, r2, r1, lsr r1
+and r2, r2, r1

@@ -1,0 +1,2 @@
+sub r3, r2, r1, lsr 13
+rsb r1, r2, r3

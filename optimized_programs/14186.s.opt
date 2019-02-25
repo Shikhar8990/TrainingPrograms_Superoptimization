@@ -1,0 +1,4 @@
+bic r0, r0, r1
+tst r2, r1
+movne r1, r3, ror 7
+and r1, r1, r0

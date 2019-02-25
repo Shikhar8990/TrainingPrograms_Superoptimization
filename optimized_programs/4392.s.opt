@@ -1,0 +1,5 @@
+mvn r0, r1
+add r1, r0, r2
+tst r3, r0
+rsbne r0, r1, r0, asr 3
+lsl r1, r0, 10

@@ -1,0 +1,3 @@
+cmp r0, 15
+subhi r1, r2, r0
+lsl r1, r1, 4

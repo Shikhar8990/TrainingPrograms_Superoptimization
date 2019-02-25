@@ -1,0 +1,4 @@
+cmp r0, r1
+movcc r0, 1
+sub r2, r1, r0, lsl 1
+rsbhi r2, r1, 0

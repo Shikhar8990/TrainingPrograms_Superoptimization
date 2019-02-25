@@ -1,0 +1,3 @@
+sub r0, r1, 2
+orn r3, r0, 8
+and r0, r3, 27

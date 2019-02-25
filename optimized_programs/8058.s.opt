@@ -1,0 +1,5 @@
+rsb r0, r1, 5
+bfc r0, 2, 1
+add r3, r3, r0
+asr r2, r3, 6
+bfi r3, r2, 1, 2

@@ -1,0 +1,6 @@
+cmp r0, #10 
+rsbls r0, r1, r2 
+rsbhi r0, r3, r0, lsr #5 
+bic r2, r0, r1 
+bfi r1, r0, #0, #2 
+add r1, r2, r1, lsr #6 

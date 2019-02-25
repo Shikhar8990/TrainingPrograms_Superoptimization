@@ -1,0 +1,2 @@
+sub r2, r0, r0, lsr 7
+rsb r1, r0, r2

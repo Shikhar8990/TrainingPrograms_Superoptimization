@@ -1,0 +1,5 @@
+and r0, r0, r1
+orr r1, r3, 8
+bic r1, r1, r0
+orr r3, r3, 11
+bfi r3, r1, 15, 15

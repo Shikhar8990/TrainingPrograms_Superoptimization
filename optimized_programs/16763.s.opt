@@ -1,0 +1,3 @@
+rsb r0, r1, 12
+bfc r2, 1, 2
+bic r1, r2, r0

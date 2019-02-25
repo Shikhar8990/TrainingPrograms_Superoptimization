@@ -1,0 +1,4 @@
+sub r0, r1, r2, lsr 3
+tst r2, r0
+andne r2, r1, r1, lsr 31
+asr r1, r2, r2

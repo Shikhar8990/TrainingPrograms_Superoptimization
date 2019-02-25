@@ -1,0 +1,3 @@
+tst r0, 6
+lsleq r1, r0, 1
+asr r2, r0, r1

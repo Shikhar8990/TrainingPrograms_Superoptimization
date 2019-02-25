@@ -1,0 +1,4 @@
+tst r0, r1
+mvneq r0, r2
+asr r2, r0, 2
+sub r1, r2, r0, ror 8

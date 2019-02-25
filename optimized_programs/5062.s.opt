@@ -1,0 +1,4 @@
+rsb r0, r1, 8
+add r1, r2, r2, ror 14
+tst r0, r1
+movne r2, r3

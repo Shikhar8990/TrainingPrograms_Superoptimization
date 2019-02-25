@@ -1,0 +1,4 @@
+orr r3, r1, 31
+rsb r2, r1, r2
+and r2, r2, r3, lsr 1
+sub r1, r1, r2, lsl 1

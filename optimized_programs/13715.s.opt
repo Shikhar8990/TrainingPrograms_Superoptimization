@@ -1,0 +1,5 @@
+cmp r0, 13
+mvn r0, r0
+orreq r1, r0, r1, lsl r1
+ror r2, r0, 4
+and r3, r1, r2, lsl 4

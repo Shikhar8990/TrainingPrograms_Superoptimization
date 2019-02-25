@@ -1,0 +1,2 @@
+add r2, r1, 7
+orn r1, r1, r2

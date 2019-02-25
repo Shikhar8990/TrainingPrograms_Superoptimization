@@ -1,0 +1,4 @@
+asr r0, r1, 31
+bfc r3, 0, 3
+asr r0, r3, 1
+bfi r1, r0, 2, 2

@@ -1,0 +1,3 @@
+cmp r0, r1
+movne r1, r0, lsl 9
+movls r1, 7

@@ -1,0 +1,2 @@
+add r2, r1, r1, asr 1
+ubfx r2, r2, 0, 1

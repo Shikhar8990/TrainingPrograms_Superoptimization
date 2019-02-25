@@ -1,0 +1,4 @@
+asr r0, r1, 7
+tst r0, r1
+andne r2, r0, r2
+mvn r0, r2

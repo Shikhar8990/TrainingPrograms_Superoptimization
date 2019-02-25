@@ -1,0 +1,5 @@
+tst r0, 6
+addeq r1, r0, 6
+asr r0, r1, 6
+bic r0, r1, r0, ror 2
+mov r1, r0

@@ -1,0 +1,5 @@
+sub r0, r0, 12
+bfi r1, r2, 2, 5
+eor r0, r1, r0, lsl 7
+rsb r2, r0, 14
+bic r0, r2, r0

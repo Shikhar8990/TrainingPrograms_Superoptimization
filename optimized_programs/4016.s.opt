@@ -1,0 +1,4 @@
+bic r2, r2, r0
+tst r0, r1
+andcs r0, r2, 0
+orr r0, r2, r0

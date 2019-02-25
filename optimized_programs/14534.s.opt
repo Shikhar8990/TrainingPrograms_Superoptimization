@@ -1,0 +1,6 @@
+tst r0, 5
+andne r1, r2, 8
+andeq r1, r1, r3
+eor r2, r3, 6
+bic r3, r2, r1
+sub r2, r3, r3, ror 12

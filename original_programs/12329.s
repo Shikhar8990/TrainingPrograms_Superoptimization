@@ -1,0 +1,6 @@
+tst r0, #2 
+movne r1, r0, lsr #1 
+moveq r1, r2, ror #14 
+bfi r0, r1, #2, #2 
+bfi r0, r0, #2, #2 
+and r0, r0, r1 

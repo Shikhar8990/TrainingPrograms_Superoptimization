@@ -1,0 +1,2 @@
+orr r3, r3, 2
+rsb r3, r1, r3

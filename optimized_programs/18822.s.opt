@@ -1,0 +1,4 @@
+tst r0, r1
+eorge r1, r3, r0, lsr 1
+bic r0, r1, r2
+rsb r0, r0, 1

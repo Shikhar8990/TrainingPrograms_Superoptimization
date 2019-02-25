@@ -1,0 +1,6 @@
+cmp r0, r1
+rsbeq r2, r3, 14
+and r0, r1, 2
+rsb r2, r2, r3
+sub r1, r2, r0, lsl 3
+orr r0, r1, 12

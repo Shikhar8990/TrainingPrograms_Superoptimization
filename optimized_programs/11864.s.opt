@@ -1,0 +1,2 @@
+eor r1, r2, r2, lsl 9
+and r1, r0, r1, ror 3

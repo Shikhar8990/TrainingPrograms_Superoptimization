@@ -1,0 +1,4 @@
+tst r0, 4
+bfi r1, r2, 0, 2
+eoreq r1, r1, 4
+sub r3, r1, 8

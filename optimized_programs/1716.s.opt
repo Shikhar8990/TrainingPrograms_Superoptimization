@@ -1,0 +1,5 @@
+cmp r0, r1
+andls r1, r0, 2
+lsl r0, r1, r1
+rsb r2, r1, 14
+bic r0, r2, r0, lsr 1

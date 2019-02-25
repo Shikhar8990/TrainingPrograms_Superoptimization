@@ -1,0 +1,4 @@
+tst r0, r1
+movne r2, 1
+mov r3, r2, ror 14
+add r2, r3, 5

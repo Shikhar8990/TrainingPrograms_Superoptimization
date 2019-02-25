@@ -1,0 +1,3 @@
+tst r0, r1
+addeq r0, r2, r2
+orreq r3, r0, r3

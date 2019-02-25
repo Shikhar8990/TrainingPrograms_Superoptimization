@@ -1,0 +1,2 @@
+add r1, r0, r1, asr 4
+orr r0, r0, r1, lsl 5

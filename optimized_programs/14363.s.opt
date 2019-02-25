@@ -1,0 +1,4 @@
+tst r0, r1
+sub r0, r1, r3, asr 7
+movcs r1, r3
+and r2, r0, r1

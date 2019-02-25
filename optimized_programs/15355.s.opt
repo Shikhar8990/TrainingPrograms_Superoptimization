@@ -1,0 +1,4 @@
+cmp r0, r1
+mvnlt r0, r2
+bfc r1, 2, 1
+bic r1, r1, r0

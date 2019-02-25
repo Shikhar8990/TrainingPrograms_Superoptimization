@@ -1,0 +1,5 @@
+lsr r0, r0, 12
+and r1, r0, 7
+add r0, r1, 9
+orr r2, r0, 15
+ror r2, r2, 5

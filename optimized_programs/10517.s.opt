@@ -1,0 +1,6 @@
+bic r0, r1, 7
+bfi r1, r2, 0, 2
+tst r2, 6
+eoreq r2, r3, r0, lsr 8
+lsr r2, r2, 5
+bic r1, r1, r2

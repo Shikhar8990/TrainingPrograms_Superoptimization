@@ -1,0 +1,4 @@
+tst r0, r1
+rsbge r2, r0, 10
+orr r1, r2, 14
+mvn r2, r1

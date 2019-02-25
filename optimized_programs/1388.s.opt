@@ -1,0 +1,2 @@
+add r2, r2, r1, asr 2
+orr r1, r3, r2, ror 9

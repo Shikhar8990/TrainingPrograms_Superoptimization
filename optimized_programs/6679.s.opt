@@ -1,0 +1,5 @@
+tst r0, r1
+subcs r0, r2, r3
+mvn r1, r0
+eor r0, r1, r2
+ror r1, r0, 11

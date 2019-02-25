@@ -1,0 +1,2 @@
+tst r0, r1
+addls r1, r0, 31

@@ -1,0 +1,4 @@
+tst r0, r1
+mvneq r2, r3
+andge r2, r2, 8
+mvn r2, r2, ror 10

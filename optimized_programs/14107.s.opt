@@ -1,0 +1,5 @@
+tst r1, r0
+rsbne r1, r2, 14
+orn r2, r1, r1, lsl 1
+orn r3, r2, 14
+sub r2, r1, r3

@@ -1,0 +1,2 @@
+eor r0, r2, 9
+mvn r1, r0

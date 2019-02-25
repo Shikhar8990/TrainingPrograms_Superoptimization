@@ -1,0 +1,3 @@
+asr r0, r1, r2
+and r1, r0, 6
+sub r3, r1, 6

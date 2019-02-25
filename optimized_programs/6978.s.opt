@@ -1,0 +1,5 @@
+eor r0, r1, r2
+cmp r0, r1
+rorge r0, r2, 32
+addlt r0, r0, 67
+bfi r1, r0, 2, 2

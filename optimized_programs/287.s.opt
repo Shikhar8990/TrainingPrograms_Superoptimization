@@ -1,0 +1,7 @@
+tst r0, r1
+eorne r2, r0, 0
+mvn r3, r0
+eorls r2, r1, r2, lsl 8
+orr r1, r2, r3
+lsl r2, r3, 15
+sub r1, r2, r1, lsr 3

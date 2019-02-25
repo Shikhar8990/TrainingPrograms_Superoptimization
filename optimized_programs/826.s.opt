@@ -1,0 +1,5 @@
+eor r0, r1, r0
+bfi r2, r3, 8, 3
+add r0, r0, 4
+add r1, r0, r2, lsl 4
+rsb r0, r1, r0, lsl 4

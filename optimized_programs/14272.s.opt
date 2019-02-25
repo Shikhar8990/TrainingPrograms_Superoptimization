@@ -1,0 +1,3 @@
+eor r0, r0, 3
+orn r1, r2, r0
+eor r1, r1, r2, asr 3

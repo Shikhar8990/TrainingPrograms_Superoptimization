@@ -1,0 +1,3 @@
+and r2, r0, r1
+tst r2, r1
+rsbne r1, r1, r2, lsl 1

@@ -1,0 +1,6 @@
+and r2, r2, 13
+cmp r0, r1
+mvnls r1, r1
+movcs r1, r0
+orr r0, r2, r1, lsl 1
+bfi r1, r0, 7, 8

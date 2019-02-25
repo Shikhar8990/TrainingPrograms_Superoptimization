@@ -1,0 +1,7 @@
+ror r0, r1, 12
+asr r1, r2, r0
+orr r3, r1, r2
+orr r4, r1, 7
+tst r4, r3
+andne r2, r3, 15
+eor r2, r3, r2, asr 10

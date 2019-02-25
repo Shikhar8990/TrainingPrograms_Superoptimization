@@ -1,0 +1,2 @@
+orn r2, r1, r0, asr 31
+add r1, r2, 1

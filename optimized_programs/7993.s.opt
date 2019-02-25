@@ -1,0 +1,2 @@
+lsr r0, r0, r0
+lsr r0, r0, 5

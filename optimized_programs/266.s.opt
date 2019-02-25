@@ -1,0 +1,5 @@
+orr r0, r0, r1, lsr 2
+orr r2, r2, r3
+orr r1, r0, r2
+mvn r4, r1, lsl 6
+mvn r2, r4, ror 11

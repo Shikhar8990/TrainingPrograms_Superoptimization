@@ -1,0 +1,4 @@
+tst r0, r1
+movne r1, 12
+moveq r1, r2, ror 6
+and r1, r1, 2

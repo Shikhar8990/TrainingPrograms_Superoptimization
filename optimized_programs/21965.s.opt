@@ -1,0 +1,4 @@
+rsb r2, r1, 1
+and r1, r1, r3
+sub r0, r1, r2
+mvn r3, r0

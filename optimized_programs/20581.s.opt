@@ -1,0 +1,3 @@
+and r1, r3, 31
+orr r1, r1, r2, lsr 31
+lsl r1, r1, r1

@@ -1,0 +1,5 @@
+mvn r3, r1
+add r1, r1, r1, ror 2
+and r3, r1, r3, lsr 6
+add r1, r3, 2
+lsr r2, r1, r1

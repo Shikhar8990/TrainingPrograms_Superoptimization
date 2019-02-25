@@ -1,0 +1,2 @@
+add r3, r1, r2
+orr r2, r3, 2

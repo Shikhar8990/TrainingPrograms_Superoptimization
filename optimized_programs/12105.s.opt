@@ -1,0 +1,4 @@
+tst r1, r0
+orrls r0, r2, r2
+sub r2, r0, 7
+and r2, r2, 3

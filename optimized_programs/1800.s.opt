@@ -1,0 +1,4 @@
+tst r0, r1
+orreq r2, r0, r3, asr 13
+and r2, r1, r2, ror 11
+bfi r1, r2, 12, 1

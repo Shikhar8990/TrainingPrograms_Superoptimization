@@ -1,0 +1,6 @@
+and r0, r1, 1
+bfi r2, r3, 2, 14
+orr r1, r1, r3
+orr r1, r1, r2
+sub r2, r0, r1, ror 14
+and r1, r2, 4

@@ -1,0 +1,5 @@
+sub r0, r1, r0, lsl 4
+orr r1, r2, r0
+sub r2, r2, r1, asr 13
+asr r1, r2, 14
+rsb r3, r1, 15

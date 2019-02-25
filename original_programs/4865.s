@@ -1,0 +1,8 @@
+tst r0, r1 
+rsbeq r0, r0, r2, asr #2 
+andeq r0, r3, r2 
+asr r3, r0, #12 
+bic r2, r3, #9 
+mov r1, r3 
+ror r1, r2, r1 
+and r3, r1, #6 

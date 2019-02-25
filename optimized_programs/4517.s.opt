@@ -1,0 +1,4 @@
+bfi r2, r1, 2, 2
+tst r3, r2
+movge r2, r1
+ror r0, r2, 8

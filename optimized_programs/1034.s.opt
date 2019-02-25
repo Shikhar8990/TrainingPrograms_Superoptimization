@@ -1,0 +1,7 @@
+bic r0, r1, 4
+ror r2, r0, 11
+and r4, r2, r2, asr 31
+orr r1, r1, r4, lsr 8
+and r2, r3, r1, ror 1
+add r3, r2, 10
+bfi r1, r3, 2, 5

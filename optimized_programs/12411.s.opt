@@ -1,0 +1,4 @@
+cmp r0, r1
+andhi r3, r3, 11
+mvn r2, r3
+orr r0, r2, 4

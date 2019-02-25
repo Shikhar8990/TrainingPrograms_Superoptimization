@@ -1,0 +1,5 @@
+tst r0, r1
+addeq r2, r0, r1
+cmp r2, r3
+movlt r2, r3
+sub r2, r3, r2

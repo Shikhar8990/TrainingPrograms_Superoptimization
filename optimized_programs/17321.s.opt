@@ -1,0 +1,2 @@
+orn r0, r1, r0
+lsl r2, r0, 9

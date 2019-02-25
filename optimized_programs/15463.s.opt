@@ -1,0 +1,2 @@
+mvn r3, r2, lsl 1
+add r2, r3, 7

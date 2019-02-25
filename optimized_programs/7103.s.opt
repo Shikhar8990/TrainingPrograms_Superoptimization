@@ -1,0 +1,2 @@
+lsr r0, r1, r1
+eor r2, r2, r0, lsr 7

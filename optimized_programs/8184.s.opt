@@ -1,0 +1,3 @@
+tst r0, r1
+moveq r1, r2
+lsl r3, r1, 3

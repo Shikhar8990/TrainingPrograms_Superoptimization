@@ -1,0 +1,2 @@
+mvn r3, r1
+sub r3, r1, r3, lsr 2

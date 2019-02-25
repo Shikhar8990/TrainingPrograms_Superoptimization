@@ -1,0 +1,6 @@
+mvn r2, r3
+eor r3, r3, 1
+sub r1, r3, r2, ror 10
+sub r1, r1, 7
+and r3, r1, 9
+orr r2, r3, r1, ror 9

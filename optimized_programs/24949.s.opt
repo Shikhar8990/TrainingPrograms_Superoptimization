@@ -1,0 +1,2 @@
+sub r3, r1, r0, asr 1
+mvn r3, r3, lsl 31

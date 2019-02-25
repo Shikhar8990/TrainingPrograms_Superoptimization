@@ -1,0 +1,6 @@
+sub r2, r3, r1, lsr 7
+tst r1, r0
+subne r2, r3, 14
+add r1, r2, 9
+and r1, r1, r2
+bic r1, r1, 5

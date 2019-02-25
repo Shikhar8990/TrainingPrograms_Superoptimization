@@ -1,0 +1,2 @@
+orr r2, r2, r0, asr 4
+ror r0, r2, 4

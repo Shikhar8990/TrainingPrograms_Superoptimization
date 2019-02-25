@@ -1,0 +1,5 @@
+cmp r0, 13
+subne r1, r2, r0
+subeq r1, r1, 13
+sub r3, r1, r0, lsl 2
+bfi r0, r3, 0, 4

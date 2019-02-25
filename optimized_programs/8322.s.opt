@@ -1,0 +1,4 @@
+cmp r0, 6
+andcs r1, r1, 15
+orrlt r1, r1, r0, ror 13
+mvn r1, r1

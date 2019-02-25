@@ -1,0 +1,5 @@
+asr r3, r1, r1
+and r1, r1, r2
+tst r3, r1
+mvncs r1, r3
+asr r3, r1, 10

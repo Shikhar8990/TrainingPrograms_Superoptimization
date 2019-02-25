@@ -1,0 +1,2 @@
+rsb r2, r3, 15
+mov r1, r2, ror 1

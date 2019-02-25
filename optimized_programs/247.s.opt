@@ -1,0 +1,5 @@
+cmp r0, r1
+andlt r2, r1, r2, ror 8
+andge r2, r3, r1
+ror r3, r2, r2
+orr r1, r2, r3

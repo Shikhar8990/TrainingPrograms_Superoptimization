@@ -1,0 +1,4 @@
+rsb r2, r1, 14
+sub r1, r1, r2
+and r2, r1, r2, ror 31
+bfi r3, r2, 15, 9

@@ -1,0 +1,6 @@
+cmp r0, r1
+sub r1, r3, r1
+andls r0, r0, r2
+add r3, r1, r0, lsl 2
+bic r3, r3, 13
+orr r1, r3, 9

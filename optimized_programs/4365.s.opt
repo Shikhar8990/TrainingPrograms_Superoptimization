@@ -1,0 +1,6 @@
+cmp r0, r1
+subls r2, r3, 13
+and r3, r2, r0, asr 12
+tst r3, r1
+orrne r1, r1, r3
+sub r2, r1, 7

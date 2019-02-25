@@ -1,0 +1,4 @@
+tst r0, 15
+movne r1, 13
+sub r3, r1, r0
+and r2, r3, 5

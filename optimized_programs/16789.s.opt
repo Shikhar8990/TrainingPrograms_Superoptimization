@@ -1,0 +1,4 @@
+tst r0, r1
+movne r1, 6
+biceq r1, r1, r1, lsr 2
+add r0, r1, r1

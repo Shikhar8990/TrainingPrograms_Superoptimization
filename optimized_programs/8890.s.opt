@@ -1,0 +1,2 @@
+mov r2, r1, lsr 5
+asr r0, r1, r2

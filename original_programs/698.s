@@ -1,0 +1,7 @@
+mov r0, r1 
+and r2, r3, r0 
+sub r0, r2, r3 
+rsb r2, r1, r0 
+orr r2, r2, r1, lsr #11 
+bfi r0, r2, #15, #3 
+lsr r2, r0, #9 

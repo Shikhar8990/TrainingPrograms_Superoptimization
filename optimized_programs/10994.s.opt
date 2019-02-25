@@ -1,0 +1,3 @@
+tst r0, 5
+mov r0, r2, lsl -2147483394
+bfics r0, r1, 1, 1

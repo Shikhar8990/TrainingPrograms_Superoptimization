@@ -1,0 +1,4 @@
+cmp r0, r1 
+subeq r0, r1, r2 
+mov r2, r3 
+sub r2, r0, r2, asr #1 

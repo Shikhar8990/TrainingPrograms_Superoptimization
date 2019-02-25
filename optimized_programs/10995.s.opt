@@ -1,0 +1,3 @@
+cmp r0, r1
+bic r2, r3, 11
+biceq r2, r3, 12

@@ -1,0 +1,5 @@
+tst r0, 31
+subeq r1, r2, r0
+lsl r2, r1, 2
+sub r1, r0, r1
+bfi r1, r2, 1, 2

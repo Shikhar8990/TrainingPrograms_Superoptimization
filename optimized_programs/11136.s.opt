@@ -1,0 +1,2 @@
+cmp r0, 15
+bicls r2, r2, r1

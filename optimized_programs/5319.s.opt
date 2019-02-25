@@ -1,0 +1,4 @@
+cmp r1, 7
+subls r2, r1, 7
+orr r1, r2, 5
+orr r0, r1, r2, asr 12

@@ -1,0 +1,4 @@
+eor r0, r1, r0, ror 12
+add r2, r0, 5
+orr r0, r2, 14
+rsb r2, r0, 0

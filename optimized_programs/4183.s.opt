@@ -1,0 +1,4 @@
+cmp r0, r1
+bfi r0, r1, 0, 2
+addhi r1, r0, 0
+mvn r1, r1

@@ -1,0 +1,3 @@
+bic r1, r1, 12
+sub r1, r1, 12
+eor r2, r1, r3, ror 3

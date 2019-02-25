@@ -1,0 +1,4 @@
+and r1, r1, r1, ror 13
+lsr r3, r1, r1
+mvn r2, r1, asr 12
+eor r3, r2, r3

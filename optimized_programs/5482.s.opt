@@ -1,0 +1,4 @@
+tst r0, r1
+eorne r0, r1, r0
+eorcs r0, r2, 9
+and r0, r0, r3, ror 32

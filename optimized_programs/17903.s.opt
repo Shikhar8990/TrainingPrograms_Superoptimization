@@ -1,0 +1,3 @@
+rsb r2, r1, 43
+and r0, r2, 7
+and r2, r0, r2

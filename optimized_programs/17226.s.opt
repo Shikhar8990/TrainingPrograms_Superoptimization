@@ -1,0 +1,4 @@
+tst r0, 11
+movls r0, 8
+movne r0, 7
+mvn r0, r0

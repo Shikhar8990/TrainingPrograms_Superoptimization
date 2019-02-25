@@ -1,0 +1,6 @@
+sub r0, r1, 12
+and r1, r3, r3, asr 6
+orr r0, r1, r0
+cmp r0, r1
+subeq r0, r3, r1, asr 3
+eor r0, r0, r3

@@ -1,0 +1,4 @@
+add r1, r2, r0
+cmp r0, 11
+addge r1, r0, 11
+bic r0, r1, r0

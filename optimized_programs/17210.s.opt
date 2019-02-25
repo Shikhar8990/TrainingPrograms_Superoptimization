@@ -1,0 +1,2 @@
+bic r2, r2, r1, lsl 2
+add r1, r2, r2, lsl 15

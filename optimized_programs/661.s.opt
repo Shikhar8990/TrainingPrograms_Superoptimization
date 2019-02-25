@@ -1,0 +1,4 @@
+tst r0, r1
+orrls r0, r2, r0, lsl 10
+bfi r2, r1, 12, 3
+add r1, r0, r2, lsr 8

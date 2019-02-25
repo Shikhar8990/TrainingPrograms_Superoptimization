@@ -1,0 +1,5 @@
+and r2, r1, r2, asr 14
+tst r0, r1
+andne r2, r3, 9
+orr r3, r2, r1, lsr 7
+add r3, r3, 11

@@ -1,0 +1,5 @@
+mov r1, 7
+tst r0, 14
+moveq r1, 14
+add r2, r1, 7
+bic r0, r1, r2

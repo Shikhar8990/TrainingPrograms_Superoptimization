@@ -1,0 +1,3 @@
+lsl r0, r0, r1
+lsr r2, r0, 12
+mvn r3, r2, lsr 16777463

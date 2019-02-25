@@ -1,0 +1,2 @@
+cmp r0, 12
+orrlt r0, r0, 2

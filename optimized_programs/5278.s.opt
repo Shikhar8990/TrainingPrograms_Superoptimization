@@ -1,0 +1,2 @@
+mvn r1, r1, lsl 12928
+orr r0, r1, 12

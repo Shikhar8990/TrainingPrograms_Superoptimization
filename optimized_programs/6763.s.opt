@@ -1,0 +1,4 @@
+lsr r1, r1, 10
+bfi r1, r3, 2, 1
+asr r2, r1, r1
+bic r2, r2, 15

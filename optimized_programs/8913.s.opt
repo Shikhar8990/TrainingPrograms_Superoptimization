@@ -1,0 +1,4 @@
+cmp r0, r1
+mov r2, 15
+movhi r2, r3
+bic r0, r2, r3

@@ -1,0 +1,2 @@
+sub r2, r3, 5
+add r1, r1, r2, lsr 7

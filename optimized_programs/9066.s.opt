@@ -1,0 +1,2 @@
+add r2, r2, r1, ror 3
+and r3, r2, 8

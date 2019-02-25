@@ -1,0 +1,5 @@
+tst r0, 12
+mvnne r0, r1
+mvnge r0, r2
+sub r2, r3, r0, lsl 13
+lsr r3, r2, 9

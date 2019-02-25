@@ -1,0 +1,4 @@
+cmp r0, r1
+movcs r2, r3
+rsb r0, r0, 11
+add r1, r0, r2

@@ -1,0 +1,2 @@
+bfc r1, 1, 2
+mvn r3, r1, ror 14

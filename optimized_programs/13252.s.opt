@@ -1,0 +1,2 @@
+tst r0, r1
+bfils r1, r0, 0, 3

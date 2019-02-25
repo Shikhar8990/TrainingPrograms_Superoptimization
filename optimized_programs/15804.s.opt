@@ -1,0 +1,3 @@
+tst r0, 8
+movne r1, 10
+rsb r2, r1, 7

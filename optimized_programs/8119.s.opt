@@ -1,0 +1,2 @@
+mvn r2, r1
+bic r3, r2, 8

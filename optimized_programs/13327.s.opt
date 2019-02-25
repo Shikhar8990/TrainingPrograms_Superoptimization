@@ -1,0 +1,5 @@
+tst r0, r1
+movne r1, 4
+moveq r1, 1
+add r2, r2, r1
+bfi r2, r3, 2, 2

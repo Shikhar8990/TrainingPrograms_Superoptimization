@@ -1,0 +1,5 @@
+tst r0, r1
+eoreq r0, r2, r1, asr 3
+andne r0, r3, r3
+lsl r1, r0, 2
+bfi r2, r1, 1, 3

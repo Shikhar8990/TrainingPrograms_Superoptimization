@@ -1,0 +1,3 @@
+cmp r0, 1
+movcs r1, r2
+addne r2, r1, r0, lsr 10

@@ -1,0 +1,2 @@
+sub r0, r1, r2, ror 9
+eor r2, r2, r0, ror 14

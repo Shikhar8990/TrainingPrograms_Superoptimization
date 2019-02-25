@@ -1,0 +1,4 @@
+cmp r0, r1
+rsbls r2, r1, r0, ror 1
+sub r2, r2, r3, asr 1
+mvn r0, r2

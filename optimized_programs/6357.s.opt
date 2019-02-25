@@ -1,0 +1,4 @@
+add r0, r1, 24
+tst r2, r0
+movls r0, r2
+lsr r2, r0, 5

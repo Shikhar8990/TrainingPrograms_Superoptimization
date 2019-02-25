@@ -1,0 +1,4 @@
+cmp r1, 0
+ornhi r2, r2, r3
+sub r1, r3, r2
+mvn r0, r1

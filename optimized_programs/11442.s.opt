@@ -1,0 +1,2 @@
+tst r0, 15
+mvneq r2, r1

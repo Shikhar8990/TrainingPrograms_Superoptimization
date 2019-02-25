@@ -1,0 +1,4 @@
+mvn r2, r1
+tst r0, r1
+mvncs r2, r3
+lsr r0, r2, 11

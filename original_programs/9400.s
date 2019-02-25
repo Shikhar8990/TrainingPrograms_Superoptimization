@@ -1,0 +1,5 @@
+bic r0, r1, #9 
+tst r0, r2 
+moveq r1, r2 
+mvneq r1, r0 
+mov r2, r1 

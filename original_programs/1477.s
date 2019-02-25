@@ -1,0 +1,8 @@
+cmp r0, r1 
+orrhi r2, r1, #14 
+orr r3, r3, #14 
+add r3, r3, r2 
+and r0, r2, #9 
+bic r0, r2, r0 
+sub r1, r0, r3, lsl #2 
+mvn r0, r1 

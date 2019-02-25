@@ -1,0 +1,4 @@
+cmp r0, 14
+orrcc r0, r0, 11
+sub r2, r2, r3
+add r3, r0, r2

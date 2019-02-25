@@ -1,0 +1,7 @@
+cmp r0, r1 
+mvnge r1, r2 
+bfi r2, r1, #2, #1 
+mvn r0, r1 
+add r1, r2, r0, asr #9 
+bfi r0, r1, #2, #1 
+eor r1, r1, r0, asr #15 

@@ -1,0 +1,4 @@
+cmp r0, r1
+rsbeq r1, r2, r3, ror 10
+add r0, r1, r1
+addls r0, r0, 12

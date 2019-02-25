@@ -1,0 +1,6 @@
+tst r0, #14 
+subne r1, r2, r0, lsl #7 
+and r2, r0, r2 
+orr r0, r1, r2, lsl #10 
+mov r2, r0 
+bfi r0, r2, #0, #2 

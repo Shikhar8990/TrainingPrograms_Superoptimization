@@ -1,0 +1,4 @@
+tst r0, r1
+movne r1, 3
+moveq r1, r0
+orn r1, r3, r1, ror 32

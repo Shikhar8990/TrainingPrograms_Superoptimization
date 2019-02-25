@@ -1,0 +1,3 @@
+cmp r2, 15
+mvnne r3, r0
+bic r0, r1, r3

@@ -1,0 +1,3 @@
+tst r1, 5
+movne r2, r1
+eor r0, r2, 2

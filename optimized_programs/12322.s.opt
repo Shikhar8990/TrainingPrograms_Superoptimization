@@ -1,0 +1,3 @@
+cmp r0, r1
+orncc r2, r0, r1
+orncs r2, r0, r2

@@ -1,0 +1,2 @@
+cmp r0, r1
+eorne r0, r0, r1

@@ -1,0 +1,4 @@
+and r0, r3, r1, lsl 1
+orr r3, r0, r3, asr 15
+bic r1, r3, 5
+orr r0, r1, r3, lsl 4

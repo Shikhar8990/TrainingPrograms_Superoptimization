@@ -1,0 +1,4 @@
+bfi r0, r1, #1, #1 
+tst r1, #6 
+eoreq r1, r2, r0, ror #4 
+and r2, r2, r1, lsl #4 

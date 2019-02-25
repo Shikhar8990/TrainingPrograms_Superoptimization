@@ -1,0 +1,7 @@
+cmp r0, 14
+addls r1, r2, 11
+addhi r1, r2, 13
+tst r3, 8
+lsrne r3, r1, 8
+movcs r3, r3, lsr 8
+ror r3, r3, 14

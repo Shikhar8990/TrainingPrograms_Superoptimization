@@ -1,0 +1,7 @@
+bic r0, r1, #2 
+orr r2, r0, #14 
+bic r0, r3, r2 
+cmp r3, r0 
+subeq r0, r2, r3 
+and r2, r0, r2, ror #2 
+and r0, r3, r2, lsr #4 

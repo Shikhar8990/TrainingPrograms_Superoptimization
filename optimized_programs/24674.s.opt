@@ -1,0 +1,2 @@
+sub r2, r1, r1, lsl 1
+orn r2, r2, r1

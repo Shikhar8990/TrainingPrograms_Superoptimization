@@ -1,0 +1,3 @@
+tst r0, 31
+sub r2, r1, r0
+subls r2, r0, 31

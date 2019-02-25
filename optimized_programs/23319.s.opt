@@ -1,0 +1,2 @@
+add r2, r1, r2, lsr 1
+mov r1, r2, lsl 31

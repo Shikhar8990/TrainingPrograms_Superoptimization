@@ -1,0 +1,4 @@
+lsr r0, r0, 8
+tst r1, r0
+orrne r1, r0, 2
+orrge r1, r0, r2

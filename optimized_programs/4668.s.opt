@@ -1,0 +1,5 @@
+cmp r0, r1
+andhi r2, r2, 9
+bic r1, r1, 3
+sub r3, r2, r0, ror 14
+bic r1, r3, r1

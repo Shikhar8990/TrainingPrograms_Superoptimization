@@ -1,0 +1,5 @@
+tst r1, r0
+andge r2, r1, r1
+asr r1, r2, r1
+mvn r0, r1
+add r3, r0, 12

@@ -1,0 +1,5 @@
+eor r0, r1, 11
+rsb r2, r0, 7
+cmp r1, r2
+eorls r2, r3, r0, ror 4
+and r1, r2, 11

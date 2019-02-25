@@ -1,0 +1,4 @@
+cmp r0, r1
+subhi r2, r3, r1
+asr r2, r2, 31
+add r1, r2, r3, lsr 31

@@ -1,0 +1,4 @@
+bfc r1, 1, 2
+bfi r2, r1, 9, 13
+mvn r0, r2
+and r2, r0, r2, lsl 15

@@ -1,0 +1,4 @@
+bfi r0, r1, 2, 2
+lsl r1, r0, r0
+add r2, r3, 1
+sub r0, r1, r2

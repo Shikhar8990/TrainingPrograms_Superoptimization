@@ -1,0 +1,2 @@
+orr r0, r1, r2
+ubfx r2, r3, 0, 1

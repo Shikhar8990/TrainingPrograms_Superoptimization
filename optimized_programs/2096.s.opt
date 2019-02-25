@@ -1,0 +1,5 @@
+add r2, r1, 3
+rsb r3, r1, r3, lsr 5
+sub r2, r2, 8
+sub r2, r2, r3, lsr 11
+eor r2, r2, 3

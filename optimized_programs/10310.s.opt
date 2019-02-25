@@ -1,0 +1,5 @@
+cmp r0, r1
+mvnls r0, r2
+sub r1, r0, 3
+rsb r1, r1, 4
+mvn r3, r1

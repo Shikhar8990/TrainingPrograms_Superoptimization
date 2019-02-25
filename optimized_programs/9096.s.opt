@@ -1,0 +1,4 @@
+eor r1, r1, r2, ror 5
+cmp r2, r1
+mvnne r3, r0
+bfi r1, r3, 2, 1

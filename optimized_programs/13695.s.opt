@@ -1,0 +1,2 @@
+orr r1, r1, r2, asr 11
+and r2, r1, 9

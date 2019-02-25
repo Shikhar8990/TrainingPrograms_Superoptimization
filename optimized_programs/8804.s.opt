@@ -1,0 +1,2 @@
+mvn r2, r1, ror 31
+asr r2, r2, 4

@@ -1,0 +1,4 @@
+cmp r0, 14
+eor r1, r1, r0, asr 3
+eorcc r1, r2, 6
+bic r0, r2, r1, ror 13

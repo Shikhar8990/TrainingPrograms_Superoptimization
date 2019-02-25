@@ -1,0 +1,5 @@
+cmp r0, #3 
+movls r1, r2 
+mov r0, r1 
+bfi r0, r0, #0, #1 
+bfi r3, r0, #1, #3 

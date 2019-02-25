@@ -1,0 +1,4 @@
+tst r0, r1
+andeq r2, r0, r2, asr 12
+bfi r2, r2, 1, 1
+mvn r0, r2

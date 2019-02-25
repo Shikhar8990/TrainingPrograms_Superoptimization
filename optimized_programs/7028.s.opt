@@ -1,0 +1,3 @@
+cmp r0, 15
+movls r1, r2
+eorhi r1, r0, 0

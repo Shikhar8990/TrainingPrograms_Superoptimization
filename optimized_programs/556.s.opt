@@ -1,0 +1,4 @@
+rsb r0, r3, 0
+tst r1, 12
+mvn r3, r1
+movne r3, r0

@@ -1,0 +1,5 @@
+tst r0, r1
+movne r2, r3
+moveq r2, 14
+and r3, r2, 5
+mvn r3, r3, ror 509

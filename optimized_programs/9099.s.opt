@@ -1,0 +1,3 @@
+rsb r3, r1, 11
+lsr r1, r3, 14
+eor r3, r1, 7

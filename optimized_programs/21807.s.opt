@@ -1,0 +1,4 @@
+tst r0, r1
+mvnls r2, r3
+add r1, r2, r2
+rsb r1, r3, r1, ror 31

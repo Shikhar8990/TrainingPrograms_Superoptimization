@@ -1,0 +1,5 @@
+rsb r2, r0, r2, asr 1
+cmp r0, r1
+rsbcs r2, r0, r1, asr 31
+and r1, r0, r2
+rsb r0, r2, r1, lsl 31

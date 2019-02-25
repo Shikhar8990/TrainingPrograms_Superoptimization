@@ -1,0 +1,4 @@
+eor r2, r3, 208
+bfi r2, r2, 8, 5
+eor r1, r2, 13
+orr r2, r1, r3, asr 7

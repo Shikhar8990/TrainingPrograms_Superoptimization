@@ -1,0 +1,4 @@
+tst r0, 11
+sub r2, r3, 3
+subeq r2, r3, r1, ror 9
+eor r1, r2, r1

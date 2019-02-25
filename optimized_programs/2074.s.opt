@@ -1,0 +1,4 @@
+mvn r2, r1, ror 1
+cmp r1, -2147483648
+orrcc r2, r1, 6
+orr r0, r2, 11

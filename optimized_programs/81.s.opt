@@ -1,0 +1,7 @@
+tst r1, r0
+mvnls r2, r0
+orr r0, r2, r1
+bic r2, r0, 15
+and r1, r0, 13
+rsb r1, r1, r3
+eor r1, r2, r1

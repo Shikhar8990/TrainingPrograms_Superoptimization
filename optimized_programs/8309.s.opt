@@ -1,0 +1,4 @@
+add r0, r0, r1
+lsr r1, r2, 9
+ror r1, r1, r1
+and r1, r0, r1

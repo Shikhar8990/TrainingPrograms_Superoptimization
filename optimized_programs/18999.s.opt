@@ -1,0 +1,2 @@
+orr r1, r0, r1, asr 1
+bic r1, r1, r0

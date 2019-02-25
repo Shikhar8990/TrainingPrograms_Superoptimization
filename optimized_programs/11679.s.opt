@@ -1,0 +1,3 @@
+cmp r0, r1
+movlt r2, 5
+eor r0, r2, 5

@@ -1,0 +1,5 @@
+rsb r1, r2, r0, lsl 4
+bfi r2, r1, 2, 2
+and r0, r1, r2
+eor r3, r0, 11
+lsl r3, r3, 8

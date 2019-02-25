@@ -1,0 +1,2 @@
+add r0, r1, 8
+rsb r3, r0, r3

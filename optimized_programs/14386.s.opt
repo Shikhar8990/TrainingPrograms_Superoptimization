@@ -1,0 +1,4 @@
+cmp r1, 1
+eorne r2, r2, r3
+biccc r1, r2, r1
+and r2, r1, r3

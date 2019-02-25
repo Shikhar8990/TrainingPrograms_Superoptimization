@@ -1,0 +1,4 @@
+tst r0, 6
+mvnls r1, r0
+and r1, r3, r1, lsl 8
+orr r1, r1, 10

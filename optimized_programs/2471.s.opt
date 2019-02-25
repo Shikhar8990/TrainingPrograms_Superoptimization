@@ -1,0 +1,2 @@
+mvn r0, r1, ror 9
+add r2, r0, r0

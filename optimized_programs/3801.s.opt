@@ -1,0 +1,4 @@
+add r1, r1, 3
+cmp r2, 11
+rsbls r2, r1, r2
+bic r3, r2, 7

@@ -1,0 +1,3 @@
+cmp r2, 0
+addhi r1, r2, r2
+add r1, r1, r3

@@ -1,0 +1,4 @@
+orr r0, r1, r2
+and r3, r3, 9
+bfi r2, r0, 9, 6
+add r1, r3, r2, lsl 14

@@ -1,0 +1,4 @@
+tst r0, 12
+rsb r2, r2, r0, ror 3
+subne r0, r0, r1, lsl 11
+bfi r0, r2, 0, 2

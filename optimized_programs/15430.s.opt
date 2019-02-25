@@ -1,0 +1,2 @@
+mvn r3, 14
+sub r2, r1, r3, ror 13

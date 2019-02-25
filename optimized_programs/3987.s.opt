@@ -1,0 +1,5 @@
+orr r0, r1, r2
+tst r3, 3
+rsbge r3, r3, r0, lsl 6
+rsbne r3, r3, r2, lsl 10
+bic r3, r3, 6

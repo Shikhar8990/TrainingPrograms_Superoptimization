@@ -1,0 +1,2 @@
+orr r1, r1, r1, ror 8
+mvn r0, r1

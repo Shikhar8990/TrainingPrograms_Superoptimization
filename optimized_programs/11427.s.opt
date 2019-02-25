@@ -1,0 +1,3 @@
+orr r2, r0, 4
+mvn r2, r2, asr 2
+and r2, r1, r2, lsl 2

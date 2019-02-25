@@ -1,0 +1,6 @@
+tst r0, r1
+andeq r2, r1, 8
+rsb r3, r2, 5
+add r2, r2, 3
+bfi r3, r2, 1, 2
+sub r2, r3, 6

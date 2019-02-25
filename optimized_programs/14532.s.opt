@@ -1,0 +1,6 @@
+cmp r0, r1
+mvncc r2, r3
+mvncs r2, r1
+tst r0, 2
+rsbne r0, r3, r2
+add r0, r0, 14

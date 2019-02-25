@@ -1,0 +1,4 @@
+asr r0, r1, r0
+tst r2, 13
+subne r0, r1, 0
+orn r0, r0, r2

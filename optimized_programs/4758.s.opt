@@ -1,0 +1,4 @@
+and r0, r1, 13
+add r1, r0, 2
+sub r1, r1, r2
+sub r2, r1, r1, ror 4

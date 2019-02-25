@@ -1,0 +1,5 @@
+cmp r0, r1
+addlt r2, r2, r2
+addge r2, r1, r2, lsl 3
+bic r0, r2, 15
+lsl r0, r0, r0

@@ -1,0 +1,4 @@
+cmp r2, r1
+mvnhi r2, r1, lsr r1
+eor r2, r2, 10
+bic r0, r2, r1

@@ -1,0 +1,5 @@
+cmp r0, 10
+andcc r1, r1, r2
+ror r1, r1, 8
+add r2, r1, r1
+orr r0, r1, r2

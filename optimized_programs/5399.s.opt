@@ -1,0 +1,3 @@
+lsr r0, r1, 4
+lsr r0, r0, r3
+and r1, r1, r0, lsr 8

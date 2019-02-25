@@ -1,0 +1,4 @@
+bic r0, r0, r1
+and r1, r2, 1
+bic r0, r0, r1, lsl 2
+bic r0, r0, r2

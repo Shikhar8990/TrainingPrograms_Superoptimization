@@ -1,0 +1,5 @@
+cmp r0, r1
+mvn r2, r1
+mvnge r2, r3
+orr r3, r2, 10
+bfi r3, r3, 1, 3

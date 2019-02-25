@@ -1,0 +1,2 @@
+cmp r0, r1
+movlt r0, r1

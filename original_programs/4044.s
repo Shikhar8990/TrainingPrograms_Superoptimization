@@ -1,0 +1,6 @@
+and r0, r1, r2, asr #1 
+cmp r1, #3 
+subcs r2, r3, r0 
+lsr r2, r3, r2 
+and r2, r2, r1, asr #13 
+asr r0, r2, #8 

@@ -1,0 +1,4 @@
+and r1, r1, 12
+cmp r0, 11
+andlt r1, r2, r3, lsl 15
+orr r0, r1, 7

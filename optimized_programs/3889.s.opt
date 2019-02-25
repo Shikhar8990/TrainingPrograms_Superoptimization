@@ -1,0 +1,5 @@
+bic r2, r3, r1, ror 32
+bic r0, r2, 12
+ror r2, r0, r2
+mvn r3, r2
+orr r3, r3, 7

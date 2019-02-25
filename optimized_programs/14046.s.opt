@@ -1,0 +1,6 @@
+orr r0, r0, r1, lsr 6
+add r2, r1, r2, lsl 4
+bic r2, r2, r0
+mvn r3, r1, lsr 3
+eor r2, r2, 13
+and r2, r2, r3, lsl 3

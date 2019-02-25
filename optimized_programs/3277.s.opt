@@ -1,0 +1,3 @@
+cmp r0, r1
+and r2, r1, r1, asr 6
+andhi r2, r0, r1, asr 6

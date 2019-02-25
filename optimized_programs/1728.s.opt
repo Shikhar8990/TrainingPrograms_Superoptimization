@@ -1,0 +1,5 @@
+bfi r0, r1, 9, 7
+cmp r2, r0
+addhi r3, r2, 6
+bic r3, r3, 4
+bfi r3, r3, 8, 2

@@ -1,0 +1,2 @@
+mov r1, r1, lsl 6
+bic r3, r1, r2

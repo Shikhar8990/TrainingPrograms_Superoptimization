@@ -1,0 +1,5 @@
+bic r2, r2, 1
+bfc r1, 1, 3
+tst r1, 5
+eorge r2, r3, r1
+and r1, r1, r2

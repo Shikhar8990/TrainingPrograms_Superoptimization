@@ -1,0 +1,2 @@
+rsb r0, r1, r0, asr 5
+rsb r1, r0, r1

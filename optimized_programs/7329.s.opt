@@ -1,0 +1,5 @@
+cmp r0, r1
+andne r2, r2, 4
+bic r0, r2, 13
+add r2, r0, 10
+rsb r0, r2, r1

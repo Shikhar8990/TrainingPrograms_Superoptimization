@@ -1,0 +1,6 @@
+tst r0, 14
+movls r0, r1
+cmp r2, 10
+rsbls r3, r0, 1
+and r0, r0, r3, ror 6
+and r1, r2, r0

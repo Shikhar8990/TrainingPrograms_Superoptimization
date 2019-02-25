@@ -1,0 +1,7 @@
+cmp r0, #7 
+subne r1, r1, r2, asr #3 
+tst r0, r2 
+orreq r1, r1, #8 
+add r3, r1, #2 
+orr r3, r1, r3 
+mov r2, r3 

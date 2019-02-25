@@ -1,0 +1,2 @@
+orr r1, r2, r1
+add r3, r1, r1, ror 5

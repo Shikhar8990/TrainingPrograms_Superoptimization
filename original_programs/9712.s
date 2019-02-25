@@ -1,0 +1,3 @@
+rsb r0, r0, r1, lsr #3 
+bfi r0, r0, #2, #1 
+bfi r0, r0, #1, #2 

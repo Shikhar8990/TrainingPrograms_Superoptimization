@@ -1,0 +1,4 @@
+cmp r0, r1
+movlt r1, 8
+orn r1, r2, r1
+bfi r3, r1, 1, 2

@@ -1,0 +1,3 @@
+sub r0, r1, r2
+asr r3, r0, 4
+lsl r1, r3, r3

@@ -1,0 +1,5 @@
+lsl r1, r0, 0
+tst r2, r1
+addne r0, r1, r0, asr 8
+addeq r0, r1, r1, lsr 10
+sub r2, r0, r2, asr 1

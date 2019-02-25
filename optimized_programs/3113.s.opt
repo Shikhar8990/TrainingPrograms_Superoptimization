@@ -1,0 +1,4 @@
+add r0, r1, r2, asr 7
+rsb r2, r0, 7
+and r1, r2, 6
+add r2, r1, r2, asr 12

@@ -1,0 +1,5 @@
+cmp r0, r1
+orrhi r2, r0, 2
+lsl r3, r2, r2
+orr r2, r3, 5
+mvn r3, r2

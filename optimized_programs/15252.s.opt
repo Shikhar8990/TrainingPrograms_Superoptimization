@@ -1,0 +1,4 @@
+tst r0, 7
+subeq r1, r2, 5
+bic r1, r1, r0
+eor r3, r1, r3, asr 7

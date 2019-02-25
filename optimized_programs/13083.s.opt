@@ -1,0 +1,3 @@
+cmp r0, r1
+movne r0, 15
+movlt r0, r2

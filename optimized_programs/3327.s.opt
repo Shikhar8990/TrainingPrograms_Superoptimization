@@ -1,0 +1,4 @@
+add r2, r1, 1
+and r1, r2, r2, lsr 9
+mov r1, r1, lsr 3
+bic r1, r1, 1

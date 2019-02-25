@@ -1,0 +1,3 @@
+eor r0, r1, 4
+sub r2, r0, r1, ror 4
+sub r1, r2, r3

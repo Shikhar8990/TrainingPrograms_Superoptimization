@@ -1,0 +1,4 @@
+add r2, r2, r2
+tst r1, r0
+subeq r1, r1, 12
+lsl r0, r1, r2

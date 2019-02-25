@@ -1,0 +1,5 @@
+orr r0, r1, r1, lsl 1
+tst r2, r0
+addne r1, r0, r0, ror 13
+eor r2, r2, r3
+eor r1, r1, r2, lsl 4

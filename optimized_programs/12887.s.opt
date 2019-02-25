@@ -1,0 +1,4 @@
+tst r0, r1
+mvneq r2, r3
+rsb r2, r2, 130
+and r3, r2, 6

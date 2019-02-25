@@ -1,0 +1,5 @@
+add r2, r2, 15
+cmp r0, r1
+addcs r2, r3, r1, ror 10
+bic r3, r2, 13
+bic r1, r1, r3

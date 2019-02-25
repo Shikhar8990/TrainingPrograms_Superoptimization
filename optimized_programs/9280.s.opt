@@ -1,0 +1,3 @@
+sub r0, r1, 9
+sub r1, r0, r1, ror 19
+ror r1, r1, 1

@@ -1,0 +1,3 @@
+mvn r2, r1, lsr 6
+mvn r1, 12
+rsb r0, r1, r2, lsl 1

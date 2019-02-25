@@ -1,0 +1,2 @@
+mvn r1, r3
+add r2, r1, r1

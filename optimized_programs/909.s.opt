@@ -1,0 +1,4 @@
+asr r0, r1, 2
+bfi r2, r0, 11, 15
+orr r2, r0, r2, ror 15
+sub r1, r2, 15

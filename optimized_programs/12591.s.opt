@@ -1,0 +1,3 @@
+cmp r0, 6
+rsbne r1, r2, 7
+orn r1, r1, r0

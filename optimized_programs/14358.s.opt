@@ -1,0 +1,5 @@
+mov r1, r2
+tst r0, 4
+movcs r1, r0
+and r1, r1, r3, lsr 10
+rsb r1, r1, r2, lsr 14

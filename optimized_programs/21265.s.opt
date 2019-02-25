@@ -1,0 +1,4 @@
+tst r0, r1
+moveq r0, r1, lsr 1
+movne r0, 31
+add r1, r0, r3

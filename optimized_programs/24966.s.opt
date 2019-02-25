@@ -1,0 +1,2 @@
+tst r0, 31
+mvnne r1, r2

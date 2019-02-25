@@ -1,0 +1,3 @@
+and r0, r1, r2, lsl 13
+cmp r0, 4096
+lslhi r2, r0, 1

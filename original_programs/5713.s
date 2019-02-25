@@ -1,0 +1,6 @@
+bfi r0, r0, #0, #2 
+orr r1, r0, r2 
+rsb r2, r2, r0, asr #4 
+cmp r1, #3 
+orrge r3, r1, r2 
+mov r1, r3 

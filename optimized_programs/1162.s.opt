@@ -1,0 +1,5 @@
+and r2, r1, r2
+sub r1, r2, 14
+and r3, r1, r2
+mov r2, r3, lsl 1
+bic r2, r2, 14

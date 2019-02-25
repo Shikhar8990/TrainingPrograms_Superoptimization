@@ -1,0 +1,2 @@
+tst r0, 13
+movne r1, 6

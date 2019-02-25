@@ -1,0 +1,4 @@
+rsb r0, r1, 1
+bic r2, r0, r1
+and r3, r2, 31
+orr r1, r1, r3, ror 1

@@ -1,0 +1,4 @@
+mvn r0, 3
+cmp r1, r0
+movls r2, 13
+and r0, r1, r2

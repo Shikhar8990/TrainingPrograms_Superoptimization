@@ -1,0 +1,4 @@
+tst r2, 6
+bfils r0, r1, 2, 2
+mvncs r2, r0
+rsb r2, r1, r2

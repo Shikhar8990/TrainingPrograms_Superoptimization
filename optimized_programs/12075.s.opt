@@ -1,0 +1,4 @@
+tst r0, 15
+movne r1, 10
+orr r2, r1, 14
+and r1, r2, r3, asr 12

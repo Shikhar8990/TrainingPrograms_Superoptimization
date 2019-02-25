@@ -1,0 +1,5 @@
+tst r0, r1
+addne r1, r2, r3, ror 7
+orr r2, r0, r1, asr 1
+orr r3, r1, r2
+ror r3, r3, 5

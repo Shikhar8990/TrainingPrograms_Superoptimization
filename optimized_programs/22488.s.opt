@@ -1,0 +1,4 @@
+tst r0, r1
+movge r0, r0, lsl 31
+rsb r3, r1, r0, lsl 31
+mvn r2, r3

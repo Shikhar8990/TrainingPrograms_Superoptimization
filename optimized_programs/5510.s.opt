@@ -1,0 +1,6 @@
+tst r1, r0
+rsbne r0, r2, r3
+tst r0, r2
+movge r0, r2
+lsl r2, r0, 8
+asr r3, r2, 12

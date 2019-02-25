@@ -1,0 +1,4 @@
+cmp r0, 12
+subls r1, r2, r0
+and r1, r1, 9
+eor r1, r1, 5

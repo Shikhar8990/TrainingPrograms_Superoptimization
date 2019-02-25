@@ -1,0 +1,4 @@
+mov r2, r0, asr -20
+ror r1, r2, 14
+bfi r2, r1, 0, 3
+bic r1, r2, 1

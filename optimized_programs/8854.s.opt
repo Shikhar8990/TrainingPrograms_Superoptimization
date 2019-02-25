@@ -1,0 +1,3 @@
+tst r0, 9
+mvnne r1, r0
+bic r2, r1, 3

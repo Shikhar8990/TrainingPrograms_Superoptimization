@@ -1,0 +1,4 @@
+tst r0, r1
+movcs r2, 3
+bfi r0, r2, 0, 4
+mov r2, r0

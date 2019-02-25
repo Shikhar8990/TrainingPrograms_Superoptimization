@@ -1,0 +1,2 @@
+lsr r2, r0, 7
+bic r0, r2, r1, lsr 13

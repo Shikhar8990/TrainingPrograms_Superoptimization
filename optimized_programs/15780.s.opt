@@ -1,0 +1,4 @@
+tst r0, r1
+movcs r0, r1
+orrne r0, r1, 12
+add r2, r0, 4

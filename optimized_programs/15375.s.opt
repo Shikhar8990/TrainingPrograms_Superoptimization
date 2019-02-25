@@ -1,0 +1,3 @@
+add r0, r0, r0, lsr 15
+add r1, r0, r1
+eor r1, r1, 1

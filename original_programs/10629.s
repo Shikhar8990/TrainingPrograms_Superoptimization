@@ -1,0 +1,4 @@
+add r0, r0, r1, asr #13 
+bfi r1, r2, #2, #1 
+and r3, r1, r0 
+and r1, r1, r3 

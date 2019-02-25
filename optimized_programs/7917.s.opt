@@ -1,0 +1,4 @@
+cmp r0, 10
+movne r1, r0, ror 10
+roreq r1, r2, 10
+rsb r0, r1, 6

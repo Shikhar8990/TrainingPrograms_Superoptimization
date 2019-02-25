@@ -1,0 +1,5 @@
+lsl r0, r1, r2
+and r2, r1, r2, ror 5
+tst r0, 5
+eorls r1, r1, r2
+sub r3, r1, 4

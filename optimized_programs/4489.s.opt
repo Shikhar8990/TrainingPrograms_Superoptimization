@@ -1,0 +1,4 @@
+tst r0, r1
+addeq r2, r3, r1, lsr 9
+cmp r2, 9
+andeq r3, r1, r3

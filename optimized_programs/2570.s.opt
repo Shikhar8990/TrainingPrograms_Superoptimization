@@ -1,0 +1,5 @@
+tst r0, r1
+rsbcs r1, r2, 7
+rsb r1, r1, r0, lsr 14
+bfi r3, r1, 14, 9
+mvn r0, r3

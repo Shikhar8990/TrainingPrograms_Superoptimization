@@ -1,0 +1,4 @@
+rsb r1, r2, 0
+mov r3, r1, ror 31
+eor r1, r2, r1
+sub r2, r3, r1

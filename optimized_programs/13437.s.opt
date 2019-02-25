@@ -1,0 +1,3 @@
+mvn r2, r1
+tst r0, r2
+rsbcs r2, r1, r1

@@ -1,0 +1,3 @@
+tst r1, r0
+addne r1, r1, r2
+add r3, r1, r1

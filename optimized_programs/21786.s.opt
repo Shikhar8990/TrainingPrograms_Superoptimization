@@ -1,0 +1,2 @@
+orr r0, r1, r2, asr 31
+rsb r2, r0, r2, ror 31

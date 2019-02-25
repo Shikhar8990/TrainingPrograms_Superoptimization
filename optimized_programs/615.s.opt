@@ -1,0 +1,4 @@
+add r0, r1, r2
+and r2, r3, 1
+sub r0, r2, r0, lsr 4
+bic r1, r0, r2

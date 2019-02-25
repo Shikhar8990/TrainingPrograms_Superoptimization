@@ -1,0 +1,3 @@
+tst r0, r1
+movne r1, 31
+eorne r2, r1, r2

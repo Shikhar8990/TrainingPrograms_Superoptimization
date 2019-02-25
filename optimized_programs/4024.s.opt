@@ -1,0 +1,5 @@
+and r2, r1, r1
+ror r1, r1, 6
+cmp r1, r2
+subcs r2, r1, 2
+sub r2, r1, r2

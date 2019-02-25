@@ -1,0 +1,4 @@
+tst r1, r1
+orreq r2, r1, 4
+add r3, r2, 1
+and r3, r3, 1

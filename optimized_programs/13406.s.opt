@@ -1,0 +1,4 @@
+cmp r0, 2
+addlt r0, r0, r0, lsl 2
+mvnhi r1, r2
+bfi r1, r0, 2, 2

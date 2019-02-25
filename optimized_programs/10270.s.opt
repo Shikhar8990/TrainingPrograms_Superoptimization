@@ -1,0 +1,4 @@
+tst r3, r2
+add r2, r1, 13
+bicne r1, r2, 14
+biccs r1, r1, 14

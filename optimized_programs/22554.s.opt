@@ -1,0 +1,3 @@
+orr r1, r2, r1, lsr 31
+add r2, r1, r2
+eor r0, r2, r3

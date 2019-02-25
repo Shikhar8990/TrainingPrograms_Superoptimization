@@ -1,0 +1,3 @@
+cmp r1, r0
+mvn r0, r3
+lsrhi r0, r2, 0

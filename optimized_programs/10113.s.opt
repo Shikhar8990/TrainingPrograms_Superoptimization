@@ -1,0 +1,4 @@
+add r0, r1, r2
+asr r2, r0, 12
+lsr r2, r2, 12
+lsl r1, r2, r0

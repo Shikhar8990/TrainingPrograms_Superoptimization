@@ -1,0 +1,5 @@
+cmp r0, r1
+addne r0, r0, 5
+addeq r0, r2, r0
+sub r2, r0, 7
+eor r2, r2, 4

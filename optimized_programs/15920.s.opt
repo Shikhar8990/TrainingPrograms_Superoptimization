@@ -1,0 +1,4 @@
+tst r0, r1
+movge r2, 4
+rsb r3, r2, r0, lsl 12
+add r2, r3, 3

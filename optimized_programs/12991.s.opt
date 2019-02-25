@@ -1,0 +1,2 @@
+tst r0, r1
+bicne r1, r1, r2

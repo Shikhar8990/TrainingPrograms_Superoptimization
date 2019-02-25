@@ -1,0 +1,7 @@
+cmp r0, r1 
+mvnls r2, r3 
+mvnhi r2, r0 
+mvn r0, r2 
+rsb r1, r0, r3, lsr #31 
+add r3, r1, r1, lsr #31 
+add r0, r3, r3 

@@ -1,0 +1,3 @@
+tst r0, 8
+mvn r3, 7
+bicne r3, r3, r1

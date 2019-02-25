@@ -1,0 +1,7 @@
+cmp r0, r1 
+mvncs r0, r2 
+mov r3, r0 
+orr r3, r3, #7 
+bfi r2, r3, #1, #2 
+and r3, r2, #9 
+bfi r3, r3, #0, #4 

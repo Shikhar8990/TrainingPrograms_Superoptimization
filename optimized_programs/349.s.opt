@@ -1,0 +1,5 @@
+add r0, r1, r1
+ror r1, r2, r0
+mvn r3, r1, lsl 1073709565
+add r0, r3, 1
+ror r3, r0, r3

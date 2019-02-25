@@ -1,0 +1,5 @@
+orr r2, r2, r0, asr 13
+lsr r1, r2, 13
+add r3, r1, r1, lsl 13
+mvn r0, 65529
+bfi r3, r0, 1, 3

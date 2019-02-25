@@ -1,0 +1,5 @@
+tst r0, 2
+eorne r1, r2, r3
+eoreq r1, r3, r0
+tst r1, r1
+orncs r1, r1, r2

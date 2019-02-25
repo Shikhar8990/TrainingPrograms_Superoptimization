@@ -1,0 +1,6 @@
+cmp r0, #12 
+movlt r1, r2 
+movge r1, r2 
+and r2, r3, #13 
+mvn r0, r2 
+eor r1, r1, r0, lsl #11 

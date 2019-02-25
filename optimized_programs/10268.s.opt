@@ -1,0 +1,8 @@
+tst r0, r1
+addne r2, r3, r1
+addcs r2, r2, 5
+rsb r1, r0, r2
+asr r3, r1, 2
+eor r0, r3, r1, ror 5
+lsl r0, r0, 7
+rsb r2, r0, 1

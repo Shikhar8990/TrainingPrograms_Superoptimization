@@ -1,0 +1,4 @@
+cmp r0, 0
+subhi r1, r2, r3
+eor r1, r3, r1, lsr 1
+mvn r1, r1

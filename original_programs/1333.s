@@ -1,0 +1,6 @@
+cmp r0, #2 
+orrls r1, r2, r1 
+and r1, r1, r3, lsr #8 
+and r3, r0, r1 
+and r1, r3, r2 
+asr r3, r1, r1 

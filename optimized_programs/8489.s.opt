@@ -1,0 +1,3 @@
+tst r1, 6
+andge r2, r1, 8
+lsl r1, r1, r2

@@ -1,0 +1,5 @@
+cmp r0, r1
+eoreq r0, r2, r0, asr 5
+tst r0, 10
+mvncs r1, r0
+eor r0, r0, r1, lsl 3

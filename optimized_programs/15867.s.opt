@@ -1,0 +1,5 @@
+add r0, r1, 5
+eor r1, r0, r2
+sub r3, r0, r1, ror 13
+orr r1, r3, r0
+mvn r0, r1

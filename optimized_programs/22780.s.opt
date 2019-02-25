@@ -1,0 +1,4 @@
+sub r1, r2, 1
+rsb r2, r0, r1, lsl 31
+and r3, r2, r3
+add r3, r2, r3

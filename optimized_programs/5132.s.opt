@@ -1,0 +1,5 @@
+cmp r0, 15
+andhi r0, r0, 10
+sub r1, r1, r0, lsl 8
+rev16 r2, r1
+bfi r0, r2, 2, 1

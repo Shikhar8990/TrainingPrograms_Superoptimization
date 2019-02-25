@@ -1,0 +1,3 @@
+tst r0, r1
+andne r3, r2, r3
+bfi r0, r3, 15, 8

@@ -1,0 +1,4 @@
+orr r0, r0, r1, asr 6
+bic r3, r0, r2
+mvn r1, 0
+add r1, r1, r3, lsl 7

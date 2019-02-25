@@ -1,0 +1,2 @@
+tst r0, 3
+movge r1, 11

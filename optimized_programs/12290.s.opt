@@ -1,0 +1,3 @@
+tst r0, 11
+rsb r0, r2, 14
+rsbeq r0, r2, r1, lsr 15

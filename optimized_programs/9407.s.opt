@@ -1,0 +1,3 @@
+tst r1, 12
+subne r2, r3, r1
+ror r3, r1, r2

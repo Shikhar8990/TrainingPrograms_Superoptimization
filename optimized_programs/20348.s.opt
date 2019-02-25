@@ -1,0 +1,3 @@
+tst r0, 31
+movne r1, 0
+bicls r2, r2, r0

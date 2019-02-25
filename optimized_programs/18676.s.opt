@@ -1,0 +1,4 @@
+tst r0, r1
+movls r2, 1
+lsl r0, r1, r1
+eor r2, r2, r0, asr 1

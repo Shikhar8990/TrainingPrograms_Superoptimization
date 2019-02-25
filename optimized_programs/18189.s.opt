@@ -1,0 +1,3 @@
+and r0, r0, 9
+add r1, r0, r1, lsr 8
+rsb r2, r0, r1, ror 12

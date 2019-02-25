@@ -1,0 +1,5 @@
+cmp r0, r1
+mvnne r2, r1
+add r2, r2, r2
+asr r3, r2, 9
+add r3, r3, 12

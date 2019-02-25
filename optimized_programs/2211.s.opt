@@ -1,0 +1,2 @@
+mov r1, r1, asr 4
+bfi r1, r1, 7, 14

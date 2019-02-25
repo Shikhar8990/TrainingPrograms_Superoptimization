@@ -1,0 +1,5 @@
+add r0, r0, r1, asr 5
+bic r2, r0, 12
+sub r3, r1, r2, asr 8
+rsb r0, r3, r2, lsl 1
+lsr r2, r0, 8

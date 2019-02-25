@@ -1,0 +1,3 @@
+tst r0, 2
+mvncs r1, r2
+sub r0, r3, r1

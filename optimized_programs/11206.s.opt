@@ -1,0 +1,5 @@
+tst r1, r0
+rsbne r1, r0, r2
+orr r3, r1, r3
+add r3, r3, 1
+add r3, r3, 7

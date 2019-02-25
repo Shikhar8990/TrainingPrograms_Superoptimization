@@ -1,0 +1,4 @@
+lsl r0, r1, r1
+sub r0, r0, r1, asr 9
+mov r0, r0, lsl -134217728
+eor r0, r0, 2

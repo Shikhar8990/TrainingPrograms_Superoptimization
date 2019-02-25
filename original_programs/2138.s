@@ -1,0 +1,10 @@
+tst r0, r1 
+rsbne r0, r2, r1, ror #6 
+rsbeq r0, r2, #8 
+and r1, r0, r3, lsr #6 
+add r3, r1, #13 
+add r2, r3, r3 
+eor r2, r2, r3 
+and r0, r0, #15 
+and r1, r2, #11 
+ror r3, r1, r0 

@@ -1,0 +1,4 @@
+tst r0, r1
+bicls r0, r0, r0, lsl 7
+and r2, r2, r0, lsl 7
+bic r1, r0, r2

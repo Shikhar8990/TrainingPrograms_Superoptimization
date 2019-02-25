@@ -1,0 +1,3 @@
+cmp r0, r1
+subcs r2, r0, 10
+lsr r2, r2, r2

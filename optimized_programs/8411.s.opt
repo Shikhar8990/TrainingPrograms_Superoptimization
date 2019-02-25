@@ -1,0 +1,3 @@
+add r0, r1, 9
+mvn r2, r3, asr 4
+and r2, r0, r2, lsl 4

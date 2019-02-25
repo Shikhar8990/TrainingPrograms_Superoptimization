@@ -1,0 +1,3 @@
+and r3, r1, 7
+eor r3, r3, 5
+orr r2, r3, r3, lsl 5

@@ -1,0 +1,2 @@
+rsb r3, r3, r3, ror 12
+lsl r1, r3, r2

@@ -1,0 +1,5 @@
+cmp r0, r1
+rsbcs r0, r2, 4
+bic r1, r1, r2
+bic r2, r0, r1
+bfi r1, r2, 2, 2

@@ -1,0 +1,4 @@
+mvn r3, r1
+bfi r0, r1, 2, 2
+tst r2, 12
+mvneq r3, r0

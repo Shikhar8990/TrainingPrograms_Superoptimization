@@ -1,0 +1,2 @@
+ror r2, r0, 31
+add r2, r2, r3, lsl 1

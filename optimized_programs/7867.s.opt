@@ -1,0 +1,4 @@
+tst r0, 4
+subne r1, r2, r3
+subeq r1, r3, r0, lsl 1
+mvn r3, r1, lsl -1073741827

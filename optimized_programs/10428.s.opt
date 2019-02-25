@@ -1,0 +1,3 @@
+cmp r0, r1
+movcs r1, r2
+bfi r3, r1, 2, 1

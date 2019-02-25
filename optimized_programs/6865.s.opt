@@ -1,0 +1,5 @@
+lsl r0, r1, 15
+asr r1, r0, 14
+tst r1, r0
+movne r3, r0
+bic r1, r0, r3

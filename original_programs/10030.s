@@ -1,0 +1,9 @@
+tst r0, #3 
+addne r1, r2, r3 
+addeq r1, r2, #14 
+eor r3, r3, r1 
+sub r2, r3, #3 
+sub r0, r1, #7 
+bfi r0, r0, #1, #2 
+sub r3, r3, r2 
+rsb r0, r3, r0, ror #9 

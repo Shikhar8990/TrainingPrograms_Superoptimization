@@ -1,0 +1,3 @@
+cmp r1, 6
+orrcc r2, r1, 9
+asr r2, r2, r2

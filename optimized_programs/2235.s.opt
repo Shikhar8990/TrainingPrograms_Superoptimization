@@ -1,0 +1,4 @@
+cmp r0, 2
+biccs r0, r2, 3
+and r1, r3, r0, lsr 6
+bfi r1, r1, 6, 10

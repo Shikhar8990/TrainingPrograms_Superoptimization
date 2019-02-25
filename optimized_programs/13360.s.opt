@@ -1,0 +1,6 @@
+cmp r0, r1
+movhi r2, r3
+andcs r2, r2, 15
+sub r3, r2, 15
+orr r2, r2, 3
+orr r2, r3, r2

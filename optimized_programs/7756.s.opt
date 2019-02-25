@@ -1,0 +1,6 @@
+bic r0, r1, r1, lsl 12
+and r1, r0, r2, lsl 12
+and r2, r3, 1
+add r1, r2, r1
+lsl r2, r1, r0
+lsl r1, r2, 9

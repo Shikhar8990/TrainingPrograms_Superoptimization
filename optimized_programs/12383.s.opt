@@ -1,0 +1,4 @@
+tst r0, r1
+orn r2, r0, r1
+subne r2, r2, r0
+add r1, r2, r3, asr 8

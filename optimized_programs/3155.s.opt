@@ -1,0 +1,5 @@
+orr r0, r0, r1
+add r2, r3, 10
+rsb r3, r0, r2, lsl 1
+add r0, r2, 15
+lsr r2, r3, r0

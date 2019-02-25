@@ -1,0 +1,7 @@
+cmp r0, r1
+sub r1, r1, 2
+eoreq r2, r2, r3
+lsr r3, r0, r1
+rsb r1, r1, r2
+eor r0, r1, r3
+add r0, r1, r0

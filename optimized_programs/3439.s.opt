@@ -1,0 +1,4 @@
+mov r2, r1, ror 4
+mvn r1, 10
+add r2, r1, r2, lsl 1
+bic r2, r2, 10

@@ -1,0 +1,4 @@
+tst r0, 9
+eorge r1, r2, r0
+sub r3, r3, r1, ror 9
+and r1, r3, 11

@@ -1,0 +1,4 @@
+tst r3, r2
+add r1, r1, r2
+biceq r1, r2, 0
+bic r1, r1, 14

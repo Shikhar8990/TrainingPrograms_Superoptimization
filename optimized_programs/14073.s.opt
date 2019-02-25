@@ -1,0 +1,4 @@
+rsb r0, r1, r0
+cmp r0, r3
+movcc r3, r0
+sub r3, r3, 13

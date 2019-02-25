@@ -1,0 +1,5 @@
+bfi r0, r1, 0, 3
+add r2, r3, r0, ror 14
+ror r1, r2, r3
+bfi r3, r1, 2, 2
+orr r2, r3, r2

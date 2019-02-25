@@ -1,0 +1,5 @@
+cmp r0, 13
+mvn r1, r0
+mvnge r1, r2
+rsb r1, r1, r1, asr 7
+orr r0, r1, 3

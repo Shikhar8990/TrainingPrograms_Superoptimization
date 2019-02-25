@@ -1,0 +1,2 @@
+and r0, r1, r2, lsl 12
+mvn r3, r0

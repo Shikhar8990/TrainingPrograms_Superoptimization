@@ -1,0 +1,5 @@
+cmp r0, r1
+mvnge r2, r0
+cmp r1, r2
+rsbne r0, r2, 12
+rsb r1, r0, 6

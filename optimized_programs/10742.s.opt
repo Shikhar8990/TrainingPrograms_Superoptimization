@@ -1,0 +1,2 @@
+tst r0, 2
+subeq r3, r3, r2, lsr 3

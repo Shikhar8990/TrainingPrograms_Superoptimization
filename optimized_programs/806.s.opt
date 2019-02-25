@@ -1,0 +1,4 @@
+eor r1, r1, r1, ror 13
+add r2, r1, 8
+rsb r3, r1, r2, lsl 14
+sub r2, r1, r3

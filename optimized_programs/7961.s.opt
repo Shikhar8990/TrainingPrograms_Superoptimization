@@ -1,0 +1,4 @@
+tst r0, 5
+movne r1, r2, lsr 4
+andge r3, r3, r3, lsr 4
+andne r3, r1, r1, lsr 4

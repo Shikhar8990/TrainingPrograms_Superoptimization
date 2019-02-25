@@ -1,0 +1,3 @@
+and r0, r1, r2, lsl 15
+asr r3, r0, 7
+lsr r2, r3, 5

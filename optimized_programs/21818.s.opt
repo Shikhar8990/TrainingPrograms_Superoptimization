@@ -1,0 +1,4 @@
+cmp r0, r1
+rsbls r2, r3, r0, lsl 31
+mvn r0, r1
+add r2, r2, r0, ror 31

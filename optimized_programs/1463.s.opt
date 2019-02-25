@@ -1,0 +1,5 @@
+sub r0, r1, 13
+and r2, r0, 11
+mov r3, r2, lsl 13
+orr r3, r3, r2, lsr 3
+eor r1, r3, 5

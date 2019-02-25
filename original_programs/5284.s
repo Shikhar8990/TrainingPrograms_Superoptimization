@@ -1,0 +1,7 @@
+mov r0, r1 
+ror r2, r3, #8 
+eor r3, r2, #13 
+rsb r0, r3, r0, lsr #13 
+orr r2, r2, #13 
+bic r3, r0, r2 
+bic r3, r1, r3 

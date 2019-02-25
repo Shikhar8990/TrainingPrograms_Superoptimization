@@ -1,0 +1,6 @@
+bic r0, r1, 9
+tst r0, 11
+orreq r0, r2, r1
+bic r0, r2, r0, lsl 5
+lsl r1, r0, 8
+add r2, r1, 4

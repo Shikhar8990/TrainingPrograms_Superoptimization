@@ -1,0 +1,2 @@
+mov r3, 9
+mvn r3, r3, lsl 1

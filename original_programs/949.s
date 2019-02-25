@@ -1,0 +1,7 @@
+tst r0, r1 
+eorne r0, r2, r1, ror #10 
+eoreq r0, r0, #8 
+eor r1, r0, r1 
+bic r0, r0, #11 
+add r3, r1, r0, lsr #7 
+eor r2, r3, #14 

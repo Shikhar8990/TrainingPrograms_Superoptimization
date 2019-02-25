@@ -1,0 +1,4 @@
+cmp r0, r1
+mvnge r0, r1
+rsbeq r0, r1, 14
+sub r1, r0, r0, lsl 1

@@ -1,0 +1,5 @@
+cmp r0, 11
+orr r1, r2, 5
+rsbge r0, r0, 13
+bic r1, r0, r1
+orr r0, r1, r1

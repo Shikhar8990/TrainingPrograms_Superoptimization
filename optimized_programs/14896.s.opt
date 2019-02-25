@@ -1,0 +1,3 @@
+rsb r3, r0, r3, asr 10
+bfi r0, r3, 0, 1
+rsb r0, r0, 3

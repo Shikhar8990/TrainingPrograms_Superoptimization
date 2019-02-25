@@ -1,0 +1,5 @@
+tst r0, r1
+rsbne r1, r2, 9
+rsbeq r1, r1, r2
+uxtah r2, r3, r1
+bfi r0, r2, 1, 1

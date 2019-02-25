@@ -1,0 +1,4 @@
+tst r1, 1
+subcs r2, r3, r2, ror 8
+eor r2, r3, r2
+eor r1, r3, r2, lsl 2

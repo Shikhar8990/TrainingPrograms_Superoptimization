@@ -1,0 +1,8 @@
+orr r0, r0, r1, lsl #4 
+bic r2, r0, #14 
+rsb r0, r2, #5 
+lsl r3, r0, #12 
+lsl r0, r3, #3 
+sub r3, r2, r0, asr #4 
+bfi r3, r3, #2, #1 
+eor r0, r3, #15 

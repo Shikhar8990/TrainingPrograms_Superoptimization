@@ -1,0 +1,6 @@
+add r0, r0, r0, ror #4 
+and r0, r0, r1, lsl #14 
+tst r1, #3 
+addne r1, r1, r1 
+eor r1, r0, r1 
+mov r0, r1 

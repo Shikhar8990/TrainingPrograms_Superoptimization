@@ -1,0 +1,4 @@
+tst r0, r1
+and r2, r1, 1
+and r3, r2, 31
+asr r2, r3, 1

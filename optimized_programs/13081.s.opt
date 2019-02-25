@@ -1,0 +1,3 @@
+sub r1, r1, 251
+bfi r2, r1, 2, 2
+mov r3, r2

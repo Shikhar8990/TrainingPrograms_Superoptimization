@@ -1,0 +1,4 @@
+tst r0, 4
+mvneq r0, 0
+mov r2, r0, lsl 10
+bfi r0, r2, 2, 1

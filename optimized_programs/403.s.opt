@@ -1,0 +1,5 @@
+eor r3, r2, r1, ror 10
+tst r2, r1
+subeq r3, r1, 0
+bfi r0, r3, 11, 6
+orr r3, r0, 6

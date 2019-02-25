@@ -1,0 +1,3 @@
+cmp r2, 12
+bic r0, r1, r2
+movlt r3, r0, ror 1

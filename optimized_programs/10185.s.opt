@@ -1,0 +1,2 @@
+tst r0, r1
+bicge r3, r3, 1

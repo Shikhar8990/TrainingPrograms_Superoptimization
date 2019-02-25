@@ -1,0 +1,6 @@
+tst r0, #9 
+eorne r1, r1, r0 
+add r2, r2, r1, lsl #8 
+lsl r3, r2, r1 
+and r3, r3, r0, ror #3 
+bfi r1, r3, #1, #3 

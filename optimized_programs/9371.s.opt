@@ -1,0 +1,2 @@
+bic r3, r1, r2
+sub r3, r3, r2, lsr 8

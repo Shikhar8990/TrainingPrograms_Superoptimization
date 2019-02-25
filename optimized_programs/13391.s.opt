@@ -1,0 +1,5 @@
+tst r0, r1
+bicne r1, r3, 3
+biceq r1, r3, r1, lsl 8
+add r0, r1, 12
+mov r3, r0, lsl 6

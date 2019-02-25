@@ -1,0 +1,3 @@
+ubfx r3, r3, 0, 3
+orr r0, r1, r3
+bfi r1, r0, 2, 4

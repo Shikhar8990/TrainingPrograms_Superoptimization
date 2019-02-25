@@ -1,0 +1,2 @@
+bic r1, r2, r0, ror 11
+bfi r2, r1, 0, 1

@@ -1,0 +1,4 @@
+mvn r1, r2
+add r1, r1, r1
+add r1, r1, 9
+lsr r2, r1, r1

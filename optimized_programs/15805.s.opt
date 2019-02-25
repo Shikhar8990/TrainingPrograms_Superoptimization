@@ -1,0 +1,2 @@
+tst r0, r1
+bfige r2, r0, 0, 4

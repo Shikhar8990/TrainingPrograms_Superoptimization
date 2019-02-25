@@ -1,0 +1,4 @@
+tst r1, 8
+bfi r2, r1, 15, 2
+andge r1, r1, r2, ror 15
+bic r3, r2, r1

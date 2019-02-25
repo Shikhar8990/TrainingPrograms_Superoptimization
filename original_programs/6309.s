@@ -1,0 +1,5 @@
+eor r0, r0, r1, asr #10 
+tst r0, r2 
+movne r1, r2 
+mvnne r1, r2 
+and r1, r1, #7 

@@ -1,0 +1,4 @@
+tst r0, 14
+subeq r1, r2, r0, ror 10
+bic r3, r1, r0, ror 32
+orr r2, r3, r1, asr 6

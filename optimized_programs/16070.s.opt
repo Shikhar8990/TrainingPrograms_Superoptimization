@@ -1,0 +1,3 @@
+sub r0, r1, r2
+add r2, r0, 10
+bic r2, r2, 12

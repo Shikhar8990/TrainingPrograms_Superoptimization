@@ -1,0 +1,5 @@
+ror r0, r1, 14
+mvn r3, 12
+eor r3, r3, r0, ror 6
+mvn r1, r0
+orn r3, r1, r3

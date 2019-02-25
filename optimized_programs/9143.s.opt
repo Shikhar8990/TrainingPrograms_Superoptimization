@@ -1,0 +1,4 @@
+mvn r2, r1, lsr 6
+tst r2, 2
+moveq r2, 6
+bic r2, r3, r2

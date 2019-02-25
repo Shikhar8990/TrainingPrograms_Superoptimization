@@ -1,0 +1,4 @@
+tst r0, r1
+eoreq r2, r0, 10
+rsb r0, r2, r2, ror 7
+lsl r1, r0, 6

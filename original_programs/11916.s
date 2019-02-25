@@ -1,0 +1,6 @@
+tst r0, r1 
+mvneq r0, r1 
+mvneq r0, r2 
+tst r0, r1 
+andeq r1, r0, #2 
+orr r0, r2, r1 

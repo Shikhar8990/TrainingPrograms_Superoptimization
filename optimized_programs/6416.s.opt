@@ -1,0 +1,2 @@
+bfi r2, r1, 2, 1
+add r1, r2, r1, asr 5

@@ -1,0 +1,2 @@
+add r2, r1, r3, lsr 9
+lsr r0, r2, 1

@@ -1,0 +1,2 @@
+mvn r2, r1, lsr 7
+asr r1, r2, r0

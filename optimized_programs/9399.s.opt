@@ -1,0 +1,6 @@
+tst r0, r1
+add r2, r2, 6
+addeq r2, r0, 8
+rsb r3, r2, r2, lsl 7
+mvn r1, r3
+lsl r1, r3, r1

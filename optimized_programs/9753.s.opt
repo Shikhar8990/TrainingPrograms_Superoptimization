@@ -1,0 +1,5 @@
+cmp r0, r1
+rsbls r1, r2, 8
+rsbhi r1, r3, r0
+bic r1, r1, r3
+bic r3, r1, 14

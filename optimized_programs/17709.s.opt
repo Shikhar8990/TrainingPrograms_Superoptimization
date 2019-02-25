@@ -1,0 +1,2 @@
+rsb r2, r3, r1, lsr 4
+bic r1, r2, r3

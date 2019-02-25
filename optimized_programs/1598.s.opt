@@ -1,0 +1,7 @@
+cmp r1, r0
+addne r1, r1, 5
+sub r2, r3, r1, lsl 14
+rsb r2, r1, r2
+bic r2, r2, 3
+ror r1, r2, 5
+bic r2, r1, 6

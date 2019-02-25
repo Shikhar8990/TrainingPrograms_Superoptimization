@@ -1,0 +1,4 @@
+sub r1, r1, r2
+add r2, r1, r2
+eor r1, r1, r2, ror 31
+add r3, r1, r2

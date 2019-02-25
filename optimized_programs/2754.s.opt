@@ -1,0 +1,2 @@
+mvn r2, r1, asr 4
+mov r0, r2, ror 6

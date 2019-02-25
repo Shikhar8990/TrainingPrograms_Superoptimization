@@ -1,0 +1,3 @@
+mvn r0, r1
+mov r3, r0, lsl 15
+rsb r3, r3, 11

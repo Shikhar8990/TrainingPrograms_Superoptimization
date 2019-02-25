@@ -1,0 +1,3 @@
+cmp r0, 31
+mvnlt r1, r2
+rorge r2, r3, 0

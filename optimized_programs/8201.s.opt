@@ -1,0 +1,3 @@
+and r0, r1, r0, lsl 10
+rbit r1, r1
+add r2, r0, r1, lsr 31

@@ -1,0 +1,3 @@
+eor r1, r1, r1, lsl 3
+eor r1, r2, r1, lsl 2
+mov r2, r1, asr -2147483425

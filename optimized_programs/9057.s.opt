@@ -1,0 +1,4 @@
+sub r0, r0, 8
+mov r1, r0, lsr 7
+lsr r2, r1, 8
+bfi r1, r2, 2, 1

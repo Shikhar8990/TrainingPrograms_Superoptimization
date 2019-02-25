@@ -1,0 +1,6 @@
+cmp r0, 4
+andhi r0, r1, r0, lsr 10
+bic r0, r2, r0
+cmp r3, 10
+addcs r0, r0, 15
+add r2, r0, r0, lsl 4

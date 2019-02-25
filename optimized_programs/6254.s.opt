@@ -1,0 +1,2 @@
+mov r2, r0, lsl -15910
+eor r0, r2, r3, lsl 8

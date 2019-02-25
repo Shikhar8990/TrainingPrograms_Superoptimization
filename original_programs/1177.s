@@ -1,0 +1,8 @@
+bfi r0, r1, #14, #4 
+eor r0, r0, r2, lsr #6 
+bfi r1, r0, #8, #9 
+mvn r3, r1 
+orr r0, r2, #5 
+mvn r1, r3 
+add r3, r1, r0 
+asr r0, r3, r0 

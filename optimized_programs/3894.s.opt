@@ -1,0 +1,5 @@
+tst r0, r1
+subls r2, r0, 11
+orreq r2, r2, r1, asr 14
+orr r2, r2, 15
+bic r3, r2, 5

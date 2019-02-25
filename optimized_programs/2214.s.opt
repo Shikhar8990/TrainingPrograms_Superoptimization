@@ -1,0 +1,4 @@
+mvn r3, r1, lsr 9
+add r1, r1, r3, lsl 1
+sub r2, r1, 11
+bic r1, r2, 5

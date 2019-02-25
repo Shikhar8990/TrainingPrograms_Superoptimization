@@ -1,0 +1,4 @@
+tst r0, r1
+movne r1, r2
+lsr r1, r1, 4
+bic r1, r1, 1

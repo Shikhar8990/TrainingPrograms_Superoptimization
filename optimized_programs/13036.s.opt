@@ -1,0 +1,4 @@
+sub r2, r3, 5
+tst r3, 4
+rsbge r3, r1, 6
+orr r0, r3, r2

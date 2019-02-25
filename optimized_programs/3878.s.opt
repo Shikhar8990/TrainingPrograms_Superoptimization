@@ -1,0 +1,4 @@
+orr r0, r1, r0, asr 15
+tst r0, r2
+orreq r3, r3, r2
+lsr r1, r3, 26

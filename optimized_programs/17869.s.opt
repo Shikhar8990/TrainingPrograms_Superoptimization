@@ -1,0 +1,3 @@
+and r0, r1, 1
+eor r2, r0, r3, lsl 13
+bic r1, r2, r3

@@ -1,0 +1,6 @@
+rsb r0, r1, r0 
+bic r2, r0, #15 
+ror r3, r1, #3 
+bic r1, r3, #9 
+bic r0, r2, #9 
+lsl r1, r1, r0 

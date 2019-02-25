@@ -1,0 +1,3 @@
+cmp r0, 1
+eorne r0, r1, r2
+orr r3, r0, r2

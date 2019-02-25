@@ -1,0 +1,4 @@
+tst r0, r1
+rsbeq r1, r0, r2
+sub r2, r1, 7
+bfi r0, r2, 2, 2

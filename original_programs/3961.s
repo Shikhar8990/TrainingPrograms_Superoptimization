@@ -1,0 +1,7 @@
+tst r0, r1 
+eoreq r2, r2, r3, lsl #5 
+eoreq r2, r3, #10 
+bfi r0, r3, #1, #2 
+asr r2, r1, r2 
+rsb r3, r2, r3 
+asr r1, r3, r0 

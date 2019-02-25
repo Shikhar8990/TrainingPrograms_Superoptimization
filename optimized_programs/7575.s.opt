@@ -1,0 +1,7 @@
+cmp r0, r1
+addcs r2, r2, 8
+addcc r2, r1, r3, lsr 7
+orr r3, r2, 5
+rsb r1, r3, r2, asr 13
+add r3, r1, 2
+sub r1, r3, r2

@@ -1,0 +1,3 @@
+orr r0, r1, 2
+orr r2, r0, r1, ror 12
+bfi r2, r2, 1, 2

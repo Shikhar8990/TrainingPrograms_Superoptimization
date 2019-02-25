@@ -1,0 +1,5 @@
+tst r0, r1
+eorge r2, r1, 6
+asr r3, r2, 12
+bfi r2, r2, 1, 3
+and r2, r2, r3, lsr 6

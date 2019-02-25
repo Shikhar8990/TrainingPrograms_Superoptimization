@@ -1,0 +1,5 @@
+tst r1, r0
+orrcs r1, r2, 7
+sub r0, r1, 7
+bfi r3, r0, 0, 2
+mov r2, r3

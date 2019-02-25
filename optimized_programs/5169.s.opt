@@ -1,0 +1,5 @@
+cmp r0, r1
+eorhi r0, r1, 9
+cmp r2, r0
+orrcs r2, r1, r0
+lsr r0, r2, 10

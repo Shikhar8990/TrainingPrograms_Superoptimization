@@ -1,0 +1,5 @@
+sub r0, r1, 12
+tst r0, r2
+subcs r2, r3, 1
+rsb r3, r1, r2
+ror r1, r3, 8

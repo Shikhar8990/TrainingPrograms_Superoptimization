@@ -1,0 +1,4 @@
+tst r0, 6
+bicls r3, r3, 1
+mvnne r2, 1
+and r3, r3, r2

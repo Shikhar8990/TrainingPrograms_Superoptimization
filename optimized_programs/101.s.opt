@@ -1,0 +1,5 @@
+tst r0, 11
+mvneq r0, r1
+bfi r0, r0, 7, 6
+sub r2, r0, r1, lsr 13
+orr r2, r2, 8

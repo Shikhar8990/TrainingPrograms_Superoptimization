@@ -1,0 +1,2 @@
+mvn r2, r1, lsr 3
+eor r2, r2, 12

@@ -1,0 +1,3 @@
+tst r2, 1
+rsbne r3, r2, r1
+sub r3, r3, 31

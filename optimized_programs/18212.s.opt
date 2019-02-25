@@ -1,0 +1,2 @@
+eor r0, r1, 6
+sub r0, r2, r0

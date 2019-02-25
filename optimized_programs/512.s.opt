@@ -1,0 +1,5 @@
+cmp r0, r1
+rsbcs r2, r0, 14
+lsl r3, r2, r2
+rsb r3, r3, 3
+orr r3, r3, 15

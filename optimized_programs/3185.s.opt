@@ -1,0 +1,4 @@
+cmp r2, r3
+sub r0, r1, r2
+rsbhi r3, r3, r0, asr 5
+lsl r3, r0, r3

@@ -1,0 +1,6 @@
+orr r2, r2, r1, ror 13
+cmp r1, r2
+movcs r1, r1, ror 13
+bichi r1, r1, 13
+lsl r1, r1, 12
+sub r3, r1, r1, lsl 31

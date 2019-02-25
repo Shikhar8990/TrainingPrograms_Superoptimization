@@ -1,0 +1,3 @@
+cmp r0, 6
+mov r0, r2, lsr 12
+biccc r0, r0, r1, asr 12

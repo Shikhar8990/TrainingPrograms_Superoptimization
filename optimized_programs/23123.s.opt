@@ -1,0 +1,2 @@
+sub r1, r1, r1, lsr 1
+and r3, r1, 31

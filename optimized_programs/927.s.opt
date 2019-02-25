@@ -1,0 +1,4 @@
+bfi r2, r1, 9, 9
+rsb r2, r1, r2
+mvn r2, r2, lsl 1
+rsb r3, r2, 3

@@ -1,0 +1,5 @@
+tst r0, 11
+eorls r0, r0, r0
+and r3, r1, r0
+add r2, r0, r2, lsr 12
+and r1, r2, r3

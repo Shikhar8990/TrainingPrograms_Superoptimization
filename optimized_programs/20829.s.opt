@@ -1,0 +1,2 @@
+sub r2, r1, r2, lsr 31
+bfi r2, r2, 1, 1

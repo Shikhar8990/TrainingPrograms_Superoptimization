@@ -1,0 +1,4 @@
+cmp r0, 6
+movge r1, r2
+and r3, r1, r2
+and r0, r3, 13

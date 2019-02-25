@@ -1,0 +1,4 @@
+cmp r0, 1
+subhi r1, r0, 1
+eor r0, r1, r3
+rsb r0, r0, r0, asr 14

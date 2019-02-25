@@ -1,0 +1,6 @@
+cmp r0, r1
+addne r2, r3, r0, lsl 15
+addeq r2, r2, 1
+mov r3, r0, lsr 15
+add r2, r2, r0, lsr 8
+sub r0, r2, r3, ror 11

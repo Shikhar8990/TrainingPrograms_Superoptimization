@@ -1,0 +1,3 @@
+cmp r0, 13
+rsbge r0, r1, r0
+eor r0, r1, r0

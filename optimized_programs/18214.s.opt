@@ -1,0 +1,3 @@
+and r1, r1, 10
+lsl r0, r1, 15
+sub r0, r0, r1

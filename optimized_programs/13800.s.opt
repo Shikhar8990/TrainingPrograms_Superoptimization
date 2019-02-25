@@ -1,0 +1,4 @@
+bic r3, r2, r1
+bic r4, r3, 2
+add r0, r4, r4
+bfi r1, r0, 1, 3

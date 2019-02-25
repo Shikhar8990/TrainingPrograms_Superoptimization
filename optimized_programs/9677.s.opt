@@ -1,0 +1,5 @@
+tst r1, 13
+orrne r1, r2, 13
+mvn r2, r1
+lsr r1, r2, 8
+mov r3, r1

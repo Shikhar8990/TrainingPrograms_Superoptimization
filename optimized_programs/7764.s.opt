@@ -1,0 +1,5 @@
+mvn r0, r1
+mov r1, r2
+tst r1, 15
+lsl r2, r1, 8
+movge r2, r0, lsl 8

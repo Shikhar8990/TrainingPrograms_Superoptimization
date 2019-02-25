@@ -1,0 +1,5 @@
+bfi r0, r0, #0, #4 
+cmp r1, #7 
+andne r2, r0, #15 
+bfi r3, r0, #1, #2 
+add r3, r2, r3 

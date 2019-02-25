@@ -1,0 +1,2 @@
+orr r1, r1, r0, lsl 15
+ror r0, r1, 15

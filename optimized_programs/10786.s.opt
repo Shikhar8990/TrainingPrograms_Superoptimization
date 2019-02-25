@@ -1,0 +1,5 @@
+mov r1, 7
+cmp r0, 7
+movcs r1, 12
+add r2, r1, 12
+add r1, r2, r2, lsl 2

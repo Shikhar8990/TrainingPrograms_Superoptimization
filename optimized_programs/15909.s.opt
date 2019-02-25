@@ -1,0 +1,3 @@
+cmp r0, r1
+bicge r1, r1, 9
+biclt r1, r1, r3

@@ -1,0 +1,5 @@
+tst r0, r1
+andne r1, r0, 9
+andge r1, r1, 9
+lsl r3, r1, r1
+add r1, r3, 11

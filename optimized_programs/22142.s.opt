@@ -1,0 +1,4 @@
+add r2, r1, r3
+mvn r1, r1
+sub r2, r2, r1
+mov r3, r2

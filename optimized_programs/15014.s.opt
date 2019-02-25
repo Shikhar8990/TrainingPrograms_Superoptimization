@@ -1,0 +1,2 @@
+mov r0, r1, lsl 15
+orr r2, r0, 28

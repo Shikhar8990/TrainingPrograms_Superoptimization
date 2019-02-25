@@ -1,0 +1,3 @@
+lsr r0, r1, r1 
+orr r0, r0, #11 
+orr r0, r0, #11 

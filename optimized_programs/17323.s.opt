@@ -1,0 +1,3 @@
+rsb r0, r0, r0, lsl 1
+mvneq r1, r2
+lsl r1, r0, r1

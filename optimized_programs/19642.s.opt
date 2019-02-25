@@ -1,0 +1,3 @@
+tst r1, 31
+mvneq r2, r3
+asr r0, r2, 31

@@ -1,0 +1,5 @@
+and r0, r0, 10
+mvn r1, r0
+cmp r2, r0
+andlt r3, r1, r1, ror 9
+orr r3, r3, 1

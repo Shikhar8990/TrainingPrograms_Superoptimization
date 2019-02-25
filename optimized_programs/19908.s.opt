@@ -1,0 +1,5 @@
+and r1, r0, r1
+tst r0, 1
+andcs r1, r2, r3, ror 1
+bfi r1, r1, 1, 2
+rsb r3, r1, r3

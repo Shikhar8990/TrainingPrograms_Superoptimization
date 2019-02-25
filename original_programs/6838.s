@@ -1,0 +1,6 @@
+and r0, r1, r2, ror #5 
+cmp r3, r0 
+subls r2, r2, r1, lsl #12 
+rsb r1, r1, r2 
+eor r2, r1, #2 
+orr r2, r2, #15 

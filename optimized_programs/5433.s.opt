@@ -1,0 +1,3 @@
+cmp r1, 11
+rsbge r3, r1, r1, lsl 12
+lsl r0, r3, 3

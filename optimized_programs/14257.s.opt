@@ -1,0 +1,3 @@
+cmp r2, r1
+movge r1, r2, lsl 8
+bic r2, r1, r2

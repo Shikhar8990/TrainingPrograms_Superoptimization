@@ -1,0 +1,2 @@
+bic r0, r0, r1, lsr 31
+mvn r2, r0

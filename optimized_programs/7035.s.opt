@@ -1,0 +1,5 @@
+cmp r0, r1
+andlt r0, r0, 9
+lsl r2, r2, 3
+rsb r0, r2, r0
+mvn r0, r0, ror 8388767

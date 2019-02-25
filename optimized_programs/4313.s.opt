@@ -1,0 +1,6 @@
+sub r0, r1, r2
+orr r0, r0, 6
+bfi r1, r2, 0, 2
+bic r1, r0, r1
+rsb r3, r0, r1, ror 15
+bfi r1, r3, 0, 1

@@ -1,0 +1,4 @@
+sub r2, r2, r3
+and r1, r2, 1
+lsl r2, r1, 1
+bfi r3, r2, 1, 1

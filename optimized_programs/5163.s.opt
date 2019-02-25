@@ -1,0 +1,5 @@
+rsb r0, r0, r1
+cmp r0, r1
+addls r1, r0, 2
+addhi r1, r1, r2
+lsr r2, r1, r2

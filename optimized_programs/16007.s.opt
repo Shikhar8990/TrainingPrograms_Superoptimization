@@ -1,0 +1,4 @@
+orr r1, r3, r1, ror 12
+cmp r3, r1
+rsbcc r1, r3, r1
+mvn r0, r1

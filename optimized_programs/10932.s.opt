@@ -1,0 +1,5 @@
+cmp r0, 2
+moveq r0, 11
+movne r0, 7
+rsb r1, r2, r0, lsr 11
+bic r0, r0, r1

@@ -1,0 +1,3 @@
+cmp r0, r1
+add r2, r0, r3, lsr 1
+addeq r2, r3, r3, lsr 1

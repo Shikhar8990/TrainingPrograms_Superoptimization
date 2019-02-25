@@ -1,0 +1,5 @@
+cmp r0, r1
+movcs r2, r3, ror 3
+mvn r1, r3
+add r0, r2, r2, lsr 12
+orr r1, r1, r0, lsr 1

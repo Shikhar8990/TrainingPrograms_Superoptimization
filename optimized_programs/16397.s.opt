@@ -1,0 +1,2 @@
+tst r0, 10
+mvneq r1, r0

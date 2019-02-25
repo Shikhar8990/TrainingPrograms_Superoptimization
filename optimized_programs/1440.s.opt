@@ -1,0 +1,5 @@
+bfi r2, r1, 3, 4
+sub r3, r2, 12
+mov r1, r2, lsl 4
+eor r2, r1, 8
+lsr r2, r2, r3

@@ -1,0 +1,7 @@
+tst r0, 10
+andge r0, r1, r0
+lsr r2, r0, 11
+mvn r1, r2
+lsl r0, r1, r3
+bfi r2, r3, 11, 4
+orn r2, r0, r2

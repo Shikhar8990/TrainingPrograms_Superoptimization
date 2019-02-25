@@ -1,0 +1,4 @@
+cmp r1, 0
+addhi r2, r1, r2, asr 3
+eor r0, r2, r3
+bic r1, r0, 13

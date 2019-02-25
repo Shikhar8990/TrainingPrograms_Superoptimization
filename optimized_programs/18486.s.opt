@@ -1,0 +1,5 @@
+and r1, r1, r1, asr 31
+mvn r3, r1
+bic r0, r2, r3
+lsr r3, r0, 31
+bic r0, r3, r0

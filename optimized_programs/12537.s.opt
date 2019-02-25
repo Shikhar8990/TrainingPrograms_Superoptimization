@@ -1,0 +1,4 @@
+tst r0, r1
+rsbls r2, r2, 8
+rsb r3, r2, 5
+rsb r3, r1, r3, lsl 1

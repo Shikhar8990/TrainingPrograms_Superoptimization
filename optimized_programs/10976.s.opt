@@ -1,0 +1,3 @@
+tst r0, 15
+bicge r3, r2, r3
+bicne r3, r0, r3

@@ -1,0 +1,6 @@
+tst r0, r1
+rsb r1, r0, 5
+mvnne r2, r3
+bic r2, r2, r1
+and r2, r1, r2, lsl 12
+rsb r0, r2, 15

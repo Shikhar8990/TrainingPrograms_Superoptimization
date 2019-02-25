@@ -1,0 +1,4 @@
+and r2, r1, 7
+orr r1, r2, r1, ror 9
+bfi r1, r1, 14, 9
+mvn r0, r1, ror 2

@@ -1,0 +1,5 @@
+cmp r0, r1
+rsbne r1, r2, r0
+rsbls r1, r0, 3
+asr r3, r1, 6
+orr r2, r3, 2

@@ -1,0 +1,6 @@
+tst r0, r1
+rsbne r1, r0, 1
+lsr r0, r2, r3
+tst r0, 6
+andne r1, r1, r3
+add r1, r1, r1, lsl 1

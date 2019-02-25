@@ -1,0 +1,6 @@
+and r0, r0, #5 
+orr r1, r2, r0 
+eor r1, r1, r0, asr #2 
+bfi r2, r1, #1, #2 
+bfi r2, r2, #2, #1 
+bfi r1, r2, #2, #2 

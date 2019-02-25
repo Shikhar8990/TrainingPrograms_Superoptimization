@@ -1,0 +1,6 @@
+bic r2, r2, 4
+cmp r0, r1
+subhi r1, r1, 14
+tst r1, 4
+mvn r3, r2
+orreq r3, r1, 4

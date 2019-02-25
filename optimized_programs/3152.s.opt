@@ -1,0 +1,3 @@
+sub r0, r1, 4
+mvn r1, r3, asr 7
+orr r1, r1, r0, asr 10

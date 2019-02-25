@@ -1,0 +1,4 @@
+bic r0, r0, r1
+tst r2, r0
+eorne r3, r2, 11
+eor r1, r3, r3, lsl 8

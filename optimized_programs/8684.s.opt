@@ -1,0 +1,4 @@
+mvn r2, r1, lsl 1
+mvn r0, r2, asr 14
+bfi r0, r1, 0, 1
+bic r1, r0, 4

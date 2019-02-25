@@ -1,0 +1,5 @@
+cmp r0, r1
+addls r2, r0, r2
+lsr r1, r2, 14
+add r3, r1, 14
+bfi r1, r3, 13, 8

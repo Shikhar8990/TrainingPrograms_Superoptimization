@@ -1,0 +1,4 @@
+tst r0, r1
+movne r0, 13
+eor r2, r3, r0, lsl 3
+eor r1, r2, r2, lsl 1

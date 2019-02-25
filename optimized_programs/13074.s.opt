@@ -1,0 +1,3 @@
+and r1, r1, 13
+and r2, r1, r2, asr 7
+bfi r1, r2, 2, 1

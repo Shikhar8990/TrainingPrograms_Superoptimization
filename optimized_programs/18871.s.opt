@@ -1,0 +1,4 @@
+tst r0, 31
+movne r1, r2
+movls r2, 7
+orr r0, r2, 31

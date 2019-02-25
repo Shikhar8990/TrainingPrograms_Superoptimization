@@ -1,0 +1,6 @@
+tst r0, r1 
+subne r0, r0, r1, asr #8 
+rsb r1, r0, r2, lsl #5 
+bfi r2, r1, #0, #2 
+add r1, r1, r2, lsr #5 
+lsr r2, r1, #5 

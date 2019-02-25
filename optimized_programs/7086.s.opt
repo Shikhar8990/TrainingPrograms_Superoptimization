@@ -1,0 +1,5 @@
+mvn r2, r1
+cmp r0, r1
+mvncs r2, r0
+rsb r1, r2, r2, lsr 11
+mvn r2, r1

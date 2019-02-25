@@ -1,0 +1,2 @@
+eor r0, r1, 1
+and r3, r1, r0, lsl 13

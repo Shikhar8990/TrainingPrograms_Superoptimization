@@ -1,0 +1,6 @@
+tst r0, r1 
+movne r2, r1 
+movne r2, r3 
+cmp r3, r2 
+movne r0, r3 
+bic r1, r0, #2 

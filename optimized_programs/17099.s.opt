@@ -1,0 +1,4 @@
+mvn r1, r2
+tst r0, 2
+mvnls r1, r3
+bic r3, r1, r0

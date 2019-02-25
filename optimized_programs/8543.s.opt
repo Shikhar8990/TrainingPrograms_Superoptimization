@@ -1,0 +1,3 @@
+tst r0, r1
+rsbge r2, r0, r2
+rsbne r2, r2, r0

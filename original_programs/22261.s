@@ -1,0 +1,5 @@
+mov r0, r1 
+sub r0, r2, r0 
+sub r1, r2, r0, ror #31 
+rsb r3, r1, #1 
+add r2, r3, r3, lsl #31 

@@ -1,0 +1,7 @@
+bfi r0, r1, #2, #1 
+cmp r2, r0 
+eoreq r2, r0, r3 
+bfi r0, r3, #1, #2 
+add r2, r2, r0 
+orr r0, r0, r2, ror #13 
+mov r1, r0 

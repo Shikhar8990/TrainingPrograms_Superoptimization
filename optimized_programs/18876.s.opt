@@ -1,0 +1,3 @@
+clz r2, r2
+lsl r1, r2, 1
+and r3, r1, 1

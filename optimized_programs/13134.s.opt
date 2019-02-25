@@ -1,0 +1,3 @@
+tst r1, 30720
+addne r2, r3, r2
+mov r0, r2

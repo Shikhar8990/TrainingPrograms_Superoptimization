@@ -1,0 +1,2 @@
+sub r1, r3, r1, lsl 9
+mov r1, r1, asr 4

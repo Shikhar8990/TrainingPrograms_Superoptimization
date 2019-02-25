@@ -1,0 +1,3 @@
+rsb r0, r1, 1
+mvn r1, r0, asr 9
+mvn r2, r1

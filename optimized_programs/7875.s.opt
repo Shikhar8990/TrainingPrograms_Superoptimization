@@ -1,0 +1,5 @@
+tst r0, r1
+and r2, r3, 5
+andge r2, r1, r3, asr 1
+sub r2, r2, 8
+add r2, r2, r2

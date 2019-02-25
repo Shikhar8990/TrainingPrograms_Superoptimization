@@ -1,0 +1,3 @@
+tst r2, r1
+ornne r3, r2, r1
+bfi r3, r3, 1, 3

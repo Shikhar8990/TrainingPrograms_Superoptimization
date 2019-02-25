@@ -1,0 +1,2 @@
+cmp r0, r1
+addcc r2, r1, r1, ror 15

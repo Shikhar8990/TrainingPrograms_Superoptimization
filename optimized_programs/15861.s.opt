@@ -1,0 +1,4 @@
+tst r0, r1
+rsbge r1, r2, 2
+mvn r2, r1
+and r3, r1, r2, lsl 14

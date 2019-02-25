@@ -1,0 +1,2 @@
+bic r1, r2, r1
+add r2, r1, r1, asr 12

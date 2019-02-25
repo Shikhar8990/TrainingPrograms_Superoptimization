@@ -1,0 +1,2 @@
+tst r0, 7
+movne r1, r0

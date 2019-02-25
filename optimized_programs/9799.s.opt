@@ -1,0 +1,4 @@
+tst r0, r1
+subls r0, r2, 5
+lsr r1, r0, 3
+bfi r2, r1, 2, 1

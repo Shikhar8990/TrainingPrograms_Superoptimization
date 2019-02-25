@@ -1,0 +1,3 @@
+cmp r0, r1
+mvnlt r2, r0
+ubfx r1, r2, 0, 1

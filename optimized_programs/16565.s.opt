@@ -1,0 +1,2 @@
+lsr r0, r1, 6
+orr r2, r0, r2, asr 12

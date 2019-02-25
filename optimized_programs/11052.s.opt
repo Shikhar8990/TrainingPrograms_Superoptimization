@@ -1,0 +1,4 @@
+sub r0, r0, 14
+and r1, r0, r2
+bic r0, r2, r3
+add r1, r0, r1, lsl 14

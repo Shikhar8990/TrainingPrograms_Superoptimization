@@ -1,0 +1,4 @@
+bic r0, r0, r1
+and r1, r0, r2
+orn r1, r1, r2, ror 14
+sub r1, r1, 6

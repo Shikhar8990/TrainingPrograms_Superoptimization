@@ -1,0 +1,3 @@
+tst r2, r3
+mvnls r1, r2
+eor r1, r1, 6

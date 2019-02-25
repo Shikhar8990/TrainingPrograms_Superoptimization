@@ -1,0 +1,4 @@
+mov r3, r2, lsl 9
+sub r1, r1, r2, lsr 8
+sub r1, r0, r0, ror 8
+lsr r0, r2, r3

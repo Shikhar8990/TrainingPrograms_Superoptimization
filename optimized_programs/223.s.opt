@@ -1,0 +1,5 @@
+cmp r0, r1
+rsbcc r2, r0, r1
+bic r0, r2, 11
+add r1, r0, r1, lsr 4
+lsr r1, r1, 4

@@ -1,0 +1,5 @@
+tst r0, r1
+bicne r0, r2, 0
+eoreq r0, r1, r2
+mvn r2, r0
+bic r3, r2, 3

@@ -1,0 +1,5 @@
+cmp r0, 31
+movlt r1, r0, ror 31
+mvnne r0, r1, asr 31
+mov r2, r1, ror 1
+mov r1, r2

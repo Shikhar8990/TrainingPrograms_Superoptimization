@@ -1,0 +1,3 @@
+tst r0, 1
+subge r0, r1, r2
+add r1, r0, r2, asr 31

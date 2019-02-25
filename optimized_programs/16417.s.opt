@@ -1,0 +1,4 @@
+tst r0, 7
+mvnne r1, r2
+orn r2, r3, r2
+sub r1, r2, r0

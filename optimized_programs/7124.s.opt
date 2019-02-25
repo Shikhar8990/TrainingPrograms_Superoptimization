@@ -1,0 +1,5 @@
+rsb r0, r1, r2
+sub r2, r0, r3
+orr r1, r3, 11
+bic r2, r2, 13
+sub r3, r1, r2, lsl 11

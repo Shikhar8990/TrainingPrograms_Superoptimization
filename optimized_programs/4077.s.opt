@@ -1,0 +1,5 @@
+tst r0, 10
+rsbne r1, r1, r2, asr 1
+addeq r1, r1, r3, lsr 10
+orn r2, r1, r2
+eor r2, r2, r1, asr 4

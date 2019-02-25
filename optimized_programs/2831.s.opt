@@ -1,0 +1,4 @@
+tst r1, r1
+movne r2, r3
+sub r0, r2, r3, lsr 8
+lsl r0, r0, 4

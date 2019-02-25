@@ -1,0 +1,6 @@
+rsb r0, r1, 9
+add r1, r0, r2
+rsb r3, r3, r1
+lsr r3, r1, r3
+lsl r3, r3, r1
+bfi r3, r3, 9, 15

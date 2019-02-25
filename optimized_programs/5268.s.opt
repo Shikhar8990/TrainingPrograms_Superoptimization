@@ -1,0 +1,5 @@
+rsb r0, r1, r0
+bic r0, r1, r0
+sub r2, r0, r1, lsl 3
+rsb r1, r2, 7
+eor r3, r1, r0

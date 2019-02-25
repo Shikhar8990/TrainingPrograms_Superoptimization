@@ -1,0 +1,6 @@
+tst r0, r1
+rsbge r2, r0, r2
+rsbne r2, r3, r2, lsr 12
+bic r1, r2, 8
+rsb r0, r1, 1
+bfi r0, r2, 0, 1

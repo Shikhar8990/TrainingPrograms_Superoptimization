@@ -1,0 +1,4 @@
+cmp r0, r1
+rsbeq r1, r2, r0, lsl 9
+orr r3, r1, r2, lsr 4
+orr r2, r3, 6

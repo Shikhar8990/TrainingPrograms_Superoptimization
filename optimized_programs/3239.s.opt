@@ -1,0 +1,2 @@
+tst r0, 3
+addeq r1, r2, r1, ror 13

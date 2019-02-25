@@ -1,0 +1,3 @@
+mvn r1, r2
+eor r1, r2, r1, asr 31
+bfi r3, r1, 1, 1

@@ -1,0 +1,4 @@
+orr r1, r2, r1, asr 2
+bic r2, r1, 11
+bic r3, r2, 14
+lsl r2, r3, 4

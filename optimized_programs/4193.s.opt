@@ -1,0 +1,6 @@
+mvn r0, r1
+bic r2, r1, 3
+rsb r2, r2, r0, lsr 7
+bfi r3, r2, 0, 4
+eor r1, r3, 4
+lsl r3, r1, 7

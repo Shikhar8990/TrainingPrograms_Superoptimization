@@ -1,0 +1,4 @@
+sub r0, r0, r1, ror 10
+tst r2, 1
+andeq r2, r0, 7
+rsb r0, r2, 12

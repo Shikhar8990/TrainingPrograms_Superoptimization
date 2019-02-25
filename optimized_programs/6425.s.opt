@@ -1,0 +1,5 @@
+sub r0, r1, 2
+cmp r2, r3
+eorge r1, r0, r2
+eorlt r1, r0, r1, lsl 5
+bic r0, r1, 10

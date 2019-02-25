@@ -1,0 +1,7 @@
+tst r0, r1
+mvnls r0, r2
+and r2, r0, r2
+eor r1, r2, 12
+orr r2, r1, 6
+bfi r2, r2, 4, 1
+bfi r2, r2, 9, 8

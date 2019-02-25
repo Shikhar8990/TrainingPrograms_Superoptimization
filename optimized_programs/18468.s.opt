@@ -1,0 +1,3 @@
+and r0, r1, r2
+tst r0, 31
+rorne r3, r2, 0

@@ -1,0 +1,2 @@
+ubfx r0, r0, 0, 3
+eor r2, r0, r1

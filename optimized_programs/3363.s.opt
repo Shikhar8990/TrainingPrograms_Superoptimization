@@ -1,0 +1,2 @@
+and r1, r2, r0, lsl 14
+orr r3, r2, r1, lsl 10

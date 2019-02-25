@@ -1,0 +1,4 @@
+rsb r0, r1, r2, lsr 11
+lsl r1, r1, r3
+orn r2, r0, r1
+bfi r2, r2, 2, 1

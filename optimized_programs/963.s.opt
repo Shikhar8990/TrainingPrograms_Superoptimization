@@ -1,0 +1,3 @@
+add r3, r2, 249
+lsl r0, r0, 12
+lsr r0, r0, r3

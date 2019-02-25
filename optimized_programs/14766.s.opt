@@ -1,0 +1,4 @@
+tst r0, 5
+movls r1, r2, asr 6
+bfi r2, r1, 2, 2
+bic r1, r2, r1

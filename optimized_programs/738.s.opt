@@ -1,0 +1,4 @@
+sub r0, r0, r1, ror 13
+bfi r0, r0, 5, 7
+rsb r0, r0, r2, lsr 6
+add r2, r2, r0, asr 5

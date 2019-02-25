@@ -1,0 +1,4 @@
+tst r0, r1
+orrne r0, r1, r2
+bicne r1, r3, r0
+rsbge r1, r0, r0

@@ -1,0 +1,2 @@
+tst r0, r1
+rsbcs r0, r1, 14

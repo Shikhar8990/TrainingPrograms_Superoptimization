@@ -1,0 +1,4 @@
+bfi r2, r1, 1, 1
+tst r1, r2
+orreq r2, r2, r1
+sub r1, r2, r1

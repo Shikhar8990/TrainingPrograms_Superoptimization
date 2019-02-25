@@ -1,0 +1,3 @@
+tst r0, r1
+and r2, r1, r1, lsl 31
+movcs r2, r2, lsl 3

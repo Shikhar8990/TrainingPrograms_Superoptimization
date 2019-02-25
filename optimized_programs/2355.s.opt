@@ -1,0 +1,5 @@
+tst r0, r1
+mvn r2, r1
+andls r1, r1, 0
+lsl r1, r1, r2
+and r2, r1, r2, lsr 9

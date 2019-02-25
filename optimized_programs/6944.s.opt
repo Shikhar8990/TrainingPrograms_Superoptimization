@@ -1,0 +1,4 @@
+eor r0, r1, r0, lsr 6
+and r2, r2, r0, lsl 9
+sub r0, r2, r1, ror 6
+bfi r2, r0, 2, 1

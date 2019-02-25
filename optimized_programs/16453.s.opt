@@ -1,0 +1,4 @@
+cmp r0, r1
+bfics r3, r3, 1, 1
+bfi r3, r3, 0, 2
+orr r3, r3, 10

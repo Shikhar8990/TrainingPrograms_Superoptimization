@@ -1,0 +1,4 @@
+tst r0, 5
+rsbne r1, r2, r1
+bic r2, r1, 2
+sub r2, r2, 13

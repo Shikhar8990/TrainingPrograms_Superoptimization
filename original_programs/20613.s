@@ -1,0 +1,5 @@
+tst r0, #0 
+rsbeq r1, r2, r3, asr #1 
+add r1, r2, r1, asr #31 
+sub r1, r1, r0 
+sub r2, r1, r2, asr #31 

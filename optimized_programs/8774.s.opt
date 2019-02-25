@@ -1,0 +1,4 @@
+cmp r0, r1
+andhi r0, r1, r2
+andls r0, r1, r2, asr 12
+ror r2, r0, r0

@@ -1,0 +1,4 @@
+tst r0, 9
+andeq r1, r1, r2
+lsr r0, r1, r1
+rsb r1, r0, r1, lsl 1

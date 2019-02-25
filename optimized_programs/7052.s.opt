@@ -1,0 +1,6 @@
+tst r1, r0
+movne r2, r0
+bfi r0, r2, 1, 2
+mvn r1, r0
+lsr r3, r1, 4
+bfi r1, r3, 2, 1

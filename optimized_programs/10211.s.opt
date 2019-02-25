@@ -1,0 +1,5 @@
+mvn r2, r1
+cmp r2, r1
+eor r0, r2, r2, lsr 5
+eorlt r0, r2, r3, lsl 2
+bic r2, r0, 2

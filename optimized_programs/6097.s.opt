@@ -1,0 +1,4 @@
+tst r0, 6
+addge r1, r1, r1
+rsb r3, r1, r1, lsl 7
+add r2, r3, 4

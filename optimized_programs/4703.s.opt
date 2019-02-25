@@ -1,0 +1,4 @@
+cmp r0, r1
+addcs r2, r2, r1, lsl 2
+orr r0, r2, r2, lsl 8
+orr r1, r0, 13

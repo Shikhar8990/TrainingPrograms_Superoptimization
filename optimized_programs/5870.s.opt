@@ -1,0 +1,6 @@
+add r0, r2, 7
+rsb r0, r1, r0
+and r1, r0, r2, lsr 31
+cmp r0, 11
+orrcc r3, r1, 13
+lsl r3, r3, 14

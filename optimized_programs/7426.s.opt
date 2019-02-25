@@ -1,0 +1,4 @@
+bic r2, r1, 1
+bic r2, r2, r1, lsl 7
+rsb r2, r2, r1, lsl 7
+add r1, r2, r2

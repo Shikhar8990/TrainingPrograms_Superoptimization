@@ -1,0 +1,6 @@
+bfi r3, r3, 1, 1
+tst r1, r0
+subne r0, r2, r0, lsr 15
+cmp r2, 11
+andcs r3, r1, r3, lsr 3
+rsb r2, r0, r3

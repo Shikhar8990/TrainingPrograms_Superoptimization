@@ -1,0 +1,6 @@
+tst r0, #10 
+moveq r1, r2 
+bfi r2, r1, #2, #2 
+bfi r2, r2, #1, #2 
+bic r2, r2, #6 
+eor r1, r2, #1 

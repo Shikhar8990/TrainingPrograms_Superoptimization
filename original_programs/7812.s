@@ -1,0 +1,6 @@
+sub r0, r1, r2 
+cmp r1, r0 
+orrcs r3, r1, r0, lsr #12 
+bic r1, r2, r3 
+add r1, r1, #8 
+bfi r0, r1, #0, #2 

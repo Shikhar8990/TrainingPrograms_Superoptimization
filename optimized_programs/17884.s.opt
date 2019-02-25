@@ -1,0 +1,3 @@
+sub r0, r1, r0, asr 12
+add r2, r2, r2, lsl 1
+lsl r1, r2, r0

@@ -1,0 +1,5 @@
+sub r1, r0, r2, ror 9
+orr r3, r3, 15
+tst r0, 13
+bic r1, r3, r1
+andge r1, r0, r3

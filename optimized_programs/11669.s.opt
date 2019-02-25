@@ -1,0 +1,4 @@
+and r0, r1, r0, lsl 3
+and r0, r1, r0, asr 2
+sub r2, r0, r2, asr 9
+rsb r3, r1, r2, lsl 2

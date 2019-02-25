@@ -1,0 +1,4 @@
+asr r0, r1, 7
+rsb r1, r3, 13
+rsb r3, r1, r0
+bfi r1, r3, 1, 2

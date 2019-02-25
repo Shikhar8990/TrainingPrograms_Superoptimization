@@ -1,0 +1,4 @@
+cmp r2, r3
+bichi r2, r1, r2
+movcc r2, r3
+asr r0, r2, 14

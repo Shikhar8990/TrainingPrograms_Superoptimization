@@ -1,0 +1,2 @@
+sub r2, r1, 14
+mov r2, r2, ror 7

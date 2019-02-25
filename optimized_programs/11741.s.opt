@@ -1,0 +1,3 @@
+mvn r2, r1, lsr 4
+and r2, r0, r2, lsl 4
+rsb r2, r2, 2

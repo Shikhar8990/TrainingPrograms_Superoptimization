@@ -1,0 +1,6 @@
+cmp r0, r1 
+andge r1, r0, r1, ror #13 
+ror r1, r1, r0 
+and r1, r1, r2, asr #1 
+and r2, r1, r0 
+and r1, r2, r0 

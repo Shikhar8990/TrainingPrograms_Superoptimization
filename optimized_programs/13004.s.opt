@@ -1,0 +1,4 @@
+cmp r0, r1
+orreq r2, r3, 1
+bic r3, r2, r3
+add r3, r3, 10

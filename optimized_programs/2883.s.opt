@@ -1,0 +1,3 @@
+cmp r0, 11
+andhi r0, r1, r0, lsr 4
+bfi r0, r0, 2, 2

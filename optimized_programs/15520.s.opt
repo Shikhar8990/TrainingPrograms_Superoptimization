@@ -1,0 +1,4 @@
+mvn r0, r1
+orr r0, r0, r2, ror 8
+bfc r0, 2, 2
+bic r1, r0, r2

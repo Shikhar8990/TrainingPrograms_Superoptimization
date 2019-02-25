@@ -1,0 +1,5 @@
+and r3, r2, 9
+orn r3, r3, r1, asr 8
+rsb r2, r3, 11
+bic r1, r1, r2
+bfi r1, r1, 2, 1

@@ -1,0 +1,4 @@
+orn r0, r2, r2, ror 3
+bic r1, r1, r0
+add r2, r1, r2
+bfi r3, r2, 2, 1

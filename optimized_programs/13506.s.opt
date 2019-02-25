@@ -1,0 +1,3 @@
+tst r0, r1
+movls r2, 8
+bic r0, r3, r2

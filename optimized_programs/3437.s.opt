@@ -1,0 +1,3 @@
+cmp r0, 11
+addlt r1, r1, 6
+add r0, r1, r1, lsl 3

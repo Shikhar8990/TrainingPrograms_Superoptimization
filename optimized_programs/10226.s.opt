@@ -1,0 +1,5 @@
+mvn r1, r1, ror 1
+add r2, r1, 8
+tst r2, r2
+mvnls r3, r1, lsl 31
+sub r0, r3, r2, lsl 4

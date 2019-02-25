@@ -1,0 +1,4 @@
+tst r0, r1
+mvneq r1, r2
+rsb r2, r1, r3, ror 32
+and r1, r2, 1

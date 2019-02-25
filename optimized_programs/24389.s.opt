@@ -1,0 +1,2 @@
+rsb r2, r1, r1, lsr 31
+mvn r2, r2

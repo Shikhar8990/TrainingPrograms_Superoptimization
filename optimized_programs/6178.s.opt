@@ -1,0 +1,4 @@
+bic r1, r1, 12
+cmp r1, r2
+biccs r1, r2, r3
+orn r0, r3, r1

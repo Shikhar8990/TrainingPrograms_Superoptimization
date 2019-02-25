@@ -1,0 +1,5 @@
+cmp r0, r1
+mvncc r0, r2
+add r0, r1, r0, lsl 6
+ror r3, r0, 9
+ror r1, r3, r3

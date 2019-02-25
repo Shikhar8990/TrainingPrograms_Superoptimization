@@ -1,0 +1,4 @@
+tst r0, 12
+movge r1, r2
+mvn r2, r3
+eor r2, r1, r2

@@ -1,0 +1,4 @@
+tst r0, r1
+bicne r1, r2, r2, lsl 24
+bfi r2, r1, 11, 15
+eor r0, r2, 10

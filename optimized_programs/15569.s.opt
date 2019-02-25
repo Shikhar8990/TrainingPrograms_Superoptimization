@@ -1,0 +1,4 @@
+rsb r0, r0, r1, lsl 7
+mvn r2, r1
+cmp r2, r3
+biceq r1, r1, r0

@@ -1,0 +1,6 @@
+bic r0, r1, r0
+bfi r0, r0, 7, 15
+mov r1, r0
+orr r2, r1, 13312
+lsl r0, r2, 12
+and r2, r0, r1, lsl 15

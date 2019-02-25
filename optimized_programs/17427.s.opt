@@ -1,0 +1,2 @@
+mov r1, r0, ror 10
+sub r1, r2, r1, ror 5

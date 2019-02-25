@@ -1,0 +1,3 @@
+add r0, r1, r2, lsl 14
+sub r3, r1, r0, lsr 15
+rsb r2, r3, 3

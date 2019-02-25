@@ -1,0 +1,2 @@
+bic r1, r2, r1, ror 15
+add r2, r1, r3, asr 7

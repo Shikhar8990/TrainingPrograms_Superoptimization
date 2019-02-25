@@ -1,0 +1,5 @@
+orn r0, r2, r1
+sub r1, r0, r2
+and r3, r1, r2, lsl 6
+add r1, r1, r3
+bic r3, r1, r0

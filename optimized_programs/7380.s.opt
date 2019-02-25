@@ -1,0 +1,4 @@
+bfi r2, r2, 2, 2
+mvn r0, r2, ror 7
+add r1, r0, r1, lsr 6
+orr r2, r1, 5

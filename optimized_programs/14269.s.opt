@@ -1,0 +1,5 @@
+orr r1, r2, 3
+rsb r1, r1, r2
+tst r0, 8
+addge r0, r0, r0, asr 14
+orr r3, r1, r0, asr 8

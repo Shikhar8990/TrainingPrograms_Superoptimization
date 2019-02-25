@@ -1,0 +1,4 @@
+cmp r0, 12
+mvncs r2, r1
+sub r2, r2, 4
+sub r1, r0, r2, asr 13

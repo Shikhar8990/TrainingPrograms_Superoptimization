@@ -1,0 +1,3 @@
+ror r3, r3, 3
+orr r2, r1, r0, lsr 9
+lsl r0, r3, r2

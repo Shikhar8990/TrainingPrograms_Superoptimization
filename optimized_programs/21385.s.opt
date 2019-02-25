@@ -1,0 +1,3 @@
+cmp r1, r2
+rsbls r2, r1, r1, lsl 31
+and r2, r2, r3

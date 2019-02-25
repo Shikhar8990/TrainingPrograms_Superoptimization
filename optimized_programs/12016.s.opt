@@ -1,0 +1,5 @@
+tst r0, r1
+moveq r2, 1
+movne r2, 14
+bic r3, r2, r3
+orr r3, r3, 1

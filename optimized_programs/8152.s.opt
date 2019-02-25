@@ -1,0 +1,4 @@
+sub r3, r1, 15
+mvn r1, r3, ror 7
+ror r3, r1, r3
+ror r1, r3, 4

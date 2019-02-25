@@ -1,0 +1,2 @@
+bic r0, r1, r0
+orn r1, r2, r0, lsr 12

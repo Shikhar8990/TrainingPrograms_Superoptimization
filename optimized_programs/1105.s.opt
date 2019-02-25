@@ -1,0 +1,6 @@
+cmp r0, r1
+rsbeq r2, r0, r1, ror 11
+asr r3, r0, 7
+sub r1, r3, r1, ror 8
+bfi r2, r0, 14, 10
+bfi r2, r1, 13, 9

@@ -1,0 +1,5 @@
+tst r0, r1
+orrne r1, r0, r2
+orrcs r1, r2, 8
+bic r1, r1, 1
+mvn r3, r1

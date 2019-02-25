@@ -1,0 +1,4 @@
+tst r3, 10
+rsb r0, r1, r2, lsl 8
+eoreq r1, r2, r3, lsr 2
+rsb r2, r0, r1, lsl 11

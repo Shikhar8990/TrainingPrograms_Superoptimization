@@ -1,0 +1,5 @@
+tst r0, r1
+lsl r1, r2, 2
+movls r1, 13
+bic r0, r2, r1
+orr r3, r0, r1, lsl 12

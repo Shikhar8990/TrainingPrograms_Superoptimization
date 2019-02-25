@@ -1,0 +1,3 @@
+cmp r0, 1
+moveq r0, 12
+mov r1, r0, ror 2

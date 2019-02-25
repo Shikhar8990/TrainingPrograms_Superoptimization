@@ -1,0 +1,5 @@
+tst r0, 15
+orr r1, r0, r2
+rsbls r1, r3, 12
+lsl r0, r1, r3
+sub r1, r0, 3

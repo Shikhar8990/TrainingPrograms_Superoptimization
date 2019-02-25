@@ -1,0 +1,5 @@
+tst r1, r0
+rsbeq r2, r3, 2
+sub r2, r0, r2, asr 6
+mvn r2, r2, asr 9
+add r2, r2, 11

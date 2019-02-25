@@ -1,0 +1,4 @@
+bfi r0, r0, 15, 8
+eor r0, r0, r1, lsr 8
+bfi r0, r0, 1, 15
+lsl r3, r0, r0

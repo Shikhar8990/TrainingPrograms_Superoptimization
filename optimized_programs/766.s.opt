@@ -1,0 +1,4 @@
+sub r2, r1, 6
+add r0, r2, 11
+sub r1, r2, r0, ror 6
+lsr r1, r0, r1

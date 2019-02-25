@@ -1,0 +1,4 @@
+tst r0, r1
+rsbls r1, r2, 1
+bic r2, r2, r1
+sub r2, r2, r0, asr 14

@@ -1,0 +1,4 @@
+cmp r0, r1
+movcs r0, r2
+lsl r1, r0, 15
+rsb r1, r1, 26

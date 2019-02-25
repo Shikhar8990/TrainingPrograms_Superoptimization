@@ -1,0 +1,4 @@
+tst r0, 14
+eorge r2, r1, r1, lsr 31
+asr r1, r2, 9
+orr r1, r1, 11

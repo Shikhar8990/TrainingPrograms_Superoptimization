@@ -1,0 +1,5 @@
+add r0, r0, r0 
+lsr r1, r0, r2 
+bic r2, r1, #13 
+lsl r3, r2, #4 
+bfi r3, r3, #0, #4 

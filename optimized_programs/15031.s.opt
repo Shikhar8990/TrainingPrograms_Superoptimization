@@ -1,0 +1,3 @@
+bfc r3, 1, 1
+and r2, r3, r0
+and r0, r2, r1

@@ -1,0 +1,2 @@
+tst r0, r1
+rsbeq r0, r0, 15

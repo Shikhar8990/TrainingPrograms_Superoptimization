@@ -1,0 +1,5 @@
+rsb r0, r0, r1
+tst r3, r0
+andls r2, r3, r0
+andne r2, r0, r0, ror 7
+sub r2, r2, 2

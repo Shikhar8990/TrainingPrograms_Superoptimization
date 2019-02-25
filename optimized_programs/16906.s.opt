@@ -1,0 +1,3 @@
+asr r2, r1, r1
+bfc r2, 2, 1
+mvn r1, r2

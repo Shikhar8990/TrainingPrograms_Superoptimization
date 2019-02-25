@@ -1,0 +1,7 @@
+tst r0, r1 
+eoreq r2, r2, r3 
+ror r3, r3, #6 
+bfi r1, r1, #0, #1 
+cmp r1, r3 
+andeq r0, r2, #1 
+eor r1, r2, r0, ror #1 

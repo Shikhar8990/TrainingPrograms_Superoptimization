@@ -1,0 +1,5 @@
+lsl r0, r1, 14
+mov r1, 2
+orr r2, r1, r3, lsl 14
+add r1, r2, r0
+add r1, r1, r1

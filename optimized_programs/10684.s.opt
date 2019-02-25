@@ -1,0 +1,2 @@
+eor r2, r1, 8
+bic r1, r2, r1

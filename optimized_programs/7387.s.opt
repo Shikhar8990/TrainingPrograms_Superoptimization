@@ -1,0 +1,2 @@
+bic r1, r1, 4
+mvn r0, r1, lsr 127

@@ -1,0 +1,4 @@
+eor r0, r1, r2, lsr 14
+mvn r1, r0
+orr r1, r1, 8
+bfi r1, r1, 11, 13

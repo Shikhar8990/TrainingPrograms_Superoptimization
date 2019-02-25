@@ -1,0 +1,4 @@
+tst r0, 5
+rsbeq r1, r2, r1
+mvneq r3, r1
+mvn r2, r3, lsl 1

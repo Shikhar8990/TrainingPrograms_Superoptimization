@@ -1,0 +1,3 @@
+rsb r2, r1, r1, asr r1
+orr r1, r2, r2, ror 4
+add r3, r1, r2, ror 4

@@ -1,0 +1,2 @@
+orn r2, r3, r1, asr 9
+mvn r1, r2

@@ -1,0 +1,2 @@
+sub r3, r1, r3
+eor r3, r1, r3

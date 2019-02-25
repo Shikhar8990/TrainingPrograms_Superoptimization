@@ -1,0 +1,3 @@
+cmp r0, 31
+addlt r1, r1, r0
+orr r3, r1, r3

@@ -1,0 +1,3 @@
+tst r0, r1
+orreq r1, r0, r1, asr 15
+orn r3, r1, r2

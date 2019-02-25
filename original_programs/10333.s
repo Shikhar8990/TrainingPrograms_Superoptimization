@@ -1,0 +1,6 @@
+bfi r0, r0, #0, #1 
+rsb r1, r2, r3 
+add r1, r1, r0 
+bic r1, r1, r0 
+rsb r2, r1, r0 
+eor r1, r1, r2 

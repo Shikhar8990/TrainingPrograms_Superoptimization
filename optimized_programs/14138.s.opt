@@ -1,0 +1,3 @@
+cmp r0, r1
+bfcne r1, 0, 1
+add r2, r1, 14

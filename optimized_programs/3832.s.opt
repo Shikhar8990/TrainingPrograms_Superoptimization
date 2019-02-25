@@ -1,0 +1,5 @@
+cmp r0, r1
+orrlt r0, r1, r2
+sub r3, r0, r1, ror 6
+mvn r2, r3, lsl 1
+rsb r1, r2, 11

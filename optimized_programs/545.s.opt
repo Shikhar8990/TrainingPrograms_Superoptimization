@@ -1,0 +1,7 @@
+add r1, r1, r0
+tst r0, 7
+addcs r1, r0, 6
+bfi r3, r1, 13, 12
+sub r1, r1, r3
+orr r2, r1, 8
+and r1, r2, r1, ror 7

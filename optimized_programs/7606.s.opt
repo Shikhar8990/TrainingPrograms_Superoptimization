@@ -1,0 +1,7 @@
+tst r0, r1
+andls r1, r2, r0, lsl 3
+andne r1, r1, 13
+sub r1, r2, r1
+cmp r1, r3
+rsbcs r2, r1, r2, ror 10
+lsl r1, r2, 14

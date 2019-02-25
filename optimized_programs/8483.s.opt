@@ -1,0 +1,2 @@
+mov r2, r1, lsr 7
+add r1, r2, 15

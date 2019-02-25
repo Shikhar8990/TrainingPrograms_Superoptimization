@@ -1,0 +1,3 @@
+eor r0, r1, r2, asr 7
+mvn r3, r0
+add r1, r1, r3

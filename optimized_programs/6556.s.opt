@@ -1,0 +1,2 @@
+and r2, r0, r0, ror 31
+bic r3, r2, 9

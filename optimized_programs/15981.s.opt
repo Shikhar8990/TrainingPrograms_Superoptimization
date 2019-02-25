@@ -1,0 +1,3 @@
+tst r1, 15
+bicge r2, r1, r2, lsr 31
+bic r1, r1, r2

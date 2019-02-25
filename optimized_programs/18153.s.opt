@@ -1,0 +1,2 @@
+rsb r0, r1, 4
+rsb r2, r2, r0, lsl 8
